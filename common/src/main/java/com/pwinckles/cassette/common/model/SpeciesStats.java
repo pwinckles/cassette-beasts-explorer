@@ -5,14 +5,13 @@ import io.soabase.recordbuilder.core.RecordBuilderFull;
 
 @Json
 @RecordBuilderFull
-public record SpeciesStats(int hp,
-                           int meleeAttack,
-                           int meleeDefense,
-                           int rangedAttack,
-                           int rangedDefense,
-                           int speed,
-                           int attributeSum,
-                           int ap,
-                           int moveSlots) {
-
-}
+public record SpeciesStats(
+        int hp,
+        int meleeAttack,
+        int meleeDefense,
+        int rangedAttack,
+        int rangedDefense,
+        int speed,
+        int attributeSum,
+        int ap,
+        int moveSlots) {}

@@ -5,6 +5,11 @@ import com.pwinckles.cassette.common.model.Move;
 import com.pwinckles.cassette.common.model.MoveAccuracy;
 import com.pwinckles.cassette.common.model.MoveCategory;
 import com.pwinckles.cassette.common.model.Species;
+import java.io.IOException;
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.core.KeywordTokenizerFactory;
 import org.apache.lucene.analysis.core.LowerCaseFilterFactory;
@@ -26,13 +31,7 @@ import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.store.ByteBuffersDirectory;
 import org.apache.lucene.store.Directory;
 
-import java.io.IOException;
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-public class Index implements AutoCloseable{
+public class Index implements AutoCloseable {
 
     public static final String DOC_TYPE_INDEX = "doc_type";
     public static final String DOC_TYPE_SPECIES = "species";
@@ -45,8 +44,7 @@ public class Index implements AutoCloseable{
             MoveCategory.MISC, "misc",
             MoveCategory.ACTIVE, "active",
             MoveCategory.PASSIVE, "passive",
-            MoveCategory.AUTOMATED, "automated"
-    );
+            MoveCategory.AUTOMATED, "automated");
 
     private final Directory dir;
     private final Analyzer analyzer;
@@ -63,29 +61,28 @@ public class Index implements AutoCloseable{
                 .addTokenFilter(LowerCaseFilterFactory.class)
                 .addTokenFilter(ASCIIFoldingFilterFactory.class)
                 .build();
-        analyzer = new PerFieldAnalyzerWrapper(standardAnalyzer, Map.ofEntries(
-                Map.entry(DOC_TYPE_INDEX, keywordAnalyzer),
-                Map.entry(SpeciesIndexNames.NAME, keywordAnalyzer),
-                Map.entry(SpeciesIndexNames.TYPE, keywordAnalyzer),
-                Map.entry(SpeciesIndexNames.REMASTER_FROM, keywordAnalyzer),
-                Map.entry(SpeciesIndexNames.REMASTER_TO, keywordAnalyzer),
-                Map.entry(MoveIndexNames.TYPE, keywordAnalyzer),
-                Map.entry(MoveIndexNames.AVOIDABLE, keywordAnalyzer),
-                Map.entry(MoveIndexNames.TARGET, keywordAnalyzer),
-                Map.entry(MoveIndexNames.COPYABLE, keywordAnalyzer),
-                Map.entry(MoveIndexNames.STATUS_EFFECT_KIND, keywordAnalyzer),
-                Map.entry(MoveIndexNames.SPECIES, keywordAnalyzer)
-        ));
+        analyzer = new PerFieldAnalyzerWrapper(
+                standardAnalyzer,
+                Map.ofEntries(
+                        Map.entry(DOC_TYPE_INDEX, keywordAnalyzer),
+                        Map.entry(SpeciesIndexNames.NAME, keywordAnalyzer),
+                        Map.entry(SpeciesIndexNames.TYPE, keywordAnalyzer),
+                        Map.entry(SpeciesIndexNames.REMASTER_FROM, keywordAnalyzer),
+                        Map.entry(SpeciesIndexNames.REMASTER_TO, keywordAnalyzer),
+                        Map.entry(MoveIndexNames.TYPE, keywordAnalyzer),
+                        Map.entry(MoveIndexNames.AVOIDABLE, keywordAnalyzer),
+                        Map.entry(MoveIndexNames.TARGET, keywordAnalyzer),
+                        Map.entry(MoveIndexNames.COPYABLE, keywordAnalyzer),
+                        Map.entry(MoveIndexNames.STATUS_EFFECT_KIND, keywordAnalyzer),
+                        Map.entry(MoveIndexNames.SPECIES, keywordAnalyzer)));
     }
 
     public void index(Data data) throws IOException {
         var writerConfig = new IndexWriterConfig(analyzer);
         writerConfig.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
         try (var writer = new IndexWriter(dir, writerConfig)) {
-            data.species().stream().map(this::toDocument)
-                    .forEach(doc -> writeDoc(writer, doc));
-            data.moves().stream().map(this::toDocument)
-                    .forEach(doc -> writeDoc(writer, doc));
+            data.species().stream().map(this::toDocument).forEach(doc -> writeDoc(writer, doc));
+            data.moves().stream().map(this::toDocument).forEach(doc -> writeDoc(writer, doc));
         }
     }
 
@@ -112,7 +109,9 @@ public class Index implements AutoCloseable{
         doc.add(new IntField(SpeciesIndexNames.ATTR_SUM, species.stats().attributeSum(), Field.Store.NO));
         doc.add(new IntField(SpeciesIndexNames.AP, species.stats().ap(), Field.Store.NO));
         doc.add(new IntField(SpeciesIndexNames.SLOTS, species.stats().moveSlots(), Field.Store.NO));
-        species.moves().compatible().forEach(move -> doc.add(new TextField(SpeciesIndexNames.MOVE, move, Field.Store.NO)));
+        species.moves()
+                .compatible()
+                .forEach(move -> doc.add(new TextField(SpeciesIndexNames.MOVE, move, Field.Store.NO)));
         return doc;
     }
 
@@ -144,9 +143,11 @@ public class Index implements AutoCloseable{
         doc.add(new IntField(MoveIndexNames.PRIORITY, move.priority(), Field.Store.NO));
         move.statusEffects().forEach(effect -> {
             doc.add(new TextField(MoveIndexNames.STATUS_EFFECT, effect.name(), Field.Store.NO));
-            doc.add(new TextField(MoveIndexNames.STATUS_EFFECT_KIND, effect.kind().name(), Field.Store.NO));
+            doc.add(new TextField(
+                    MoveIndexNames.STATUS_EFFECT_KIND, effect.kind().name(), Field.Store.NO));
         });
-        move.compatibleSpecies().forEach(species -> doc.add(new TextField(MoveIndexNames.SPECIES, species.name(), Field.Store.NO)));
+        move.compatibleSpecies()
+                .forEach(species -> doc.add(new TextField(MoveIndexNames.SPECIES, species.name(), Field.Store.NO)));
         return doc;
     }
 
@@ -190,8 +191,7 @@ public class Index implements AutoCloseable{
                     Map.entry(MoveIndexNames.MAX_HITS, intConfig),
                     Map.entry(MoveIndexNames.ACCURACY, intConfig),
                     Map.entry(MoveIndexNames.PRIORITY, intConfig),
-                    Map.entry(MoveIndexNames.COST, intConfig)
-            ));
+                    Map.entry(MoveIndexNames.COST, intConfig)));
         }
 
         public List<SearchResult> search(String query) throws IOException, QueryNodeException {
@@ -203,11 +203,12 @@ public class Index implements AutoCloseable{
 
             for (var docResult : docResults) {
                 var doc = storedFields.document(docResult.doc);
-                var result = switch (doc.get(DOC_TYPE_INDEX)) {
-                    case DOC_TYPE_SPECIES -> new SearchResult.SpeciesResult(doc.get(SpeciesIndexNames.NAME));
-                    case DOC_TYPE_MOVE -> new SearchResult.MoveResult(doc.get(MoveIndexNames.NAME));
-                    default -> throw new IllegalStateException("Unknown doc type: " + doc.get(DOC_TYPE_INDEX));
-                };
+                var result =
+                        switch (doc.get(DOC_TYPE_INDEX)) {
+                            case DOC_TYPE_SPECIES -> new SearchResult.SpeciesResult(doc.get(SpeciesIndexNames.NAME));
+                            case DOC_TYPE_MOVE -> new SearchResult.MoveResult(doc.get(MoveIndexNames.NAME));
+                            default -> throw new IllegalStateException("Unknown doc type: " + doc.get(DOC_TYPE_INDEX));
+                        };
                 results.add(result);
             }
 

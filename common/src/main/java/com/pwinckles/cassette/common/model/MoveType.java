@@ -1,7 +1,6 @@
 package com.pwinckles.cassette.common.model;
 
 public enum MoveType {
-
     AIR,
     ASTRAL,
     BEAST,
@@ -27,5 +26,4 @@ public enum MoveType {
         }
         throw new IllegalArgumentException("Unknown type: " + value);
     }
-
 }

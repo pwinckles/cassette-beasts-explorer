@@ -27,5 +27,4 @@ public final class Main {
         System.err.println(message);
         System.exit(1);
     }
-
 }

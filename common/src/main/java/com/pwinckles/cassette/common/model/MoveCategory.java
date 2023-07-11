@@ -1,7 +1,6 @@
 package com.pwinckles.cassette.common.model;
 
 public enum MoveCategory {
-
     MELEE,
     RANGED,
     STATUS,
@@ -9,5 +8,4 @@ public enum MoveCategory {
     ACTIVE,
     PASSIVE,
     AUTOMATED
-
 }

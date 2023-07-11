@@ -1,9 +1,6 @@
 package com.pwinckles.cassette.common.model;
 
-import io.avaje.jsonb.Json;
-
 public enum SpeciesType {
-
     AIR,
     ASTRAL,
     BEAST,
@@ -28,5 +25,4 @@ public enum SpeciesType {
         }
         throw new IllegalArgumentException("Unknown type: " + value);
     }
-
 }

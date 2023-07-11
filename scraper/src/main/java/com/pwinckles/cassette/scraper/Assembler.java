@@ -6,13 +6,12 @@ import com.pwinckles.cassette.common.model.Move;
 import com.pwinckles.cassette.common.model.Species;
 import io.avaje.jsonb.JsonType;
 import io.avaje.jsonb.Jsonb;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Assembler {
 
@@ -36,13 +35,11 @@ public class Assembler {
         var data = DataBuilder.builder();
 
         try (var files = Files.list(dir.resolve(Constants.SPECIES_DIR))) {
-            files.map(file -> readJson(file, speciesJsonType))
-                    .forEach(data::addSpecies);
+            files.map(file -> readJson(file, speciesJsonType)).forEach(data::addSpecies);
         }
 
         try (var files = Files.list(dir.resolve(Constants.MOVES_DIR))) {
-            files.map(file -> readJson(file, moveJsonType))
-                    .forEach(data::addMoves);
+            files.map(file -> readJson(file, moveJsonType)).forEach(data::addMoves);
         }
 
         try (var writer = Files.newBufferedWriter(outputFile)) {
@@ -57,5 +54,4 @@ public class Assembler {
             throw new UncheckedIOException(e.getMessage(), e);
         }
     }
-
 }

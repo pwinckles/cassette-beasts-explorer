@@ -5,15 +5,14 @@ import com.pwinckles.cassette.common.model.SpeciesBuilder;
 import com.pwinckles.cassette.common.model.SpeciesMovesBuilder;
 import com.pwinckles.cassette.common.model.SpeciesStatsBuilder;
 import com.pwinckles.cassette.common.model.SpeciesType;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.util.function.BiConsumer;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.IOException;
-import java.nio.file.Path;
-import java.util.function.BiConsumer;
 
 public class SpeciesScraper {
 
@@ -38,8 +37,7 @@ public class SpeciesScraper {
 
         var infoBoxTitle = infoBox.selectFirst("div.infobox-title").text();
         var parts = infoBoxTitle.split("#", 2);
-        species.name(parts[0].trim())
-                .number(Integer.parseInt(parts[1]));
+        species.name(parts[0].trim()).number(Integer.parseInt(parts[1]));
 
         processTable(infoBox, "div.infobox-data table", (header, value) -> {
             switch (header.toLowerCase()) {
@@ -123,5 +121,4 @@ public class SpeciesScraper {
             processor.accept(header, value);
         });
     }
-
 }

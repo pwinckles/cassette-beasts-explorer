@@ -11,16 +11,15 @@ import com.pwinckles.cassette.common.model.MoveTarget;
 import com.pwinckles.cassette.common.model.MoveType;
 import com.pwinckles.cassette.common.model.StatusEffect;
 import com.pwinckles.cassette.common.model.StatusEffectBuilder;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.util.function.Consumer;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.IOException;
-import java.nio.file.Path;
-import java.util.function.Consumer;
 
 public class MoveScraper {
 
@@ -44,7 +43,8 @@ public class MoveScraper {
         var infoBox = doc.selectFirst("div.infobox");
 
         move.name(infoBox.selectFirst("div.infobox-title").text());
-        move.addCategories(mapCategory(infoBox.selectFirst("div.infobox-subtitle").text()));
+        move.addCategories(
+                mapCategory(infoBox.selectFirst("div.infobox-subtitle").text()));
 
         var infoBoxDataRows = infoBox.selectFirst("div.infobox-data table").select("tr");
         infoBoxDataRows.forEach(row -> {
@@ -83,8 +83,9 @@ public class MoveScraper {
 
         var statusEffectsTable = doc.selectFirst("h2:has(span#Status_Effects) + table");
         if (statusEffectsTable != null) {
-            processTable(statusEffectsTable, cells ->
-                    move.addStatusEffects(StatusEffectBuilder.builder()
+            processTable(
+                    statusEffectsTable,
+                    cells -> move.addStatusEffects(StatusEffectBuilder.builder()
                             .name(cells.get(1).text())
                             .kind(StatusEffect.Kind.fromString(cells.get(2).text()))
                             .build()));
@@ -107,8 +108,7 @@ public class MoveScraper {
                         case 3 -> MoveSource.STAR_3;
                         case 4 -> MoveSource.STAR_4;
                         case 5 -> MoveSource.STAR_5;
-                        default -> throw new IllegalArgumentException("Unexpected star count: " + stars);
-                    };
+                        default -> throw new IllegalArgumentException("Unexpected star count: " + stars);};
                 }
                 move.addCompatibleSpecies(CompatibleSpeciesBuilder.builder()
                         .name(cells.get(1).text())
@@ -122,8 +122,7 @@ public class MoveScraper {
 
     private void processTable(Element table, Consumer<Elements> processor) {
         var rows = table.select("tr");
-        rows.stream().skip(1)
-                .forEach(row -> processor.accept(row.select("td")));
+        rows.stream().skip(1).forEach(row -> processor.accept(row.select("td")));
     }
 
     private MoveCategory mapCategory(String displayCategory) {
@@ -185,5 +184,4 @@ public class MoveScraper {
             return new MoveHits(Integer.parseInt(parts[0]), Integer.parseInt(parts[1]));
         }
     }
-
 }

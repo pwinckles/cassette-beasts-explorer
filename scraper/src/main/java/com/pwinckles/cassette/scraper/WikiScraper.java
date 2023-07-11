@@ -6,16 +6,15 @@ import com.pwinckles.cassette.common.model.Species;
 import com.pwinckles.cassette.common.model.SpeciesBuilder;
 import io.avaje.jsonb.JsonType;
 import io.avaje.jsonb.Jsonb;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.util.List;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class WikiScraper {
 
@@ -55,15 +54,14 @@ public class WikiScraper {
 
         log.info("Found {} species", species.size());
 
-        for (var it = species.iterator(); it.hasNext();) {
+        for (var it = species.iterator(); it.hasNext(); ) {
             var s = it.next();
             var output = outputFile(s, speciesDir);
             if (Files.exists(output)) {
                 log.info("Skipping {} because it has already been processed.", s.name);
             } else {
                 var url = BASE_URL + s.ref;
-                var scraped = SpeciesBuilder.from(speciesScraper.scrape(url))
-                        .withUrl(url);
+                var scraped = SpeciesBuilder.from(speciesScraper.scrape(url)).withUrl(url);
                 var json = speciesJsonType.toJsonPretty(scraped);
                 Files.writeString(output, json);
 
@@ -82,15 +80,14 @@ public class WikiScraper {
 
         log.info("Found {} moves", moves.size());
 
-        for (var it = moves.iterator(); it.hasNext();) {
+        for (var it = moves.iterator(); it.hasNext(); ) {
             var move = it.next();
             var output = outputFile(move, movesDir);
             if (Files.exists(output)) {
                 log.info("Skipping {} because it has already been processed.", move.name);
             } else {
                 var url = BASE_URL + move.ref;
-                var scraped = MoveBuilder.from(moveScraper.scrape(url))
-                        .withUrl(url);
+                var scraped = MoveBuilder.from(moveScraper.scrape(url)).withUrl(url);
                 var json = moveJsonType.toJsonPretty(scraped);
                 Files.writeString(output, json);
 
@@ -107,7 +104,8 @@ public class WikiScraper {
 
     private List<Link> extractLinks(int cellIndex, Document doc) {
         var rows = doc.selectFirst("table.wikitable").select("tr");
-        return rows.stream().skip(1)
+        return rows.stream()
+                .skip(1)
                 .map(row -> row.select("td").get(cellIndex))
                 .map(cell -> new Link(cell.text(), cell.selectFirst("a").attr("href")))
                 .toList();

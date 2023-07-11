@@ -9,8 +9,6 @@ import com.pwinckles.cassette.common.model.Species;
 import com.pwinckles.cassette.index.Index;
 import com.pwinckles.cassette.index.SearchResult;
 import io.avaje.jsonb.Jsonb;
-import org.apache.lucene.queryparser.flexible.core.QueryNodeException;
-
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.util.Map;
@@ -18,18 +16,17 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import org.apache.lucene.queryparser.flexible.core.QueryNodeException;
 
 public final class Main {
 
     public static void main(String[] args) throws Exception {
         var data = readData();
-        var speciesMap = data.species().stream()
-                .collect(Collectors.toMap(Species::name, Function.identity()));
-        var movesMap = data.moves().stream()
-                .collect(Collectors.toMap(Move::name, Function.identity()));
+        var speciesMap = data.species().stream().collect(Collectors.toMap(Species::name, Function.identity()));
+        var movesMap = data.moves().stream().collect(Collectors.toMap(Move::name, Function.identity()));
 
         try (var index = new Index();
-             var scanner = new Scanner(System.in)) {
+                var scanner = new Scanner(System.in)) {
             index.index(data);
             var searcher = index.createSearcher();
 
@@ -65,10 +62,9 @@ public final class Main {
         }
     }
 
-    private static void executeQuery(String query,
-                                     Index.Searcher searcher,
-                                     Map<String, Species> speciesMap,
-                                     Map<String, Move> movesMap) throws QueryNodeException, IOException {
+    private static void executeQuery(
+            String query, Index.Searcher searcher, Map<String, Species> speciesMap, Map<String, Move> movesMap)
+            throws QueryNodeException, IOException {
         var results = searcher.search(query);
 
         results.forEach(result -> {
@@ -87,7 +83,8 @@ public final class Main {
     }
 
     private static void printHelp() {
-        System.out.println("""
+        System.out.println(
+                """
                 ## Species indices ##
                 | Index name      | Description                                                     |
                 |-----------------|-----------------------------------------------------------------|
@@ -106,7 +103,7 @@ public final class Main {
                 | compatible_move | The name of a move that is compatible with the species          |
                 | remaster_from   | The name of the prior form of the species                       |
                 | remaster_to     | The name of the species this species may be remastered into     |
-                
+
                 ## Move indices ##
                 | Index name         | Description                                                  |
                 |--------------------|--------------------------------------------------------------|
@@ -131,20 +128,20 @@ public final class Main {
                 | status_effect_kind | The kind of the status effect: `buff`, `debuff`,             |
                 |                    | `transmutation`, `misc`                                      |
                 | compatible_species | The name of a species that is compatible with the move       |
-                
+
                 Query syntax: https://lucene.apache.org/core/9_7_0/queryparser/org/apache/lucene/queryparser/flexible/standard/StandardQueryParser.html""");
     }
 
     private static void print(Species species) {
         var stats = species.stats();
         System.out.println("=".repeat(80));
-        System.out.printf(" #%03d %s [%s]%n",
-                species.number(),
-                species.name(),
-                titleCase(species.type().name()));
+        System.out.printf(
+                " #%03d %s [%s]%n",
+                species.number(), species.name(), titleCase(species.type().name()));
         System.out.printf(" %s%n", species.url());
         System.out.println("  HP | M. Atk | M. Def | R. Atk | R. Def | Speed | Total");
-        System.out.printf(" %3d | %6d | %6d | %6d | %6d | %5d | %5d%n",
+        System.out.printf(
+                " %3d | %6d | %6d | %6d | %6d | %5d | %5d%n",
                 stats.hp(),
                 stats.meleeAttack(),
                 stats.meleeDefense(),
@@ -160,7 +157,8 @@ public final class Main {
         System.out.printf(" %s%n", move.url());
         printWithWrap(move.description(), 78);
         System.out.println("      Type | Cost | Power |  Hits |    Accuracy | Priority | Target");
-        System.out.printf(" %9s | %4d | %5s | %5s | %11s | %8d | %s%n",
+        System.out.printf(
+                " %9s | %4d | %5s | %5s | %11s | %8d | %s%n",
                 titleCase(move.type().name()),
                 move.cost(),
                 nullToEmpty(move.power()),
@@ -171,10 +169,15 @@ public final class Main {
 
         if (!move.statusEffects().isEmpty()) {
             System.out.print(" Status Effects: ");
-            move.statusEffects().stream().findFirst()
-                    .ifPresent(effect -> System.out.printf("%s [%s]%n", effect.name(), titleCase(effect.kind().name())));
-            move.statusEffects().stream().skip(1)
-                    .forEach(effect -> System.out.printf("                 %s [%s]%n", effect.name(), titleCase(effect.kind().name())));
+            move.statusEffects().stream()
+                    .findFirst()
+                    .ifPresent(effect -> System.out.printf(
+                            "%s [%s]%n", effect.name(), titleCase(effect.kind().name())));
+            move.statusEffects().stream()
+                    .skip(1)
+                    .forEach(effect -> System.out.printf(
+                            "                 %s [%s]%n",
+                            effect.name(), titleCase(effect.kind().name())));
         }
     }
 
@@ -256,5 +259,4 @@ public final class Main {
         }
         return object.toString();
     }
-
 }

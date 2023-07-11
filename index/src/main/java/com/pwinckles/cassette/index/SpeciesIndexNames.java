@@ -18,8 +18,5 @@ final class SpeciesIndexNames {
     static final String REMASTER_FROM = "remaster_from";
     static final String REMASTER_TO = "remaster_to";
 
-    private SpeciesIndexNames() {
-
-    }
-
+    private SpeciesIndexNames() {}
 }
