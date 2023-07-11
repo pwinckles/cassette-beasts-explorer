@@ -80,7 +80,7 @@ Query: matk:[161 TO *] AND spd:[161 TO *]
 #### Filter species by compatible moves
 
 ```
-Query: compatible_move:bite AND compatible_move:"trap jaw" AND compatible_move:"stab in the dark" AND (compatible_move:"deja vu" OR compatible_move:"two heads") AND (compatible_move:broadcast OR compatible_move:echolocation)
+Query: compatible_move:(+bite +"trap jaw" +"stab in the dark" +("deja vu" OR "two heads") +(broadcast OR echolocation))
 
 ================================================================================
  #110 Kuneko [Air]
