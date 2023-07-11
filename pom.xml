@@ -6,7 +6,7 @@
 
     <groupId>com.pwinckles.cassette</groupId>
     <artifactId>cbe-parent</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>parent</name>
