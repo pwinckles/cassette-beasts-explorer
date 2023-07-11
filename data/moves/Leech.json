@@ -1,0 +1,95 @@
+{
+  "name": "Leech",
+  "description": "Gives the target Leeched status for 3 turn(s).",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "PLANT",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 1,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Leeched",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Auriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Beanstalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Busheye",
+      "source": "STICKER"
+    }    ,{
+      "name": "Dandylion",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Dominoth",
+      "source": "STICKER"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Ferriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Frillypad",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Fungogh",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Hedgeherne",
+      "source": "STICKER"
+    }    ,{
+      "name": "Huntorch",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jellyton",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jumpkin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Liligator",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Mothmanic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Padpole",
+      "source": "STICKER"
+    }    ,{
+      "name": "Tokusect",
+      "source": "STICKER"
+    }    ,{
+      "name": "Twirligig",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wingloom",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Leech"
+}

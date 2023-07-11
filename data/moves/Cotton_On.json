@@ -1,0 +1,46 @@
+{
+  "name": "Cotton On",
+  "description": "Reduces the accuracy of moves that can be evaded that target the user to 0% for the next round.",
+  "categories":   [
+"ACTIVE","STATUS"    ]
+
+  "type": "PLANT",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 4,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Cottoned On",
+      "kind": "BUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Bansheep",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Capricorpse",
+      "source": "STICKER"
+    }    ,{
+      "name": "Dandylion",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ramtasm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wooltergeist",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Zombleat",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Cotton_On"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Clocksley",
+  "number": 49,
+  "type": "PLASTIC",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Robindam"    ]
+
+  "stats":   {
+    "hp": 80,
+    "meleeAttack": 80,
+    "meleeDefense": 80,
+    "rangedAttack": 150,
+    "rangedDefense": 130,
+    "speed": 80,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Spring-Load","Toy Hammer"      ]
+
+    "learned":     [
+"Raise Arms","Return Fire","Brick Blast","AP Steal","AP Donate"      ]
+
+    "compatible":     [
+"AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","AP Steal","Automation","Battery","Berserker","Bish Bash Bosh","Bloodlust","Brick Blast","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Gambit","Gear Shear","Headshot","Heroic Blade","Hypnotise","Jagged Edge","Last Rites","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Wall","Multi Shot","Multi Smack","Neutralise","Nod","Nurse","Parry Stance","Peekaboo","Pity AP","Plastic Camouflage","Plastic Coating","Plastic Knife","Plastic Resistance","Plastic Wall","Pre-emptive Strike","Provoke","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Recycle","Retribution","Return Fire","Revenge Strike","Roll Again","Self-Assured","Self-Destruct","Sharp Edges","Sharpen","Shrapnel","Silicon Slash","Slice","Smack","Spit","Spray","Spring-Load","Sprint","Stab In The Dark","Suction Cup Dart","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Treat","Trick","Trip","Unshakeable","Wallop","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Clocksley"
+}

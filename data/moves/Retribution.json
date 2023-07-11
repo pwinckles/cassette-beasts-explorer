@@ -1,0 +1,82 @@
+{
+  "name": "Retribution",
+  "description": "Activates when an ally is defeated. Raises the user’s attack stats.",
+  "categories":   [
+"STATUS","PASSIVE"    ]
+
+  "type": "TYPELESS",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Melee Attack Up",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Ranged Attack Up",
+      "kind": "BUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Bansheep",
+      "source": "STICKER"
+    }    ,{
+      "name": "Capricorpse",
+      "source": "STICKER"
+    }    ,{
+      "name": "Clocksley",
+      "source": "STICKER"
+    }    ,{
+      "name": "Glaistain",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kingrave",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Muskrateer",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Palangolin",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Ramtasm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ratcousel",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Robindam",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STICKER"
+    }    ,{
+      "name": "Tokusect",
+      "source": "STICKER"
+    }    ,{
+      "name": "Twirligig",
+      "source": "STICKER"
+    }    ,{
+      "name": "Undyin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wooltergeist",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zombleat",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Retribution"
+}

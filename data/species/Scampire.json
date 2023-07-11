@@ -1,0 +1,32 @@
+{
+  "name": "Scampire",
+  "number": 5,
+  "type": "BEAST",
+  "remasterFrom": "Snoopin",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 160,
+    "meleeDefense": 80,
+    "rangedAttack": 180,
+    "rangedDefense": 90,
+    "speed": 170,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Peekaboo","Jump Scare","Bite","AP Steal","Energy Shot","Energy Wave","Raise Arms"      ]
+
+    "learned":     [
+"Vampire","AP Drain","Air Wall","Hypnotise","Vengeful Curse"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Bone Cannon","Breathing Technique","Call For Help","Change the Record","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Grounded","Headshot","Hypnotise","Icicle Dart","Insomnia","Jump Scare","Last Rites","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Ritual","Roll Again","Sharpen","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Superheated Fist","Taunt","The Old 1-2","Throw","Toy Hammer","Trap Jaw","Trick","Trip","Vampire","Vengeful Curse","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Scampire"
+}

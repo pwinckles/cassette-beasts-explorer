@@ -1,0 +1,85 @@
+{
+  "name": "Cold Fusion",
+  "description": "Activates whenever anyone fuses. Reduces the fusion’s HP by 20% of its Max HP, and causes it to flinch.",
+  "categories":   [
+"PASSIVE","MISC"    ]
+
+  "type": "ICE",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 0,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Allseer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cryoshear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveal",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveberg",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Elfless",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faerious",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faucetear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Flapwoods",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fountess",
+      "source": "STICKER"
+    }    ,{
+      "name": "Galagor",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Grampus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Icepeck",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khufo",
+      "source": "STICKER"
+    }    ,{
+      "name": "Scubalrus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spooki-onna",
+      "source": "STICKER"
+    }    ,{
+      "name": "Triphinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Undyin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Cold_Fusion"
+}

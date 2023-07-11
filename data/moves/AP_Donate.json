@@ -1,0 +1,67 @@
+{
+  "name": "AP Donate",
+  "description": "Shifts all remaining AP from the user to the target.",
+  "categories":   [
+"ACTIVE","MISC"    ]
+
+  "type": "TYPELESS",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 1,
+  "target": "SINGLE_ALLY",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Blossomaw",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Clocksley",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Dandylion",
+      "source": "STICKER"
+    }    ,{
+      "name": "Decibelle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Elfless",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Faerious",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Grampus",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Kingrave",
+      "source": "STICKER"
+    }    ,{
+      "name": "Muskrateer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pawndead",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Queenyx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ratcousel",
+      "source": "STICKER"
+    }    ,{
+      "name": "Robindam",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Sirenade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Skelevangelist",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/AP_Donate"
+}

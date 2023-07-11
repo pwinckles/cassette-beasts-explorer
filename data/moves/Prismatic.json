@@ -1,0 +1,112 @@
+{
+  "name": "Prismatic",
+  "description": "Randomises the user’s type at the end of each round.",
+  "categories":   [
+"STATUS","PASSIVE"    ]
+
+  "type": "GLITTER",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Air Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Astral Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Beast Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Earth Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Fire Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Glass Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Glitter Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Ice Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Lightning Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Metal Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Plant Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Plastic Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Poison Coating",
+      "kind": "TRANSMUTATION"
+    }    ,{
+      "name": "Water Coating",
+      "kind": "TRANSMUTATION"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Aeroboros",
+      "source": "STICKER"
+    }    ,{
+      "name": "Boltam",
+      "source": "STICKER"
+    }    ,{
+      "name": "Decibelle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Glaistain",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotorn",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotoy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pinbolt",
+      "source": "STICKER"
+    }    ,{
+      "name": "Plasmantler",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pondwalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sirenade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STICKER"
+    }    ,{
+      "name": "Thwackalope",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Prismatic"
+}

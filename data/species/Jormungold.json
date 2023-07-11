@@ -1,0 +1,32 @@
+{
+  "name": "Jormungold",
+  "number": 8,
+  "type": "POISON",
+  "remasterFrom": "Masquerattle",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 155,
+    "meleeDefense": 100,
+    "rangedAttack": 155,
+    "rangedDefense": 100,
+    "speed": 190,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Sharpen","Revenge Strike","Bite","Déjà Vu","Multi Smack","Hypnotise","Pre-emptive Strike"      ]
+
+    "learned":     [
+"Call For Help","Dodge","Iron Filings","Jagged Edge","Air Wall"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Berserker","Bish Bash Bosh","Bite","Bloodlust","Call For Help","Change the Record","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Gear Shear","Grounded","Haunt","Headshot","Hypnotise","Icicle Dart","Inflame","Iron Filings","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Pre-emptive Strike","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Roll Again","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Sticky Spray","Sturdy Armour","Taunt","The Old 1-2","Toxic Stab","Trap Jaw","Trick","Trip","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Jormungold"
+}

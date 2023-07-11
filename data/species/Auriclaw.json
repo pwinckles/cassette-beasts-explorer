@@ -1,0 +1,32 @@
+{
+  "name": "Auriclaw",
+  "number": 127,
+  "type": "METAL",
+  "remasterFrom": "Ferriclaw",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 170,
+    "meleeDefense": 100,
+    "rangedAttack": 100,
+    "rangedDefense": 170,
+    "speed": 160,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Tripwire","Sticky Spray","Web Wrap","Stab In The Dark","Toxic Stab","Quick Smack","Call For Help"      ]
+
+    "learned":     [
+"Sharpen","Vengeful Curse","Bloodlust","Grounded","Sturdy Armour"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Resistance","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Call For Help","Change the Record","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Gear Shear","Grounded","Haunt","Headshot","Heroic Blade","Hypnotise","Icicle Dart","Iron Filings","Jagged Edge","Last Rites","Leech","Life Absorb","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Phase Shift","Pity AP","Plastic Knife","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Pre-emptive Strike","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Ritual","Roll Again","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Silicon Slash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Stab In The Dark","Sticky Spray","Sturdy Armour","Taunt","The Old 1-2","Toxic Stab","Trap Jaw","Trick","Trip","Tripwire","Vampire","Vengeful Curse","Wallop","Web Wrap","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Auriclaw"
+}

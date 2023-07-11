@@ -1,0 +1,145 @@
+{
+  "name": "Gear Shear",
+  "description": "Hits one target multiple times, with reduced priority compared with other moves.",
+  "categories":   [
+"RANGED","ACTIVE"    ]
+
+  "type": "METAL",
+  "power": 50,
+  "numHits":   {
+    "min": 3,
+    "max": 5
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 10,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": -1,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Allseer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Anathema",
+      "source": "STICKER"
+    }    ,{
+      "name": "Arkidd",
+      "source": "STICKER"
+    }    ,{
+      "name": "Artillerex",
+      "source": "STICKER"
+    }    ,{
+      "name": "Auriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cat-5",
+      "source": "STICKER"
+    }    ,{
+      "name": "Clocksley",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faucetear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ferriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fountess",
+      "source": "STICKER"
+    }    ,{
+      "name": "Galagor",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Gumbaal",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jormungold",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khufo",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kittelly",
+      "source": "STICKER"
+    }    ,{
+      "name": "Manispear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miss Mimic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Palangolin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Plasmantler",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pondwalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Puppercut",
+      "source": "STICKER"
+    }    ,{
+      "name": "Robindam",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Southpaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STICKER"
+    }    ,{
+      "name": "Stardigrade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Trapwurm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Triphinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Vendemon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wyrmaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Gear_Shear"
+}

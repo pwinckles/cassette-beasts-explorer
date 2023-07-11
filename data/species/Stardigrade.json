@@ -1,0 +1,32 @@
+{
+  "name": "Stardigrade",
+  "number": 78,
+  "type": "ASTRAL",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Galagor"    ]
+
+  "stats":   {
+    "hp": 180,
+    "meleeAttack": 40,
+    "meleeDefense": 150,
+    "rangedAttack": 40,
+    "rangedDefense": 150,
+    "speed": 40,
+    "attributeSum": 600,
+    "ap": 10,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Focus"      ]
+
+    "learned":     [
+"Meditate","Hibernate","Mind-Meld","Provoke","Déjà Vu"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Automation","Battery","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bone Cannon","Breathing Technique","Broadcast","Charge","Clobber","Close Encounter","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Galactic Beatdown","Gambit","Gear Shear","Grounded","Haunt","Headshot","Hibernate","Hypnotise","Ice Breaker","Insomnia","Last Rites","Lightning Camouflage","Lightning Coating","Magic Tome","Magnet","Meditate","Metal Camouflage","Metal Coating","Metal Resistance","Metal Wall","Mind-Meld","Moonshine","Multi Shot","Multi Smack","Nod","Phase Shift","Pity AP","Provoke","Raise Arms","Raise Shields","Random Starter","Ritual","Self-Assured","Self-Destruct","Sharpen","Shield Bash","Shooting Star","Shrapnel","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Trip","Unicast","Unshakeable","Vengeful Curse","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Stardigrade"
+}

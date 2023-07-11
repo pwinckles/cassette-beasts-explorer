@@ -1,0 +1,106 @@
+{
+  "name": "Nurse",
+  "description": "Heals one target for 50% of their Max HP.",
+  "categories":   [
+"MISC","ACTIVE"    ]
+
+  "type": "TYPELESS",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 5,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Aeroboros",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bansheep",
+      "source": "STICKER"
+    }    ,{
+      "name": "Beanstalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Capricorpse",
+      "source": "STICKER"
+    }    ,{
+      "name": "Clocksley",
+      "source": "STICKER"
+    }    ,{
+      "name": "Dandylion",
+      "source": "STICKER"
+    }    ,{
+      "name": "Decibelle",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STICKER"
+    }    ,{
+      "name": "Elfless",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faerious",
+      "source": "STICKER"
+    }    ,{
+      "name": "Grampus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jumpkin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kingrave",
+      "source": "STICKER"
+    }    ,{
+      "name": "Muskrateer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pawndead",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pyromeleon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Queenyx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ramtasm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ratcousel",
+      "source": "STICKER"
+    }    ,{
+      "name": "Robindam",
+      "source": "STICKER"
+    }    ,{
+      "name": "Salamagus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sirenade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Skelevangelist",
+      "source": "STICKER"
+    }    ,{
+      "name": "Undyin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wooltergeist",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Zombleat",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Nurse"
+}

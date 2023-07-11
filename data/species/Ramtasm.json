@@ -1,0 +1,32 @@
+{
+  "name": "Ramtasm",
+  "number": 21,
+  "type": "ASTRAL",
+  "remasterFrom": "Wooltergeist",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 170,
+    "meleeDefense": 120,
+    "rangedAttack": 150,
+    "rangedDefense": 120,
+    "speed": 150,
+    "attributeSum": 840,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Shear Luck","Battering Ram","Bite","Elemental Wall","Shooting Star","Phase Shift","New Leaf"      ]
+
+    "learned":     [
+"Ritual","Mind-Meld","Galactic Beatdown","Haunt","Last Rites"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Battering Ram","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Breathing Technique","Call For Help","Clobber","Compliment","Cotton On","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Galactic Beatdown","Gambit","Grounded","Haunt","Headshot","Hypnotise","Insomnia","Last Rites","Life Absorb","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Phase Shift","Pity AP","Provoke","Raise Arms","Raise Shields","Random Starter","Retribution","Ritual","Self-Assured","Sharpen","Shear Luck","Shield Bash","Shooting Star","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Trip","Unshakeable","Vengeful Curse","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Ramtasm"
+}

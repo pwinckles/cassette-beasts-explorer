@@ -1,0 +1,86 @@
+{
+  "name": "Fire Coating",
+  "description": "Changes the type of the user or an ally.",
+  "categories":   [
+"ACTIVE","STATUS"    ]
+
+  "type": "FIRE",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE_ALLY",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Fire Coating",
+      "kind": "TRANSMUTATION"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "STICKER"
+    }    ,{
+      "name": "Artillerex",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Busheye",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Hedgeherne",
+      "source": "STICKER"
+    }    ,{
+      "name": "Huntorch",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jellyton",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pombomb",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pyromeleon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Rockertrice",
+      "source": "STICKER"
+    }    ,{
+      "name": "Salamagus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spitzfyre",
+      "source": "STICKER"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Fire_Coating_(move)"
+}

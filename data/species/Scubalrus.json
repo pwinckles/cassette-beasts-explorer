@@ -1,0 +1,32 @@
+{
+  "name": "Scubalrus",
+  "number": 46,
+  "type": "WATER",
+  "remasterFrom": "Diveal",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 125,
+    "meleeDefense": 160,
+    "rangedAttack": 160,
+    "rangedDefense": 125,
+    "speed": 100,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Elemental Wall","Torrent","Ice Resistance","Ice Breaker","Undertow"      ]
+
+    "learned":     [
+"Bite","Fog","Energy Wave","Boil","Multi Shot"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Bish Bash Bosh","Bite","Boil","Call For Help","Clobber","Cold Fusion","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Fog","Gambit","Headshot","Ice Breaker","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Last Rites","Multi Shot","Multi Smack","Nod","Pity AP","Raise Arms","Raise Shields","Random Starter","Self-Assured","Sharpen","Slice","Smack","Spit","Spray","Sprint","The Old 1-2","Torrent","Trap Jaw","Trip","Undertow","Unshakeable","Wallop","Water Camouflage","Water Coating","Water Wall","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Scubalrus"
+}

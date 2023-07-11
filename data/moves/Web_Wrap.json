@@ -1,0 +1,32 @@
+{
+  "name": "Web Wrap",
+  "description": "Gives the target Tape Jam status for 3 turn(s).",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "POISON",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 20
+  },
+  "cost": 0,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Tape Jam",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Auriclaw",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Ferriclaw",
+      "source": "STAR_1"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Web_Wrap"
+}

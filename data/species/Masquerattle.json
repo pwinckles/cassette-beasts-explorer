@@ -1,0 +1,32 @@
+{
+  "name": "Masquerattle",
+  "number": 7,
+  "type": "POISON",
+  "remasterFrom": "Carniviper",
+  "remasterTo":   [
+"Aeroboros","Mardiusa","Jormungold"    ]
+
+  "stats":   {
+    "hp": 90,
+    "meleeAttack": 140,
+    "meleeDefense": 80,
+    "rangedAttack": 140,
+    "rangedDefense": 90,
+    "speed": 160,
+    "attributeSum": 700,
+    "ap": 8,
+    "moveSlots": 5
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Sharpen","Revenge Strike","Bite","Multi Smack"      ]
+
+    "learned":     [
+"Trip","Déjà Vu","Desperation","Hypnotise","Pre-emptive Strike"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Berserker","Bish Bash Bosh","Bite","Bloodlust","Call For Help","Change the Record","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Haunt","Headshot","Hypnotise","Icicle Dart","Inflame","Last Rites","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Pre-emptive Strike","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Roll Again","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Sticky Spray","Taunt","The Old 1-2","Toxic Stab","Trap Jaw","Trick","Trip","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Masquerattle"
+}

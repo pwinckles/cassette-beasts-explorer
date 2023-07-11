@@ -1,0 +1,32 @@
+{
+  "name": "Galagor",
+  "number": 79,
+  "type": "ASTRAL",
+  "remasterFrom": "Stardigrade",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 200,
+    "meleeAttack": 60,
+    "meleeDefense": 180,
+    "rangedAttack": 150,
+    "rangedDefense": 150,
+    "speed": 60,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Focus","Meditate","Hibernate","Mind-Meld","Provoke","Déjà Vu"      ]
+
+    "learned":     [
+"Broadcast","Breathing Technique","Astral Wall","Shooting Star","Magnet"      ]
+
+    "compatible":     [
+"Acorn Mortar","Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Automation","Battery","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bloodlust","Bone Cannon","Breathing Technique","Broadcast","Call For Help","Change the Record","Charge","Clobber","Close Encounter","Cold Fusion","Compliment","Critical AP","Critical Mass","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Galactic Beatdown","Gambit","Gear Shear","Glass Cannon","Grounded","Haunt","Headshot","Hibernate","Hypnotise","Ice Breaker","Insomnia","Last Rites","Lightning Camouflage","Lightning Coating","Magic Tome","Magnet","Meditate","Metal Camouflage","Metal Coating","Metal Resistance","Metal Wall","Mind-Meld","Moonshine","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Phase Shift","Pity AP","Pre-emptive Strike","Provoke","Radiation Breath","Radioactive","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Return Fire","Revenge Strike","Ricochet","Ritual","Roll Again","Self-Assured","Self-Destruct","Sharpen","Shield Bash","Shooting Star","Shrapnel","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Trick","Trip","Unicast","Unshakeable","Vengeful Curse","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Galagor"
+}

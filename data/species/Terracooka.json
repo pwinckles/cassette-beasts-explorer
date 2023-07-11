@@ -1,0 +1,32 @@
+{
+  "name": "Terracooka",
+  "number": 76,
+  "type": "EARTH",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Coaldron"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 110,
+    "meleeDefense": 110,
+    "rangedAttack": 100,
+    "rangedDefense": 100,
+    "speed": 80,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Clay-Fired"      ]
+
+    "learned":     [
+"Coal Story","Hot Potato","Earth Wall","Sandstorm","Crumble"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Bish Bash Bosh","Boil","Bottle Volley","Call For Help","Chemical Imbalance","Clay-Fired","Clobber","Close Encounter","Coal Story","Compliment","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fireproof","Focus","Fossil","Galactic Beatdown","Gambit","Grounded","Headshot","Heroic Blade","Hot Potato","Jagged Edge","Last Rites","Moonshine","Mountain Smash","Multi Shot","Multi Smack","Nod","Pity AP","Plastic Knife","Raise Arms","Raise Shields","Random Starter","Sandstorm","Scorch","Sharp Edges","Sharpen","Shooting Star","Silicon Slash","Slice","Smack","Spit","Spray","Sprint","Stab In The Dark","The Old 1-2","Toxic Stab","Trip","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Terracooka"
+}

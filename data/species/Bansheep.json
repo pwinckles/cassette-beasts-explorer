@@ -1,0 +1,32 @@
+{
+  "name": "Bansheep",
+  "number": 19,
+  "type": "BEAST",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Wooltergeist","Zombleat"    ]
+
+  "stats":   {
+    "hp": 115,
+    "meleeAttack": 110,
+    "meleeDefense": 105,
+    "rangedAttack": 110,
+    "rangedDefense": 100,
+    "speed": 100,
+    "attributeSum": 640,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Shear Luck"      ]
+
+    "learned":     [
+"Battering Ram","Sharpen","Bite","Elemental Wall","Cotton On"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Battering Ram","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Call For Help","Clobber","Compliment","Cotton On","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Gambit","Haunt","Headshot","Last Rites","Life Absorb","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Phase Shift","Pity AP","Provoke","Raise Arms","Raise Shields","Random Starter","Retribution","Self-Assured","Sharpen","Shear Luck","Shield Bash","Slice","Smack","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Trip","Unshakeable","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Bansheep"
+}

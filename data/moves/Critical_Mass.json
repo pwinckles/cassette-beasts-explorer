@@ -1,0 +1,44 @@
+{
+  "name": "Critical Mass",
+  "description": "Chance to use the next move in the list, for 0 AP, when the user lands a critical hit.",
+  "categories":   [
+"PASSIVE","MISC"    ]
+
+  "type": "FIRE",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": false,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Allseer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Flapwoods",
+      "source": "STICKER"
+    }    ,{
+      "name": "Galagor",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khufo",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Triphinx",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Critical_Mass"
+}

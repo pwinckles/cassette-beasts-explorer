@@ -1,0 +1,32 @@
+{
+  "name": "Faucetear",
+  "number": 98,
+  "type": "WATER",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Fountess"    ]
+
+  "stats":   {
+    "hp": 90,
+    "meleeAttack": 100,
+    "meleeDefense": 90,
+    "rangedAttack": 110,
+    "rangedDefense": 100,
+    "speed": 90,
+    "attributeSum": 580,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Call For Help"      ]
+
+    "learned":     [
+"Spray","Waterworks","Fog","Torrent","Elemental Wall"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Bish Bash Bosh","Boil","Call For Help","Clobber","Coal Story","Cold Fusion","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Fireproof","Focus","Fog","Gambit","Gear Shear","Grounded","Headshot","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Iron Filings","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Raise Arms","Raise Shields","Random Starter","Scorch","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Slice","Smack","Spit","Spray","Sprint","Sturdy Armour","The Old 1-2","Torrent","Trip","Undertow","Wallop","Water Camouflage","Water Coating","Water Wall","Waterproof","Waterworks","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Faucetear"
+}

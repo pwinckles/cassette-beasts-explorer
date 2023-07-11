@@ -1,0 +1,32 @@
+{
+  "name": "Averevoir",
+  "number": 117,
+  "type": "AIR",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 100,
+    "meleeDefense": 150,
+    "rangedAttack": 100,
+    "rangedDefense": 150,
+    "speed": 190,
+    "attributeSum": 840,
+    "ap": 10,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Raise Shields"      ]
+
+    "learned":     [
+"Tower Defence","Grounded","Sonic Boom","Brick Blast","Copper Chop"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Bish Bash Bosh","Brick Blast","Broadcast","Call For Help","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Flirt","Focus","Fog","Gambit","Glass Resistance","Grounded","Headshot","Hurricane","Ice Breaker","Ice Resistance","Last Rites","Metal Resistance","Mountain Smash","Multi Shot","Multi Smack","Nod","Pity AP","Raise Arms","Raise Shields","Random Starter","Revolving Door","Sharpen","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","The Old 1-2","Throw","Tower Defence","Trip","Unicast","Unshakeable","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Averevoir"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Splinter",
+  "description": "Chance to hurt an opponent automatically upon melee contact. Damage is based on the user’s Melee Defence.",
+  "categories":   [
+"PASSIVE","MELEE","AUTOMATED"    ]
+
+  "type": "PLANT",
+  "power": 15,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 0,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Beanstalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Busheye",
+      "source": "STICKER"
+    }    ,{
+      "name": "Dandylion",
+      "source": "STICKER"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STICKER"
+    }    ,{
+      "name": "Elfless",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faerious",
+      "source": "STICKER"
+    }    ,{
+      "name": "Frillypad",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Grampus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Hedgeherne",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Huntorch",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jumpkin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Liligator",
+      "source": "STICKER"
+    }    ,{
+      "name": "Padpole",
+      "source": "STICKER"
+    }    ,{
+      "name": "Twirligig",
+      "source": "STAR_3"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Splinter"
+}

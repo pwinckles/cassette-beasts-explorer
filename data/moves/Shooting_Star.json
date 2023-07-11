@@ -1,0 +1,97 @@
+{
+  "name": "Shooting Star",
+  "description": "Hits one target.",
+  "categories":   [
+"RANGED","ACTIVE"    ]
+
+  "type": "ASTRAL",
+  "power": 60,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "STICKER"
+    }    ,{
+      "name": "Allseer",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Artillerex",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Braxsuit",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STICKER"
+    }    ,{
+      "name": "Coaldron",
+      "source": "STICKER"
+    }    ,{
+      "name": "Djinn Entonic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Flapwoods",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Galagor",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khufo",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Magikrab",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Ramtasm",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Ripterra",
+      "source": "STICKER"
+    }    ,{
+      "name": "Shining Kuneko",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Stardigrade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STICKER"
+    }    ,{
+      "name": "Triphinx",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wooltergeist",
+      "source": "STAR_1"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Shooting_Star"
+}

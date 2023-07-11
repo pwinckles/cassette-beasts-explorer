@@ -1,0 +1,37 @@
+{
+  "name": "Traffic Jam",
+  "description": "Lowers all other fighters’ Speed stats.",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "PLASTIC",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 2,
+  "target": "ALL_EXCEPT_SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Speed Down",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Lobstacle",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Magikrab",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Traffikrab",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Weevilite",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Traffic_Jam"
+}

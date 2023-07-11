@@ -1,0 +1,32 @@
+{
+  "name": "Dominoth",
+  "number": 30,
+  "type": "AIR",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Tokusect","Wingloom"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 100,
+    "meleeDefense": 100,
+    "rangedAttack": 100,
+    "rangedDefense": 120,
+    "speed": 80,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 3
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sprint"      ]
+
+    "learned":     [
+"Zephyr","Wallop","Taunt","Dodge","Air Wall"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Bone Cannon","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Gambit","Grounded","Headshot","Hurricane","Hypnotise","Last Rites","Leech","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Pre-emptive Strike","Provoke","Raise Arms","Raise Shields","Random Starter","Revenge Strike","Roll Again","Sharpen","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Sticky Spray","Taunt","The Old 1-2","Throw","Trick","Trip","Unicast","Vampire","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Dominoth"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Anathema",
+  "number": 120,
+  "type": "BEAST",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 155,
+    "meleeDefense": 140,
+    "rangedAttack": 140,
+    "rangedDefense": 130,
+    "speed": 85,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Fission Power"      ]
+
+    "learned":     [
+"Desperation","Bite","Pustule Bomb","Random Starter","Self-Destruct"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","AP Steal","Astral Resistance","Automation","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Boil","Bone Cannon","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Copper Chop","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Fission Power","Focus","Gambit","Gear Shear","Guzzle Fuel","Haunt","Headshot","Hypnotise","Inflame","Last Rites","Life Absorb","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Wall","Multi Shot","Multi Smack","Multicopy","Neutralise","Nod","Parry Stance","Peekaboo","Phase Shift","Pity AP","Poison Resistance","Pre-emptive Strike","Provoke","Pustule Bomb","Raise Arms","Raise Shields","Random Starter","Revenge Strike","Ritual","Roll Again","Self-Destruct","Sharpen","Shield Bash","Shrapnel","Slice","Smack","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Superheated Fist","Taunt","The Old 1-2","Throw","Toy Hammer","Trap Jaw","Trick","Trip","Two Heads","Unshakeable","Vampire","Vengeful Curse","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Anathema"
+}

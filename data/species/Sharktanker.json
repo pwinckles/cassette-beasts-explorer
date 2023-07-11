@@ -1,0 +1,32 @@
+{
+  "name": "Sharktanker",
+  "number": 103,
+  "type": "WATER",
+  "remasterFrom": "Pondwalker",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 150,
+    "meleeDefense": 140,
+    "rangedAttack": 130,
+    "rangedDefense": 140,
+    "speed": 110,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Metal Wall","Trip","Undertow","Dodge","Torrent"      ]
+
+    "learned":     [
+"Bite","Sharp Edges","Fog","Boil","Self-Destruct"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Battery","Bish Bash Bosh","Bite","Boil","Bottle Volley","Broadcast","Call For Help","Charge","Clobber","Compliment","Critical AP","Criticise","Crossfade","Crystal Lens","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Fog","Gambit","Gear Shear","Glass Bonds","Glass Camouflage","Glass Cannon","Glass Coating","Glass Resistance","Glass Wall","Grounded","Headshot","Heroic Blade","Ice Breaker","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Liquid Body","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Plastic Knife","Prismatic","Raise Arms","Raise Shields","Random Starter","Revolving Door","Self-Assured","Self-Destruct","Sharp Edges","Sharpen","Shrapnel","Silicon Slash","Slice","Smack","Spit","Spray","Sprint","Stab In The Dark","The Old 1-2","Torrent","Toxic Stab","Trap Jaw","Trip","Undertow","Unicast","Unshakeable","Wallop","Water Camouflage","Water Coating","Water Wall","Waterproof","Window","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Sharktanker"
+}

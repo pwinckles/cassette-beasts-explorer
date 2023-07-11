@@ -1,0 +1,104 @@
+{
+  "name": "Scorch",
+  "description": "Gives the target Burned status for 3 turn(s).",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "FIRE",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 1,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Burned",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "STICKER"
+    }    ,{
+      "name": "Artillerex",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Candevil",
+      "source": "STICKER"
+    }    ,{
+      "name": "Coaldron",
+      "source": "STICKER"
+    }    ,{
+      "name": "Djinn Entonic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faucetear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fountess",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gumbaal",
+      "source": "STICKER"
+    }    ,{
+      "name": "Hedgeherne",
+      "source": "STICKER"
+    }    ,{
+      "name": "Huntorch",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Malchemy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miasmodeus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pombomb",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pyromeleon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Rockertrice",
+      "source": "STICKER"
+    }    ,{
+      "name": "Salamagus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spitzfyre",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STICKER"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Vendemon",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Scorch"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Muskrateer",
+  "number": 61,
+  "type": "BEAST",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Ratcousel"    ]
+
+  "stats":   {
+    "hp": 80,
+    "meleeAttack": 100,
+    "meleeDefense": 80,
+    "rangedAttack": 80,
+    "rangedDefense": 80,
+    "speed": 120,
+    "attributeSum": 540,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Peekaboo"      ]
+
+    "learned":     [
+"Zoomies","Toy Hammer","Plastic Wall","Retribution","Parry Stance"      ]
+
+    "compatible":     [
+"AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","Bad Joke","Battery","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Call For Help","Change the Record","Clobber","Clockwork Mouse","Compliment","Copper Chop","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Headshot","Heroic Blade","Icicle Dart","Inflame","Jagged Edge","Last Rites","Multi Shot","Multi Smack","Multicopy","Nod","Nurse","Parry Stance","Peekaboo","Pity AP","Plastic Resistance","Plastic Wall","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Retribution","Roll Again","Self-Assured","Sharp Edges","Sharpen","Silicon Slash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Stab In The Dark","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Treat","Trick","Trip","Unshakeable","Wallop","Wink","Woodcutter","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Muskrateer"
+}

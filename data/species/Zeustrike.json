@@ -1,0 +1,32 @@
+{
+  "name": "Zeustrike",
+  "number": 109,
+  "type": "LIGHTNING",
+  "remasterFrom": "Sparktan",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 140,
+    "meleeAttack": 100,
+    "meleeDefense": 110,
+    "rangedAttack": 120,
+    "rangedDefense": 130,
+    "speed": 200,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Raise Arms","Thunder Blast","Dodge","Lightning Wall","Blizzard","Energy Shot"      ]
+
+    "learned":     [
+"Iron Filings","Raise Shields","Energy Wave","Hurricane","Damage Roll"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Avalanche","Battery","Bish Bash Bosh","Blizzard","Broadcast","Call For Help","Change the Record","Charge","Clobber","Cold Fusion","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Damage Roll","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Frozen Ground","Gambit","Gear Shear","Glitter Bomb","Glitter Resistance","Grounded","Haunt","Headshot","Hurricane","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Icicle Dart","Iron Filings","Jagged Edge","Last Rites","Lightning Bolt","Lightning Camouflage","Lightning Coating","Lightning Wall","Magic Tome","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Phase Shift","Pity AP","Prismatic","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Retribution","Roll Again","Self-Assured","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Sturdy Armour","The Old 1-2","Thunder Blast","Trip","Unicast","Unshakeable","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Zeustrike"
+}

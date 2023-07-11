@@ -1,0 +1,50 @@
+{
+  "name": "Chemical Imbalance",
+  "description": "Chance to automatically use the next move in the list, for 0 AP, when the user lands a type-advantaged hit. The chance is reduced in proportion to the move’s normal AP cost.",
+  "categories":   [
+"MISC","AUTOMATED","PASSIVE"    ]
+
+  "type": "POISON",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": false,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Coaldron",
+      "source": "STICKER"
+    }    ,{
+      "name": "Djinn Entonic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Malchemy",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Miasmodeus",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Chemical_Imbalance"
+}

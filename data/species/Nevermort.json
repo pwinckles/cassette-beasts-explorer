@@ -1,0 +1,32 @@
+{
+  "name": "Nevermort",
+  "number": 47,
+  "type": "POISON",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Apocrowlypse"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 70,
+    "meleeDefense": 75,
+    "rangedAttack": 80,
+    "rangedDefense": 75,
+    "speed": 150,
+    "attributeSum": 600,
+    "ap": 6,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Call For Help"      ]
+
+    "learned":     [
+"Pustule Bomb","Air Wall","Sonic Boom","Taunt","Toxic Stab"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Beast Resistance","Beast Wall","Bish Bash Bosh","Blood Donation","Boil","Bone Cannon","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Headshot","Icicle Dart","Inflame","Last Rites","Metal Riff","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharpen","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Sticky Spray","Taunt","The Old 1-2","Toxic Stab","Treat","Trick","Trip","Unicast","Vampire","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Nevermort"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Bolt From The Blue",
+  "description": "Summons a temporary Boltam ally.",
+  "categories":   [
+"ACTIVE","MISC"    ]
+
+  "type": "LIGHTNING",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 50
+  },
+  "cost": 4,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Boltam",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Pinbolt",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Plasmantler",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Bolt_From_The_Blue"
+}

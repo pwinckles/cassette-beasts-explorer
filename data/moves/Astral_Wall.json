@@ -1,0 +1,149 @@
+{
+  "name": "Astral Wall",
+  "description": "Sacrifice 20% of HP to create a wall that will absorb up to 3 hits for up to 3 turns.",
+  "categories":   [
+"ACTIVE","STATUS"    ]
+
+  "type": "ASTRAL",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Astral Wall",
+      "kind": "BUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "STICKER"
+    }    ,{
+      "name": "Aeroboros",
+      "source": "STICKER"
+    }    ,{
+      "name": "Allseer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bansheep",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Braxsuit",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Capricorpse",
+      "source": "STICKER"
+    }    ,{
+      "name": "Coaldron",
+      "source": "STICKER"
+    }    ,{
+      "name": "Djinn Entonic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STICKER"
+    }    ,{
+      "name": "Elfless",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faerious",
+      "source": "STICKER"
+    }    ,{
+      "name": "Flapwoods",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Folklord",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Galagor",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Grampus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khufo",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Kuneko",
+      "source": "STICKER"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Magikrab",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotorn",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miasmodeus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pyromeleon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ramtasm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ripterra",
+      "source": "STICKER"
+    }    ,{
+      "name": "Salamagus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Scampire",
+      "source": "STICKER"
+    }    ,{
+      "name": "Shining Kuneko",
+      "source": "STICKER"
+    }    ,{
+      "name": "Snoopin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spooki-onna",
+      "source": "STICKER"
+    }    ,{
+      "name": "Stardigrade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STICKER"
+    }    ,{
+      "name": "Triphinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Undyin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wooltergeist",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zombleat",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Astral_Wall_(move)"
+}

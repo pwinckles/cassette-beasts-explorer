@@ -1,0 +1,32 @@
+{
+  "name": "Queenyx",
+  "number": 95,
+  "type": "EARTH",
+  "remasterFrom": "Skelevangelist",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 180,
+    "meleeAttack": 110,
+    "meleeDefense": 110,
+    "rangedAttack": 110,
+    "rangedDefense": 110,
+    "speed": 200,
+    "attributeSum": 820,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Fossil","Bone Cannon","Damage Roll","Beast Wall","Last Rites","Ritual","Life Absorb"      ]
+
+    "learned":     [
+"Delegate","Gambit","Sprint","Icicle Dart","Déjà Vu"      ]
+
+    "compatible":     [
+"AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","AP Steal","Astral Resistance","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Blood Donation","Bloodlust","Bone Cannon","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Flirt","Focus","Fossil","Frozen Ground","Gambit","Grounded","Haunt","Headshot","Hypnotise","Ice Breaker","Icicle Dart","Last Rites","Life Absorb","Magic Tome","Mountain Smash","Multi Shot","Multi Smack","Neutralise","Nod","Nurse","Parry Stance","Peekaboo","Phase Shift","Pity AP","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Ritual","Roll Again","Sandstorm","Self-Assured","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Taunt","The Old 1-2","Treat","Trick","Trip","Unshakeable","Vengeful Curse","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Queenyx"
+}

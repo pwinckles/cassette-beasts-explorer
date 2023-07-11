@@ -1,0 +1,32 @@
+{
+  "name": "Mardiusa",
+  "number": 9,
+  "type": "POISON",
+  "remasterFrom": "Masquerattle",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 160,
+    "meleeDefense": 100,
+    "rangedAttack": 120,
+    "rangedDefense": 130,
+    "speed": 160,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sharpen","Revenge Strike","Bite","Déjà Vu","Multi Smack","Hypnotise","Pre-emptive Strike"      ]
+
+    "learned":     [
+"Stony Look","Two Heads","AP Refund","Elemental Wall","Provoke"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Battery","Berserker","Bish Bash Bosh","Bite","Bloodlust","Call For Help","Change the Record","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Earth Camouflage","Earth Coating","Earth Resistance","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Flirt","Focus","Frozen Ground","Gambit","Haunt","Headshot","Hypnotise","Icicle Dart","Inflame","Last Rites","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Pre-emptive Strike","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Roll Again","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Sticky Spray","Stony Look","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trap Jaw","Trick","Trip","Two Heads","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Mardiusa"
+}

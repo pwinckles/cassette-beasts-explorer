@@ -1,0 +1,209 @@
+{
+  "name": "Sharp Edges",
+  "description": "Gives the user a Contact Damage status for 3 turn(s).",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "TYPELESS",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Contact Dmg Air",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Astral",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Beast",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Earth",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Fire",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Glass",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Glitter",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Ice",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Lightning",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Metal",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Plant",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Plastic",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Poison",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Contact Dmg Water",
+      "kind": "BUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Allseer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Artillerex",
+      "source": "STICKER"
+    }    ,{
+      "name": "Auriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Beanstalker",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STICKER"
+    }    ,{
+      "name": "Clocksley",
+      "source": "STICKER"
+    }    ,{
+      "name": "Coaldron",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cryoshear",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Faerious",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Faucetear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ferriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Fountess",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Glaistain",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gumbaal",
+      "source": "STICKER"
+    }    ,{
+      "name": "Hopskin",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Jormungold",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khufo",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kuneko",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Manispear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotorn",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotoy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miss Mimic",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Muskrateer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Palangolin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Plasmantler",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pondwalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Puppercut",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Ratcousel",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ripterra",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Robindam",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Shining Kuneko",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Southpaw",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STICKER"
+    }    ,{
+      "name": "Squirey",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STICKER"
+    }    ,{
+      "name": "Trapwurm",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Triphinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Vendemon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wyrmaw",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Sharp_Edges"
+}

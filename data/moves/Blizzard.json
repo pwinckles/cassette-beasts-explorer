@@ -1,0 +1,61 @@
+{
+  "name": "Blizzard",
+  "description": "Hits a whole team. Lowers the targets’ Accuracy.",
+  "categories":   [
+"ACTIVE","RANGED"    ]
+
+  "type": "ICE",
+  "power": 60,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 5,
+  "target": "TEAM",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Accuracy Down",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Aeroboros",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Cryoshear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveberg",
+      "source": "STICKER"
+    }    ,{
+      "name": "Elfless",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faerious",
+      "source": "STICKER"
+    }    ,{
+      "name": "Grampus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Icepeck",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Spooki-onna",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Blizzard"
+}

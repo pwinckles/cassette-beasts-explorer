@@ -1,0 +1,85 @@
+{
+  "name": "Mountain Smash",
+  "description": "Hits one target. Lowers the target’s Melee Defence.",
+  "categories":   [
+"MELEE","ACTIVE"    ]
+
+  "type": "EARTH",
+  "power": 90,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 4,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Melee Defence Down",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Averevoir",
+      "source": "STICKER"
+    }    ,{
+      "name": "Capricorpse",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Coaldron",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cryoshear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveberg",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Icepeck",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kingrave",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pawndead",
+      "source": "STICKER"
+    }    ,{
+      "name": "Picksie",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Queenyx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "STICKER"
+    }    ,{
+      "name": "Skelevangelist",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STICKER"
+    }    ,{
+      "name": "Trapwurm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wyrmaw",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Zombleat",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Mountain_Smash"
+}

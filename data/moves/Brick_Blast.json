@@ -1,0 +1,64 @@
+{
+  "name": "Brick Blast",
+  "description": "Hits each member of a team multiple times.",
+  "categories":   [
+"ACTIVE","RANGED"    ]
+
+  "type": "PLASTIC",
+  "power": 40,
+  "numHits":   {
+    "min": 2,
+    "max": 2
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 4,
+  "target": "TEAM",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Averevoir",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Clocksley",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotorn",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotoy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ratcousel",
+      "source": "STICKER"
+    }    ,{
+      "name": "Robindam",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Traffikrab",
+      "source": "STICKER"
+    }    ,{
+      "name": "Weevilite",
+      "source": "STAR_1"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Brick_Blast"
+}

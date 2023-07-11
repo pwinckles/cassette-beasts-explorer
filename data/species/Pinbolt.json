@@ -1,0 +1,32 @@
+{
+  "name": "Pinbolt",
+  "number": 121,
+  "type": "LIGHTNING",
+  "remasterFrom": "Boltam",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 120,
+    "meleeDefense": 105,
+    "rangedAttack": 160,
+    "rangedDefense": 105,
+    "speed": 190,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Copper Chop","Charge","Battery","Thunder Blast","Bolt From The Blue"      ]
+
+    "learned":     [
+"Roll Again","Damage Roll","Dual Wield","Icicle Dart","Headshot"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Bish Bash Bosh","Bolt From The Blue","Broadcast","Charge","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Flirt","Focus","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Headshot","Icicle Dart","Last Rites","Lightning Bolt","Lightning Camouflage","Lightning Coating","Lightning Wall","Magnet","Metal Resistance","Multi Shot","Multi Smack","Nod","Pity AP","Prismatic","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Superheated Fist","The Old 1-2","Throw","Thunder Blast","Toy Hammer","Trip","Unicast","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Pinbolt"
+}

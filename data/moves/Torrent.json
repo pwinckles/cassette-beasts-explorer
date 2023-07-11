@@ -1,0 +1,94 @@
+{
+  "name": "Torrent",
+  "description": "Hits each member of a team multiple times.",
+  "categories":   [
+"RANGED","ACTIVE"    ]
+
+  "type": "WATER",
+  "power": 40,
+  "numHits":   {
+    "min": 2,
+    "max": 2
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 4,
+  "target": "TEAM",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Arkidd",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cat-5",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveal",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Diveberg",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faucetear",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Fountess",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Frillypad",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Kittelly",
+      "source": "STICKER"
+    }    ,{
+      "name": "Liligator",
+      "source": "STICKER"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Magikrab",
+      "source": "STICKER"
+    }    ,{
+      "name": "Padpole",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pondwalker",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Regensea",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Scubalrus",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Spirouette",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Traffikrab",
+      "source": "STICKER"
+    }    ,{
+      "name": "Undyin",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Weevilite",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Torrent"
+}

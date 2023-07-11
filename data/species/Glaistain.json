@@ -1,0 +1,32 @@
+{
+  "name": "Glaistain",
+  "number": 118,
+  "type": "GLASS",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 160,
+    "meleeDefense": 90,
+    "rangedAttack": 160,
+    "rangedDefense": 90,
+    "speed": 220,
+    "attributeSum": 840,
+    "ap": 10,
+    "moveSlots": 5
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Dodge"      ]
+
+    "learned":     [
+"Crystal Lens","Jagged Edge","Window","Glass Bonds","Glass Cannon"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Berserker","Bish Bash Bosh","Bloodlust","Bottle Volley","Call For Help","Change the Record","Clobber","Compliment","Critical AP","Criticise","Crossfade","Crystal Lens","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Flirt","Focus","Frozen Ground","Gambit","Glass Bonds","Glass Camouflage","Glass Cannon","Glass Coating","Glass Resistance","Glass Wall","Grounded","Headshot","Heroic Blade","Hypnotise","Icicle Dart","Inflame","Jagged Edge","Last Rites","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Plastic Knife","Pre-emptive Strike","Prismatic","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Retribution","Revenge Strike","Revolving Door","Roll Again","Self-Assured","Sharp Edges","Sharpen","Silicon Slash","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Stab In The Dark","Taunt","The Old 1-2","Toxic Stab","Trick","Trip","Unshakeable","Wallop","Window","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Glaistain"
+}

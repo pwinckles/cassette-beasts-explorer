@@ -1,0 +1,55 @@
+{
+  "name": "Avalanche",
+  "description": "All melee attacks fail this round.",
+  "categories":   [
+"ACTIVE","STATUS"    ]
+
+  "type": "ICE",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 2,
+  "target": "ALL",
+  "copyable": true,
+  "priority": 1,
+  "statusEffects":   [
+    {
+      "name": "Snowed In",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Aeroboros",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cryoshear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveberg",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Elfless",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faerious",
+      "source": "STICKER"
+    }    ,{
+      "name": "Grampus",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Icepeck",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spooki-onna",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Avalanche"
+}

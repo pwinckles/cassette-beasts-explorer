@@ -1,0 +1,32 @@
+{
+  "name": "Arkidd",
+  "number": 113,
+  "type": "LIGHTNING",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 150,
+    "meleeDefense": 100,
+    "rangedAttack": 100,
+    "rangedDefense": 100,
+    "speed": 250,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Trip"      ]
+
+    "learned":     [
+"Charge","Toy Hammer","Plastic Wall","Battery","AP Boost"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Battery","Bish Bash Bosh","Broadcast","Call For Help","Charge","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Wall","Focus","Frozen Ground","Gambit","Gear Shear","Grounded","Headshot","Icicle Dart","Last Rites","Lightning Bolt","Lightning Camouflage","Lightning Coating","Lightning Wall","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Plastic Resistance","Plastic Wall","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Self-Destruct","Sharpen","Shrapnel","Silicon Slash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Superheated Fist","The Old 1-2","Throw","Thunder Blast","Torrent","Toy Hammer","Trip","Unicast","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Arkidd"
+}

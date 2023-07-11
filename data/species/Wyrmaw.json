@@ -1,0 +1,32 @@
+{
+  "name": "Wyrmaw",
+  "number": 125,
+  "type": "EARTH",
+  "remasterFrom": "Trapwurm",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 180,
+    "meleeDefense": 130,
+    "rangedAttack": 110,
+    "rangedDefense": 130,
+    "speed": 100,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Trap Jaw","Custom Starter","Bite","Trick","Desperation","Shrapnel","Sharp Edges"      ]
+
+    "learned":     [
+"Sturdy Armour","Mountain Smash","Crumble","Parry Stance","Last Rites"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Berserker","Bish Bash Bosh","Bite","Bloodlust","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Fossil","Gambit","Gear Shear","Grounded","Guzzle Fuel","Headshot","Hypnotise","Ice Breaker","Iron Filings","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Mountain Smash","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Pre-emptive Strike","Provoke","Raise Arms","Raise Shields","Random Starter","Revenge Strike","Roll Again","Sandstorm","Self-Assured","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Slice","Smack","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Trap Jaw","Trick","Trip","Unshakeable","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Wyrmaw"
+}

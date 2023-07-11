@@ -1,0 +1,28 @@
+{
+  "name": "Fair Fight",
+  "description": "Prevents new status effects from being applied for 3 turns.",
+  "categories":   [
+"ACTIVE","STATUS"    ]
+
+  "type": "METAL",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 2,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Fair Fight",
+      "kind": "MISC"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Palangolin",
+      "source": "STAR_2"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Fair_Fight_(move)"
+}

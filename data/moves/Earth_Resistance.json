@@ -1,0 +1,95 @@
+{
+  "name": "Earth Resistance",
+  "description": "Passively reduces incoming Earth-type damage by 50%, and negates any reactions that would occur. Does not affect critical hits.",
+  "categories":   [
+"PASSIVE","MISC"    ]
+
+  "type": "EARTH",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Averevoir",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Capricorpse",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cluckabilly",
+      "source": "STICKER"
+    }    ,{
+      "name": "Coaldron",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cryoshear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveberg",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Icepeck",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kingrave",
+      "source": "STICKER"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mardiusa",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pawndead",
+      "source": "STICKER"
+    }    ,{
+      "name": "Picksie",
+      "source": "STICKER"
+    }    ,{
+      "name": "Queenyx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Rockertrice",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "STICKER"
+    }    ,{
+      "name": "Skelevangelist",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STICKER"
+    }    ,{
+      "name": "Trapwurm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wyrmaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zombleat",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Earth_Resistance"
+}

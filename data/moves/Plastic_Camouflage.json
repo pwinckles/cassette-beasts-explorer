@@ -1,0 +1,53 @@
+{
+  "name": "Plastic Camouflage",
+  "description": "Changes the type of the user. Automatically used at the start of battle for 0 AP.",
+  "categories":   [
+"ACTIVE","STATUS","AUTOMATED"    ]
+
+  "type": "PLASTIC",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Plastic Coating",
+      "kind": "TRANSMUTATION"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Magikrab",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miss Mimic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Twirligig",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Plastic_Camouflage"
+}

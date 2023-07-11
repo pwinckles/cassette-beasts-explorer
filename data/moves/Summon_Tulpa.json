@@ -1,0 +1,23 @@
+{
+  "name": "Summon Tulpa",
+  "description": "Calls for help from the astral plane.",
+  "categories":   [
+"MISC","ACTIVE"    ]
+
+  "type": "ASTRAL",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 1
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Summon_Tulpa"
+}

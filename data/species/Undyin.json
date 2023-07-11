@@ -1,0 +1,32 @@
+{
+  "name": "Undyin",
+  "number": 114,
+  "type": "WATER",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 200,
+    "meleeAttack": 110,
+    "meleeDefense": 110,
+    "rangedAttack": 160,
+    "rangedDefense": 110,
+    "speed": 110,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Flirt"      ]
+
+    "learned":     [
+"Torrent","Life Absorb","Ice Wall","Ice Breaker","Ritual"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Bish Bash Bosh","Bite","Blood Donation","Boil","Burning Passion","Call For Help","Clobber","Cold Fusion","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Flirt","Focus","Fog","Gambit","Haunt","Headshot","Ice Breaker","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Inflame","Last Rites","Life Absorb","Multi Shot","Multi Smack","Nod","Nurse","Phase Shift","Pity AP","Raise Arms","Raise Shields","Random Starter","Retribution","Ritual","Sharpen","Slice","Smack","Spit","Spray","Sprint","The Old 1-2","Torrent","Trap Jaw","Trip","Two Heads","Undertow","Vampire","Vengeful Curse","Wallop","Water Camouflage","Water Coating","Water Wall","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Undyin"
+}

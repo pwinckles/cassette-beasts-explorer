@@ -1,0 +1,32 @@
+{
+  "name": "Kittelly",
+  "number": 37,
+  "type": "LIGHTNING",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Cat-5"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 110,
+    "meleeDefense": 90,
+    "rangedAttack": 110,
+    "rangedDefense": 90,
+    "speed": 100,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Criticise","Charge"      ]
+
+    "learned":     [
+"Zoomies","Double Smack","Energy Shot","Copycat","Broadcast"      ]
+
+    "compatible":     [
+"Air Resistance","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Broadcast","Call For Help","Change the Record","Charge","Clobber","Compliment","Copper Chop","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Wall","Flirt","Focus","Gambit","Gear Shear","Grounded","Headshot","Last Rites","Lightning Bolt","Lightning Camouflage","Lightning Coating","Lightning Wall","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Raise Arms","Raise Shields","Random Starter","Self-Destruct","Sharpen","Shrapnel","Silicon Slash","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Superheated Fist","The Old 1-2","Throw","Thunder Blast","Torrent","Toy Hammer","Trip","Unicast","Wallop","Wink","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Kittelly"
+}

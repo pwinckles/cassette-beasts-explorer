@@ -1,0 +1,32 @@
+{
+  "name": "Pondwalker",
+  "number": 102,
+  "type": "WATER",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Sharktanker"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 100,
+    "meleeDefense": 100,
+    "rangedAttack": 100,
+    "rangedDefense": 100,
+    "speed": 100,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Metal Wall"      ]
+
+    "learned":     [
+"Trip","Call For Help","Undertow","Dodge","Torrent"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Battery","Bish Bash Bosh","Boil","Bottle Volley","Broadcast","Call For Help","Charge","Clobber","Compliment","Critical AP","Criticise","Crossfade","Crystal Lens","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Fog","Gambit","Gear Shear","Glass Bonds","Glass Camouflage","Glass Cannon","Glass Coating","Glass Resistance","Glass Wall","Grounded","Headshot","Ice Breaker","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Liquid Body","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Prismatic","Raise Arms","Raise Shields","Random Starter","Revolving Door","Self-Assured","Self-Destruct","Sharp Edges","Sharpen","Shrapnel","Silicon Slash","Slice","Smack","Spit","Spray","Sprint","The Old 1-2","Torrent","Trip","Undertow","Unicast","Unshakeable","Wallop","Water Camouflage","Water Coating","Water Wall","Waterproof","Window","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Pondwalker"
+}

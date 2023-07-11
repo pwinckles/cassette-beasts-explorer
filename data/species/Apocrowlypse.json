@@ -1,0 +1,32 @@
+{
+  "name": "Apocrowlypse",
+  "number": 48,
+  "type": "POISON",
+  "remasterFrom": "Nevermort",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 160,
+    "meleeAttack": 120,
+    "meleeDefense": 120,
+    "rangedAttack": 120,
+    "rangedDefense": 120,
+    "speed": 160,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Call For Help","Pustule Bomb","Air Wall","Taunt","Toxic Stab"      ]
+
+    "learned":     [
+"Bone Cannon","Beast Wall","Boil","Delegate","Last Rites"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Astral Resistance","Bad Joke","bE rAnDoM!!","Beast Resistance","Beast Wall","Bish Bash Bosh","Blood Donation","Boil","Bone Cannon","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Haunt","Headshot","Icicle Dart","Inflame","Last Rites","Life Absorb","Metal Riff","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Phase Shift","Pity AP","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Ritual","Roll Again","Sharpen","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Sticky Spray","Taunt","The Old 1-2","Toxic Stab","Treat","Trick","Trip","Unicast","Vampire","Vengeful Curse","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Apocrowlypse"
+}

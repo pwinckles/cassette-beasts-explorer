@@ -1,0 +1,32 @@
+{
+  "name": "Draculeaf",
+  "number": 91,
+  "type": "PLANT",
+  "remasterFrom": "Jumpkin",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 160,
+    "meleeAttack": 125,
+    "meleeDefense": 125,
+    "rangedAttack": 125,
+    "rangedDefense": 125,
+    "speed": 140,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Pumpkin Pie","Jump Scare","Trick","Treat","Bite","Plant Wall"      ]
+
+    "learned":     [
+"Snooze Spore","Ritual","Vampire","Leech","Déjà Vu"      ]
+
+    "compatible":     [
+"Acorn Mortar","AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Bish Bash Bosh","Bite","Blood Donation","Breathing Technique","Call For Help","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Haunt","Headshot","Hot Potato","Hypnotise","Icicle Dart","Insomnia","Jump Scare","Last Rites","Leech","Life Absorb","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Phase Shift","Pity AP","Plant Camouflage","Plant Coating","Plant Resistance","Plant Wall","Plastic Resistance","Plastic Wall","Poison Pollen","Pumpkin Pie","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Ritual","Roll Again","Sharpen","Slice","Smack","Snooze Spore","Snow Rush","Spit","Splinter","Spray","Sprint","The Old 1-2","Toy Hammer","Trap Jaw","Treat","Trick","Trip","Vampire","Vengeful Curse","Wallop","Wink","Woodcutter"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Draculeaf"
+}

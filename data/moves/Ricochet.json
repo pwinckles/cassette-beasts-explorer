@@ -1,0 +1,53 @@
+{
+  "name": "Ricochet",
+  "description": "The user’s ranged attacks have a 50% chance to ignore opponents’ walls.",
+  "categories":   [
+"MISC","PASSIVE"    ]
+
+  "type": "TYPELESS",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Allseer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Artillerex",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Galagor",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Khufo",
+      "source": "STICKER"
+    }    ,{
+      "name": "Triphinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Ricochet"
+}

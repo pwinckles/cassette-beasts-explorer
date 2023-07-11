@@ -1,0 +1,84 @@
+{
+  "name": "Galactic Beatdown",
+  "description": "Hits one target. Cannot be evaded.",
+  "categories":   [
+"MELEE","ACTIVE"    ]
+
+  "type": "ASTRAL",
+  "power": 90,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 4,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "STICKER"
+    }    ,{
+      "name": "Allseer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Braxsuit",
+      "source": "STICKER"
+    }    ,{
+      "name": "Coaldron",
+      "source": "STICKER"
+    }    ,{
+      "name": "Djinn Entonic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Flapwoods",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Galagor",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khufo",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Magikrab",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Ramtasm",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Ripterra",
+      "source": "STICKER"
+    }    ,{
+      "name": "Shining Kuneko",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Stardigrade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STICKER"
+    }    ,{
+      "name": "Triphinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wooltergeist",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Galactic_Beatdown"
+}

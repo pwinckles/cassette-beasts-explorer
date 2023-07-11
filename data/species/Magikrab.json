@@ -1,0 +1,32 @@
+{
+  "name": "Magikrab",
+  "number": 0,
+  "type": "ASTRAL",
+  "remasterFrom": "Traffikrab",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 105,
+    "meleeAttack": 160,
+    "meleeDefense": 105,
+    "rangedAttack": 160,
+    "rangedDefense": 150,
+    "speed": 120,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Traffic Jam","Elemental Wall","Inflame","Multi Smack","Water Coating","Undertow"      ]
+
+    "learned":     [
+"Shooting Star","Meditate","Multi Shot","Ritual","Galactic Beatdown"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Berserker","Bish Bash Bosh","Bloodlust","Boil","Bottle Volley","Breathing Technique","Call For Help","Change the Record","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Galactic Beatdown","Gambit","Glass Resistance","Haunt","Headshot","Hypnotise","Incinerate","Inflame","Insomnia","Last Rites","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Phase Shift","Pity AP","Plastic Camouflage","Plastic Coating","Plastic Wall","Pre-emptive Strike","Provoke","Raise Arms","Raise Shields","Random Starter","Recycle","Revenge Strike","Ritual","Roll Again","Sharpen","Shooting Star","Slice","Smack","Spit","Spray","Sprint","Taunt","The Old 1-2","Torrent","Traffic Jam","Trick","Trip","Undertow","Vengeful Curse","Wallop","Water Camouflage","Water Coating","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Magikrab"
+}

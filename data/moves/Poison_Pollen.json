@@ -1,0 +1,71 @@
+{
+  "name": "Poison Pollen",
+  "description": "Gives the target Poisoned status for 3 turn(s).",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "PLANT",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 1,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Poisoned",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Beanstalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Busheye",
+      "source": "STICKER"
+    }    ,{
+      "name": "Dandylion",
+      "source": "STICKER"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STICKER"
+    }    ,{
+      "name": "Frillypad",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Hedgeherne",
+      "source": "STICKER"
+    }    ,{
+      "name": "Huntorch",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jumpkin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Liligator",
+      "source": "STICKER"
+    }    ,{
+      "name": "Padpole",
+      "source": "STICKER"
+    }    ,{
+      "name": "Twirligig",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Poison_Pollen"
+}

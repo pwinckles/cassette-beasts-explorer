@@ -1,0 +1,32 @@
+{
+  "name": "Diveberg",
+  "number": 122,
+  "type": "ICE",
+  "remasterFrom": "Diveal",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 160,
+    "meleeDefense": 150,
+    "rangedAttack": 125,
+    "rangedDefense": 135,
+    "speed": 130,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Elemental Wall","Ice Coating","Ice Resistance","Ice Breaker","Undertow"      ]
+
+    "learned":     [
+"Final Breath","Deep Freeze","Avalanche","Unshakeable","Cold Fusion"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Avalanche","Berserker","Bish Bash Bosh","Blizzard","Boil","Call For Help","Clobber","Cold Fusion","Compliment","Critical AP","Criticise","Crossfade","Crumble","Crystal Lens","Custom Starter","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Fog","Frozen Ground","Gambit","Headshot","Ice Breaker","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Icicle Dart","Jagged Edge","Last Rites","Mountain Smash","Multi Shot","Multi Smack","Nod","Pity AP","Provoke","Raise Arms","Raise Shields","Random Starter","Self-Assured","Sharpen","Shield Bash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Torrent","Trip","Undertow","Unshakeable","Wallop","Water Camouflage","Water Coating","Water Wall","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Diveberg"
+}

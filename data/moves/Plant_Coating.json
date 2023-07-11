@@ -1,0 +1,71 @@
+{
+  "name": "Plant Coating",
+  "description": "Changes the type of the user or an ally.",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "PLANT",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE_ALLY",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Plant Coating",
+      "kind": "TRANSMUTATION"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Beanstalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Busheye",
+      "source": "STICKER"
+    }    ,{
+      "name": "Dandylion",
+      "source": "STICKER"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STICKER"
+    }    ,{
+      "name": "Frillypad",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Hedgeherne",
+      "source": "STICKER"
+    }    ,{
+      "name": "Huntorch",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jumpkin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Liligator",
+      "source": "STICKER"
+    }    ,{
+      "name": "Padpole",
+      "source": "STICKER"
+    }    ,{
+      "name": "Twirligig",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Plant_Coating_(move)"
+}

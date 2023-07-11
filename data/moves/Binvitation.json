@@ -1,0 +1,29 @@
+{
+  "name": "Binvitation",
+  "description": "Calls for help from the mothership.",
+  "categories":   [
+"ACTIVE","MISC"    ]
+
+  "type": "METAL",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 50
+  },
+  "cost": 4,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Binterloper",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Binvader",
+      "source": "STAR_2"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Binvitation"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Sugar Rush",
+  "description": "The user’s Speed is passively raised in proportion to the amount of HP lost.",
+  "categories":   [
+"MISC","PASSIVE"    ]
+
+  "type": "TYPELESS",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Candevil",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Gumbaal",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Malchemy",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Miasmodeus",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Vendemon",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Sugar_Rush"
+}

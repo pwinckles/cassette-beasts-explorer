@@ -1,0 +1,32 @@
+{
+  "name": "Spitzfyre",
+  "number": 105,
+  "type": "FIRE",
+  "remasterFrom": "Pombomb",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 100,
+    "meleeDefense": 100,
+    "rangedAttack": 150,
+    "rangedDefense": 140,
+    "speed": 120,
+    "attributeSum": 730,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Dog Years","Sticky Tongue","Inflame","Zoomies","Hot Potato","Elemental Wall","bE rAnDoM!!"      ]
+
+    "learned":     [
+"Sure-Fire","Rapid Fire","Glitter Bomb","Air Wall","Sonic Boom"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Bish Bash Bosh","Boil","Bone Cannon","Burning Passion","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Dog Years","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Guzzle Fuel","Headshot","Hot Potato","Incinerate","Inflame","Last Rites","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Provoke","Pustule Bomb","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Scorch","Self-Destruct","Sharpen","Shrapnel","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Sticky Tongue","Sure-Fire","Taunt","The Old 1-2","Treat","Trick","Trip","Wallop","Wink","Zephyr","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Spitzfyre"
+}

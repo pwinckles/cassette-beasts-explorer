@@ -1,0 +1,102 @@
+{
+  "name": "Crumble",
+  "description": "Destroys every wall, inflicting damage to each fighter with a wall proportional to the remaining duration of their wall.",
+  "categories":   [
+"ACTIVE","RANGED"    ]
+
+  "type": "EARTH",
+  "power": 30,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 2,
+  "target": "ALL",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Aeroboros",
+      "source": "STICKER"
+    }    ,{
+      "name": "Averevoir",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Capricorpse",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Coaldron",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Cryoshear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveberg",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Icepeck",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Kingrave",
+      "source": "STICKER"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pawndead",
+      "source": "STICKER"
+    }    ,{
+      "name": "Picksie",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Queenyx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Skelevangelist",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spooki-onna",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Trapwurm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wyrmaw",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zombleat",
+      "source": "STAR_5"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Crumble"
+}

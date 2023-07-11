@@ -1,0 +1,32 @@
+{
+  "name": "Skelevangelist",
+  "number": 93,
+  "type": "EARTH",
+  "remasterFrom": "Pawndead",
+  "remasterTo":   [
+"Kingrave","Queenyx"    ]
+
+  "stats":   {
+    "hp": 110,
+    "meleeAttack": 110,
+    "meleeDefense": 110,
+    "rangedAttack": 110,
+    "rangedDefense": 110,
+    "speed": 110,
+    "attributeSum": 660,
+    "ap": 10,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Fossil","Bone Cannon","Damage Roll","AP Donate","Blood Donation"      ]
+
+    "learned":     [
+"Beast Wall","Last Rites","Call For Help","Ritual","Life Absorb"      ]
+
+    "compatible":     [
+"AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","AP Steal","Astral Resistance","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Blood Donation","Bloodlust","Bone Cannon","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fossil","Gambit","Grounded","Haunt","Headshot","Hypnotise","Ice Breaker","Last Rites","Life Absorb","Magic Tome","Mountain Smash","Multi Shot","Multi Smack","Neutralise","Nod","Nurse","Parry Stance","Peekaboo","Phase Shift","Pity AP","Pre-emptive Strike","Provoke","Raise Arms","Raise Shields","Random Starter","Revenge Strike","Ritual","Roll Again","Sandstorm","Self-Assured","Sharpen","Slice","Smack","Spit","Spray","Sprint","Taunt","The Old 1-2","Treat","Trick","Trip","Unshakeable","Vengeful Curse","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Skelevangelist"
+}

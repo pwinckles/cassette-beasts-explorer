@@ -1,0 +1,80 @@
+{
+  "name": "Earth Coating",
+  "description": "Changes the type of the user or an ally.",
+  "categories":   [
+"ACTIVE","STATUS"    ]
+
+  "type": "EARTH",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE_ALLY",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Earth Coating",
+      "kind": "TRANSMUTATION"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Capricorpse",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cluckabilly",
+      "source": "STICKER"
+    }    ,{
+      "name": "Coaldron",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kingrave",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mardiusa",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pawndead",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Picksie",
+      "source": "STICKER"
+    }    ,{
+      "name": "Queenyx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Rockertrice",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "STICKER"
+    }    ,{
+      "name": "Skelevangelist",
+      "source": "STICKER"
+    }    ,{
+      "name": "Terracooka",
+      "source": "STICKER"
+    }    ,{
+      "name": "Trapwurm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wyrmaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Zombleat",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Earth_Coating_(move)"
+}

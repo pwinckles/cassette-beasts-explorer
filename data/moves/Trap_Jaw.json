@@ -1,0 +1,140 @@
+{
+  "name": "Trap Jaw",
+  "description": "Automatically used after Bite. Inflicts the target with Evasion Nullified.",
+  "categories":   [
+"PASSIVE","STATUS","AUTOMATED"    ]
+
+  "type": "BEAST",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 50
+  },
+  "cost": 0,
+  "target": "SINGLE",
+  "copyable": false,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Evasion Nullified",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Aeroboros",
+      "source": "STICKER"
+    }    ,{
+      "name": "Anathema",
+      "source": "STICKER"
+    }    ,{
+      "name": "Artillerex",
+      "source": "STICKER"
+    }    ,{
+      "name": "Auriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Beanstalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STICKER"
+    }    ,{
+      "name": "Candevil",
+      "source": "STICKER"
+    }    ,{
+      "name": "Carniviper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Dandylion",
+      "source": "STICKER"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ferriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Folklord",
+      "source": "STICKER"
+    }    ,{
+      "name": "Frillypad",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gumbaal",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jormungold",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jumpkin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kuneko",
+      "source": "STICKER"
+    }    ,{
+      "name": "Liligator",
+      "source": "STICKER"
+    }    ,{
+      "name": "Macabra",
+      "source": "STICKER"
+    }    ,{
+      "name": "Malchemy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mardiusa",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotorn",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotoy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Masquerattle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miasmodeus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Padpole",
+      "source": "STICKER"
+    }    ,{
+      "name": "Scampire",
+      "source": "STICKER"
+    }    ,{
+      "name": "Scubalrus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Shining Kuneko",
+      "source": "STICKER"
+    }    ,{
+      "name": "Snoopin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Trapwurm",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Undyin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Vendemon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wyrmaw",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Trap_Jaw"
+}

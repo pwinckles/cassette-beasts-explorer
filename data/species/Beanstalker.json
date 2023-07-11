@@ -1,0 +1,32 @@
+{
+  "name": "Beanstalker",
+  "number": 90,
+  "type": "PLANT",
+  "remasterFrom": "Jumpkin",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 140,
+    "meleeAttack": 185,
+    "meleeDefense": 110,
+    "rangedAttack": 100,
+    "rangedDefense": 100,
+    "speed": 165,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Pumpkin Pie","Jump Scare","Trick","Treat","Bite","Plant Wall"      ]
+
+    "learned":     [
+"Woodcutter","Toxic Stab","Sharp Edges","Plastic Knife","Stab In The Dark"      ]
+
+    "compatible":     [
+"Acorn Mortar","AP Boost","AP Drain","AP Refund","AP Starter","Astral Resistance","Bish Bash Bosh","Bite","Blood Donation","Call For Help","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Haunt","Headshot","Heroic Blade","Hot Potato","Icicle Dart","Jagged Edge","Jump Scare","Last Rites","Leech","Life Absorb","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Phase Shift","Pity AP","Plant Camouflage","Plant Coating","Plant Resistance","Plant Wall","Plastic Knife","Plastic Resistance","Plastic Wall","Poison Pollen","Pumpkin Pie","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Ritual","Roll Again","Sharp Edges","Sharpen","Silicon Slash","Slice","Smack","Snooze Spore","Snow Rush","Spit","Splinter","Spray","Sprint","Stab In The Dark","The Old 1-2","Toxic Stab","Toy Hammer","Trap Jaw","Treat","Trick","Trip","Vengeful Curse","Wallop","Wink","Woodcutter"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Beanstalker"
+}

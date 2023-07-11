@@ -1,0 +1,86 @@
+{
+  "name": "Burning Passion",
+  "description": "Automatically raises the user’s Ranged and Melee Attack whenever the user gains the Burned status effect.",
+  "categories":   [
+"AUTOMATED","PASSIVE","STATUS"    ]
+
+  "type": "FIRE",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Melee Attack Up",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Ranged Attack Up",
+      "kind": "BUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "STICKER"
+    }    ,{
+      "name": "Artillerex",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Busheye",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Hedgeherne",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Huntorch",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jellyton",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pombomb",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pyromeleon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Rockertrice",
+      "source": "STICKER"
+    }    ,{
+      "name": "Salamagus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spitzfyre",
+      "source": "STICKER"
+    }    ,{
+      "name": "Undyin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Burning_Passion"
+}

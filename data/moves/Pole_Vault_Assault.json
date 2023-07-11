@@ -1,0 +1,31 @@
+{
+  "name": "Pole Vault Assault",
+  "description": "Hits one target multiple times.",
+  "categories":   [
+"MELEE","ACTIVE"    ]
+
+  "type": "AIR",
+  "power": 90,
+  "numHits":   {
+    "min": 2,
+    "max": 2
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 7,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Thwackalope",
+      "source": "STAR_5"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Pole_Vault_Assault"
+}

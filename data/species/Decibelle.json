@@ -1,0 +1,32 @@
+{
+  "name": "Decibelle",
+  "number": 25,
+  "type": "AIR",
+  "remasterFrom": "Sirenade",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 135,
+    "meleeAttack": 100,
+    "meleeDefense": 110,
+    "rangedAttack": 170,
+    "rangedDefense": 160,
+    "speed": 125,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Dodge","Sonic Boom","Call For Help","Air Wall","Taunt","New Leaf","Provoke"      ]
+
+    "learned":     [
+"Echolocation","Hurricane","Metal Riff","Change the Record","Nurse"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Bish Bash Bosh","Blood Donation","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Headshot","Hurricane","Icicle Dart","Inflame","Last Rites","Life Absorb","Metal Riff","Multi Shot","Multi Smack","Multicopy","Neutralise","New Leaf","Nod","Nurse","Peekaboo","Pity AP","Plastic Resistance","Plastic Wall","Prismatic","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharpen","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Taunt","The Old 1-2","Throw","Toy Hammer","Treat","Trick","Trip","Unicast","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Decibelle"
+}

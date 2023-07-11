@@ -1,0 +1,32 @@
+{
+  "name": "Pombomb",
+  "number": 104,
+  "type": "FIRE",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Spitzfyre"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 90,
+    "meleeDefense": 90,
+    "rangedAttack": 100,
+    "rangedDefense": 120,
+    "speed": 100,
+    "attributeSum": 600,
+    "ap": 6,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Dog Years","Sticky Tongue"      ]
+
+    "learned":     [
+"Inflame","Zoomies","Hot Potato","Elemental Wall","bE rAnDoM!!"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Bish Bash Bosh","Boil","Bone Cannon","Burning Passion","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Dog Years","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Gambit","Glitter Bomb","Glitter Resistance","Guzzle Fuel","Headshot","Hot Potato","Incinerate","Inflame","Last Rites","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Provoke","Pustule Bomb","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Scorch","Self-Destruct","Sharpen","Shrapnel","Slice","Smack","Spit","Spray","Sprint","Sticky Tongue","Sure-Fire","Taunt","The Old 1-2","Treat","Trick","Trip","Wallop","Wink","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Pombomb"
+}

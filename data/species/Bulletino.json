@@ -1,0 +1,32 @@
+{
+  "name": "Bulletino",
+  "number": 41,
+  "type": "FIRE",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Velocirifle"    ]
+
+  "stats":   {
+    "hp": 80,
+    "meleeAttack": 70,
+    "meleeDefense": 70,
+    "rangedAttack": 100,
+    "rangedDefense": 70,
+    "speed": 200,
+    "attributeSum": 590,
+    "ap": 5,
+    "moveSlots": 3
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Sprint"      ]
+
+    "learned":     [
+"Rapid Fire","Raise Arms","Ricochet","Multi Shot","Self-Destruct"      ]
+
+    "compatible":     [
+"Acorn Mortar","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Beast Resistance","Beast Wall","Bish Bash Bosh","Bite","Boil","Bone Cannon","Broadcast","Burning Passion","Clobber","Coal Story","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Frozen Ground","Gambit","Gear Shear","Glass Cannon","Glitter Bomb","Grounded","Guzzle Fuel","Headshot","Hot Potato","Icicle Dart","Incinerate","Inflame","Iron Filings","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Return Fire","Ricochet","Roll Again","Scorch","Self-Destruct","Sharp Edges","Sharpen","Shield Bash","Shooting Star","Shrapnel","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Sturdy Armour","Sure-Fire","The Old 1-2","Trap Jaw","Trip","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Bulletino"
+}

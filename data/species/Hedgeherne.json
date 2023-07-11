@@ -1,0 +1,32 @@
+{
+  "name": "Hedgeherne",
+  "number": 75,
+  "type": "PLANT",
+  "remasterFrom": "Huntorch",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 140,
+    "meleeDefense": 110,
+    "rangedAttack": 140,
+    "rangedDefense": 110,
+    "speed": 150,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Elemental Wall","Doc Leaf","Acorn Mortar","Bushfire","New Leaf","Hot Potato","Desperation"      ]
+
+    "learned":     [
+"Incinerate","Burning Passion","Woodcutter","Splinter","Self-Destruct"      ]
+
+    "compatible":     [
+"Acorn Mortar","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Berserker","Bish Bash Bosh","Bloodlust","Boil","Burning Passion","Bushfire","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Gambit","Guzzle Fuel","Headshot","Hot Potato","Hypnotise","Incinerate","Inflame","Last Rites","Leech","Life Absorb","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Parry Stance","Peekaboo","Pity AP","Plant Camouflage","Plant Coating","Plant Resistance","Plant Wall","Poison Pollen","Pre-emptive Strike","Provoke","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Roll Again","Scorch","Self-Destruct","Sharpen","Shield Bash","Slice","Smack","Snooze Spore","Spit","Splinter","Spray","Sprint","Status Resistance","Sturdy Armour","Sure-Fire","Taunt","The Old 1-2","Throw","Trick","Trip","Unshakeable","Wallop","Wink","Woodcutter"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Hedgeherne"
+}

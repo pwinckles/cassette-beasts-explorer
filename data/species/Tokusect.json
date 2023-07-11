@@ -1,0 +1,32 @@
+{
+  "name": "Tokusect",
+  "number": 33,
+  "type": "AIR",
+  "remasterFrom": "Dominoth",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 170,
+    "meleeDefense": 120,
+    "rangedAttack": 100,
+    "rangedDefense": 120,
+    "speed": 170,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Zephyr","Wallop","Taunt","Dodge","Air Wall"      ]
+
+    "learned":     [
+"Copper Chop","Sonic Boom","Superheated Fist","Quick Smack","Rapid Fire"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Bone Cannon","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Flirt","Focus","Fog","Frozen Ground","Gambit","Grounded","Headshot","Hurricane","Hypnotise","Icicle Dart","Last Rites","Leech","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Retribution","Revenge Strike","Roll Again","Self-Assured","Sharpen","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Sticky Spray","Superheated Fist","Taunt","The Old 1-2","Throw","Toy Hammer","Trick","Trip","Unicast","Unshakeable","Vampire","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Tokusect"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Vendemon",
+  "number": 17,
+  "type": "METAL",
+  "remasterFrom": "Candevil",
+  "remasterTo":   [
+"Gumbaal"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 110,
+    "meleeDefense": 130,
+    "rangedAttack": 120,
+    "rangedDefense": 130,
+    "speed": 120,
+    "attributeSum": 740,
+    "ap": 8,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Sugar Rush","Bon Bon Blast","Bite","Elemental Wall","Taunt"      ]
+
+    "learned":     [
+"Treat","Coal Story","Multi Shot","Raise Shields","Magnet"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Bad Joke","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bon Bon Blast","Bone Cannon","Broadcast","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Fireproof","Focus","Frozen Ground","Gambit","Gear Shear","Glitter Bomb","Glitter Resistance","Grounded","Haunt","Headshot","Hot Potato","Icicle Dart","Inflame","Iron Filings","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Plastic Resistance","Plastic Wall","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Scorch","Self-Destruct","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Sugar Rush","Taunt","The Old 1-2","Throw","Toy Hammer","Trap Jaw","Treat","Trick","Trip","Unshakeable","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Vendemon"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Fortiwinx",
+  "number": 58,
+  "type": "EARTH",
+  "remasterFrom": "Sanzatime",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 165,
+    "meleeDefense": 155,
+    "rangedAttack": 130,
+    "rangedDefense": 140,
+    "speed": 80,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sharp Edges","Déjà Vu","Crumble","Clobber","Dog Years"      ]
+
+    "learned":     [
+"Nod","Mountain Smash","Hypnotise","Silicon Slash","Insomnia"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Bish Bash Bosh","Bottle Volley","Breathing Technique","Call For Help","Clobber","Coal Story","Compliment","Critical AP","Criticise","Crossfade","Crumble","Crystal Lens","Custom Starter","Defend","Delegate","Desperation","Dodge","Dog Years","Double Slice","Double Smack","Déjà Vu","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fossil","Gambit","Glass Bonds","Glass Camouflage","Glass Cannon","Glass Coating","Glass Resistance","Glass Wall","Glitter Bomb","Glitter Resistance","Grounded","Headshot","Hypnotise","Ice Breaker","Insomnia","Jagged Edge","Last Rites","Magic Tome","Meditate","Mind-Meld","Mountain Smash","Multi Shot","Multi Smack","Nod","Pity AP","Prismatic","Raise Arms","Raise Shields","Random Starter","Revolving Door","Ritual","Sandstorm","Self-Assured","Sharp Edges","Sharpen","Silicon Slash","Slice","Smack","Spit","Spray","Sprint","The Old 1-2","Trip","Unshakeable","Vengeful Curse","Wallop","Window","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Fortiwinx"
+}

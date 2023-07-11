@@ -1,0 +1,83 @@
+{
+  "name": "Glass Resistance",
+  "description": "Passively reduces incoming Glass-type damage by 50%, and negates any reactions that would occur. Does not affect critical hits.",
+  "categories":   [
+"MISC","PASSIVE"    ]
+
+  "type": "GLASS",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Averevoir",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Djinn Entonic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Glaistain",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Magikrab",
+      "source": "STICKER"
+    }    ,{
+      "name": "Malchemy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miasmodeus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miss Mimic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pondwalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Traffikrab",
+      "source": "STICKER"
+    }    ,{
+      "name": "Twirligig",
+      "source": "STICKER"
+    }    ,{
+      "name": "Weevilite",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Glass_Resistance"
+}

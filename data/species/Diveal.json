@@ -1,0 +1,32 @@
+{
+  "name": "Diveal",
+  "number": 45,
+  "type": "WATER",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Diveberg","Scubalrus"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 100,
+    "meleeDefense": 125,
+    "rangedAttack": 125,
+    "rangedDefense": 100,
+    "speed": 50,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Ice Coating"      ]
+
+    "learned":     [
+"Elemental Wall","Torrent","Ice Resistance","Ice Breaker","Undertow"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Bish Bash Bosh","Boil","Call For Help","Clobber","Cold Fusion","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Fog","Gambit","Headshot","Ice Breaker","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Last Rites","Multi Shot","Multi Smack","Nod","Pity AP","Raise Arms","Raise Shields","Random Starter","Self-Assured","Sharpen","Slice","Smack","Spit","Spray","Sprint","The Old 1-2","Torrent","Trip","Undertow","Unshakeable","Wallop","Water Camouflage","Water Coating","Water Wall","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Diveal"
+}

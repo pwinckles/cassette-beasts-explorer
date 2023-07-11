@@ -1,0 +1,74 @@
+{
+  "name": "Sure-Fire",
+  "description": "Guarantees the target’s next move won’t miss.",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "FIRE",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Locked On",
+      "kind": "BUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Artillerex",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Hedgeherne",
+      "source": "STICKER"
+    }    ,{
+      "name": "Huntorch",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pombomb",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pyromeleon",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Rockertrice",
+      "source": "STICKER"
+    }    ,{
+      "name": "Salamagus",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spitzfyre",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "STAR_3"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Sure-Fire"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Djinn Entonic",
+  "number": 112,
+  "type": "ASTRAL",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 100,
+    "meleeDefense": 150,
+    "rangedAttack": 150,
+    "rangedDefense": 100,
+    "speed": 150,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Compliment"      ]
+
+    "learned":     [
+"Moonshine","Bottle Volley","Glass Cannon","Haunt","Djinntoxicate"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Berserker","Bish Bash Bosh","Blood Donation","Bloodlust","Boil","Bottle Volley","Breathing Technique","Call For Help","Change the Record","Chemical Imbalance","Clobber","Coal Story","Compliment","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Djinntoxicate","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fireproof","Focus","Galactic Beatdown","Gambit","Glass Cannon","Glass Resistance","Guzzle Fuel","Haunt","Headshot","Hot Potato","Hypnotise","Insomnia","Last Rites","Life Absorb","Magic Tome","Meditate","Mind-Meld","Moonshine","Multi Shot","Multi Smack","Multicopy","Neutralise","Nod","Parry Stance","Peekaboo","Phase Shift","Pity AP","Pre-emptive Strike","Provoke","Raise Arms","Raise Shields","Random Starter","Revenge Strike","Ritual","Roll Again","Scorch","Sharpen","Shooting Star","Slice","Smack","Spit","Spray","Sprint","Taunt","The Old 1-2","Trick","Trip","Vengeful Curse","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Djinn_Entonic"
+}

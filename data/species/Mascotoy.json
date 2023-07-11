@@ -1,0 +1,32 @@
+{
+  "name": "Mascotoy",
+  "number": 80,
+  "type": "PLASTIC",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Mascotorn"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 150,
+    "meleeDefense": 100,
+    "rangedAttack": 80,
+    "rangedDefense": 80,
+    "speed": 70,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Trip"      ]
+
+    "learned":     [
+"Toy Hammer","Bite","Plastic Knife","Peekaboo","Trick"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Resistance","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Brick Blast","Call For Help","Change the Record","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Gambit","Glitter Bomb","Glitter Resistance","Haunt","Headshot","Heroic Blade","Hypnotise","Ice Breaker","Inflame","Jagged Edge","Last Rites","Life Absorb","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Phase Shift","Pity AP","Plastic Camouflage","Plastic Coating","Plastic Knife","Plastic Resistance","Plastic Wall","Pre-emptive Strike","Prismatic","Provoke","Raise Arms","Raise Shields","Random Starter","Recycle","Revenge Strike","Ritual","Roll Again","Self-Assured","Sharp Edges","Sharpen","Shield Bash","Silicon Slash","Slice","Smack","Spit","Spray","Sprint","Stab In The Dark","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trap Jaw","Trick","Trip","Unshakeable","Vampire","Vengeful Curse","Wallop","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Mascotoy"
+}

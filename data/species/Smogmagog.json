@@ -1,0 +1,32 @@
+{
+  "name": "Smogmagog",
+  "number": 97,
+  "type": "FIRE",
+  "remasterFrom": "Burnace",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 140,
+    "meleeAttack": 110,
+    "meleeDefense": 195,
+    "rangedAttack": 110,
+    "rangedDefense": 195,
+    "speed": 50,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Coal Story","Guzzle Fuel","Automation","Incinerate","Self-Destruct"      ]
+
+    "learned":     [
+"Superheated Fist","Critical Mass","Radiation Breath","Magnet","Shield Bash"      ]
+
+    "compatible":     [
+"Air Resistance","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Battery","Berserker","Bish Bash Bosh","Boil","Bottle Volley","Brick Blast","Broadcast","Burning Passion","Call For Help","Change the Record","Charge","Chemical Imbalance","Clobber","Coal Story","Cold Fusion","Compliment","Copper Chop","Copy That","Critical AP","Critical Mass","Criticise","Crossfade","Crumble","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Earth Resistance","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Gambit","Gear Shear","Glass Resistance","Grounded","Guzzle Fuel","Headshot","Incinerate","Inflame","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Plastic Camouflage","Plastic Coating","Plastic Wall","Provoke","Radiation Breath","Radioactive","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Recycle","Revolving Door","Scorch","Self-Destruct","Sharpen","Shield Bash","Shrapnel","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Superheated Fist","Sure-Fire","Taunt","The Old 1-2","Throw","Toy Hammer","Trip","Unicast","Unshakeable","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Smogmagog"
+}

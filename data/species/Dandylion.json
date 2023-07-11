@@ -1,0 +1,32 @@
+{
+  "name": "Dandylion",
+  "number": 26,
+  "type": "PLANT",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Blossomaw"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 80,
+    "meleeDefense": 120,
+    "rangedAttack": 100,
+    "rangedDefense": 120,
+    "speed": 60,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 5
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Defend"      ]
+
+    "learned":     [
+"Elemental Wall","Leech","Snooze Spore","Call For Help","Raise Shields"      ]
+
+    "compatible":     [
+"Acorn Mortar","AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Call For Help","Charge","Clobber","Compliment","Copycat","Cotton On","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Gambit","Headshot","Last Rites","Leech","Life Absorb","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Pity AP","Plant Camouflage","Plant Coating","Plant Resistance","Plant Wall","Poison Pollen","Raise Arms","Raise Shields","Random Starter","Sharpen","Slice","Smack","Snooze Spore","Spit","Splinter","Spray","Sprint","The Old 1-2","Trap Jaw","Treat","Trip","Wallop","Wink","Woodcutter","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Dandylion"
+}

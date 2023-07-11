@@ -1,0 +1,34 @@
+{
+  "name": "Binvasion",
+  "description": "Hits one target as many times as there are Binvaders on the user’s team.",
+  "categories":   [
+"ACTIVE","RANGED"    ]
+
+  "type": "FIRE",
+  "power": 30,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 3,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Binterloper",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Binvader",
+      "source": "STAR_5"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Binvasion"
+}

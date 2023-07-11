@@ -1,0 +1,107 @@
+{
+  "name": "Plastic Wall",
+  "description": "Sacrifice 20% of HP to create a wall that will absorb up to 3 hits for up to 3 turns.",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "PLASTIC",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Plastic Wall",
+      "kind": "BUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Arkidd",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Beanstalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binterloper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Binvader",
+      "source": "STICKER"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Burnace",
+      "source": "STICKER"
+    }    ,{
+      "name": "Clocksley",
+      "source": "STICKER"
+    }    ,{
+      "name": "Decibelle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gumbaal",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jumpkin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Magikrab",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotorn",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotoy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miss Mimic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Muskrateer",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Ratcousel",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Robindam",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sirenade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Traffikrab",
+      "source": "STICKER"
+    }    ,{
+      "name": "Twirligig",
+      "source": "STICKER"
+    }    ,{
+      "name": "Vendemon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Weevilite",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Plastic_Wall_(move)"
+}

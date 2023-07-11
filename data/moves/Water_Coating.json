@@ -1,0 +1,83 @@
+{
+  "name": "Water Coating",
+  "description": "Changes the type of the user or an ally.",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "WATER",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE_ALLY",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Water Coating",
+      "kind": "TRANSMUTATION"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Brushroom",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Diveal",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveberg",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faucetear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fountess",
+      "source": "STICKER"
+    }    ,{
+      "name": "Frillypad",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Liligator",
+      "source": "STICKER"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Magikrab",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Padpole",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pondwalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Regensea",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Scubalrus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spirouette",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Traffikrab",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Undyin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Weevilite",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Water_Coating_(move)"
+}

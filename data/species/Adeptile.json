@@ -1,0 +1,32 @@
+{
+  "name": "Adeptile",
+  "number": 123,
+  "type": "ASTRAL",
+  "remasterFrom": "Salamagus",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 110,
+    "meleeAttack": 80,
+    "meleeDefense": 180,
+    "rangedAttack": 150,
+    "rangedDefense": 180,
+    "speed": 100,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Raise Arms","Inflame","Damage Roll","Roll Again","Fire Wall","Sure-Fire"      ]
+
+    "learned":     [
+"Status Resistance","Ritual","Magic Tome","Nurse","Meditate"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Berserker","Bish Bash Bosh","Blood Donation","Bloodlust","Boil","Breathing Technique","Burning Passion","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Frozen Ground","Galactic Beatdown","Gambit","Guzzle Fuel","Haunt","Headshot","Hypnotise","Icicle Dart","Incinerate","Inflame","Insomnia","Last Rites","Life Absorb","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Multicopy","Neutralise","New Leaf","Nod","Nurse","Parry Stance","Peekaboo","Phase Shift","Pity AP","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Ritual","Roll Again","Scorch","Self-Destruct","Sharpen","Shield Bash","Shooting Star","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Sure-Fire","Taunt","The Old 1-2","Throw","Trick","Trip","Unshakeable","Vengeful Curse","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Adeptile"
+}

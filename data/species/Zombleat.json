@@ -1,0 +1,32 @@
+{
+  "name": "Zombleat",
+  "number": 22,
+  "type": "EARTH",
+  "remasterFrom": "Bansheep",
+  "remasterTo":   [
+"Capricorpse"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 130,
+    "meleeDefense": 130,
+    "rangedAttack": 110,
+    "rangedDefense": 130,
+    "speed": 110,
+    "attributeSum": 740,
+    "ap": 8,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Shear Luck","Battering Ram","Bite","Elemental Wall","Cotton On"      ]
+
+    "learned":     [
+"Bone Cannon","Coal Story","Multi Smack","Defend","Crumble"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Battering Ram","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Call For Help","Clobber","Coal Story","Compliment","Cotton On","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Fossil","Gambit","Grounded","Haunt","Headshot","Last Rites","Life Absorb","Mountain Smash","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Phase Shift","Pity AP","Provoke","Raise Arms","Raise Shields","Random Starter","Retribution","Ritual","Sandstorm","Self-Assured","Sharpen","Shear Luck","Shield Bash","Slice","Smack","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Trip","Unshakeable","Vengeful Curse","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Zombleat"
+}

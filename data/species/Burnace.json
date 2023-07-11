@@ -1,0 +1,32 @@
+{
+  "name": "Burnace",
+  "number": 96,
+  "type": "FIRE",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Smogmagog"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 60,
+    "meleeDefense": 150,
+    "rangedAttack": 100,
+    "rangedDefense": 150,
+    "speed": 40,
+    "attributeSum": 600,
+    "ap": 10,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Coal Story"      ]
+
+    "learned":     [
+"Guzzle Fuel","Automation","Incinerate","Brick Blast","Self-Destruct"      ]
+
+    "compatible":     [
+"Air Resistance","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Battery","Bish Bash Bosh","Boil","Bottle Volley","Brick Blast","Broadcast","Burning Passion","Call For Help","Change the Record","Charge","Chemical Imbalance","Clobber","Coal Story","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Earth Resistance","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Gambit","Gear Shear","Glass Resistance","Grounded","Guzzle Fuel","Headshot","Incinerate","Inflame","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Plastic Camouflage","Plastic Coating","Plastic Wall","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Recycle","Revolving Door","Scorch","Self-Destruct","Sharpen","Shrapnel","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Superheated Fist","Sure-Fire","The Old 1-2","Throw","Toy Hammer","Trip","Unicast","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Burnace"
+}

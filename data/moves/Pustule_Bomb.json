@@ -1,0 +1,103 @@
+{
+  "name": "Pustule Bomb",
+  "description": "Hits a whole team.",
+  "categories":   [
+"RANGED","ACTIVE"    ]
+
+  "type": "POISON",
+  "power": 60,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 4,
+  "target": "TEAM",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Poisoned",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Aeroboros",
+      "source": "STICKER"
+    }    ,{
+      "name": "Anathema",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Apocrowlypse",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Artillerex",
+      "source": "STICKER"
+    }    ,{
+      "name": "Auriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bulletino",
+      "source": "STICKER"
+    }    ,{
+      "name": "Carniviper",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ferriclaw",
+      "source": "STICKER"
+    }    ,{
+      "name": "Folklord",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jellyton",
+      "source": "STICKER"
+    }    ,{
+      "name": "Jormungold",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Macabra",
+      "source": "STICKER"
+    }    ,{
+      "name": "Malchemy",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Mardiusa",
+      "source": "STICKER"
+    }    ,{
+      "name": "Masquerattle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miasmodeus",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Nevermort",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Pombomb",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spitzfyre",
+      "source": "STICKER"
+    }    ,{
+      "name": "Velocirifle",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Pustule_Bomb"
+}

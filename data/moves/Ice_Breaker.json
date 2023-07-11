@@ -1,0 +1,121 @@
+{
+  "name": "Ice Breaker",
+  "description": "Hits one target. Lowers the target’s Speed.",
+  "categories":   [
+"MELEE","ACTIVE"    ]
+
+  "type": "ICE",
+  "power": 90,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 4,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Speed Down",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Artillerex",
+      "source": "STICKER"
+    }    ,{
+      "name": "Averevoir",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cryoshear",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Diveal",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Diveberg",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Elfless",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faerious",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Galagor",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Grampus",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Icepeck",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khepri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kingrave",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotorn",
+      "source": "STICKER"
+    }    ,{
+      "name": "Mascotoy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pawndead",
+      "source": "STICKER"
+    }    ,{
+      "name": "Picksie",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pondwalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Queenyx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ratcousel",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "STICKER"
+    }    ,{
+      "name": "Scubalrus",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Skelevangelist",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spooki-onna",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Stardigrade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Trapwurm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Undyin",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Wyrmaw",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Ice_Breaker"
+}

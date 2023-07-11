@@ -1,0 +1,32 @@
+{
+  "name": "Cat-5",
+  "number": 38,
+  "type": "LIGHTNING",
+  "remasterFrom": "Kittelly",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 160,
+    "meleeDefense": 100,
+    "rangedAttack": 120,
+    "rangedDefense": 120,
+    "speed": 150,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Criticise","Charge","Zoomies","Energy Shot","Copycat","Broadcast","Double Smack"      ]
+
+    "learned":     [
+"Fire Wall","Battery","Silicon Slash","Critical AP","Berserker"      ]
+
+    "compatible":     [
+"Air Resistance","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Broadcast","Call For Help","Change the Record","Charge","Clobber","Compliment","Copper Chop","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Wall","Flirt","Focus","Frozen Ground","Gambit","Gear Shear","Grounded","Headshot","Icicle Dart","Last Rites","Lightning Bolt","Lightning Camouflage","Lightning Coating","Lightning Wall","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Self-Destruct","Sharpen","Shrapnel","Silicon Slash","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Superheated Fist","The Old 1-2","Throw","Thunder Blast","Torrent","Toy Hammer","Trip","Unicast","Wallop","Wink","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Cat-5"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Fungogh",
+  "number": 70,
+  "type": "PLANT",
+  "remasterFrom": "Brushroom",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 160,
+    "meleeDefense": 160,
+    "rangedAttack": 100,
+    "rangedDefense": 140,
+    "speed": 120,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Plastic Coating","Paint Swipe","Elemental Wall","Water Coating","Poison Pollen","Snooze Spore","Leech"      ]
+
+    "learned":     [
+"Throw","Glitter Bomb","Woodcutter","Doc Leaf","The Old 1-2"      ]
+
+    "compatible":     [
+"Acorn Mortar","Air Camouflage","Air Coating","AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Bad Joke","Battery","bE rAnDoM!!","Beast Camouflage","Beast Coating","Bish Bash Bosh","Call For Help","Change the Record","Chemical Imbalance","Clobber","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Earth Camouflage","Earth Coating","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Camouflage","Fire Coating","Flirt","Focus","Frozen Ground","Gambit","Glass Camouflage","Glass Coating","Glitter Bomb","Glitter Resistance","Headshot","Ice Camouflage","Ice Coating","Icicle Dart","Inflame","Last Rites","Leech","Life Absorb","Lightning Camouflage","Lightning Coating","Metal Camouflage","Metal Coating","Multi Shot","Multi Smack","Multicopy","New Leaf","Nod","Paint Swipe","Peekaboo","Pity AP","Plant Camouflage","Plant Coating","Plant Resistance","Plant Wall","Plastic Camouflage","Plastic Coating","Plastic Resistance","Plastic Wall","Poison Camouflage","Poison Coating","Poison Pollen","Poison Resistance","Poison Wall","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharpen","Slice","Smack","Snooze Spore","Snow Rush","Spit","Splinter","Spray","Sprint","Sticky Spray","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Treat","Trick","Trip","Wallop","Water Camouflage","Water Coating","Wink","Woodcutter"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Fungogh"
+}

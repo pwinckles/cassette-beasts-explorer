@@ -1,0 +1,79 @@
+{
+  "name": "Undertow",
+  "description": "Hits the last fighter to take their turn before this move.",
+  "categories":   [
+"RANGED","ACTIVE"    ]
+
+  "type": "WATER",
+  "power": 90,
+  "numHits":   {
+    "min": 1,
+    "max": 1
+  },
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Diveal",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Diveberg",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Faucetear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fountess",
+      "source": "STICKER"
+    }    ,{
+      "name": "Frillypad",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Liligator",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Magikrab",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Padpole",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pondwalker",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Regensea",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Scubalrus",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Spirouette",
+      "source": "STICKER"
+    }    ,{
+      "name": "Traffikrab",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Undyin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Weevilite",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Undertow"
+}

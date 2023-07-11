@@ -1,0 +1,32 @@
+{
+  "name": "Puppercut",
+  "number": 39,
+  "type": "METAL",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Southpaw"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 120,
+    "meleeDefense": 110,
+    "rangedAttack": 80,
+    "rangedDefense": 80,
+    "speed": 110,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sharpen"      ]
+
+    "learned":     [
+"Double Smack","Metal Wall","Copper Chop","Dog Years","Sharp Edges"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Astral Resistance","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Call For Help","Clobber","Compliment","Copper Chop","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Dog Years","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Gear Shear","Grounded","Haunt","Headshot","Icicle Dart","Iron Filings","Jagged Edge","Last Rites","Life Absorb","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Multicopy","Nod","Phase Shift","Pity AP","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Ritual","Roll Again","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Sturdy Armour","Superheated Fist","The Old 1-2","Throw","Toy Hammer","Trip","Vengeful Curse","Wallop","Wink","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Puppercut"
+}

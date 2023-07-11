@@ -1,0 +1,113 @@
+{
+  "name": "Meditate",
+  "description": "Puts the user to sleep. Increases the user’s attack and defence stats every turn it’s asleep.",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "ASTRAL",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 3,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Meditating",
+      "kind": "BUFF"
+    }    ,{
+      "name": "Sleep",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Aeroboros",
+      "source": "STICKER"
+    }    ,{
+      "name": "Allseer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Braxsuit",
+      "source": "STICKER"
+    }    ,{
+      "name": "Djinn Entonic",
+      "source": "STICKER"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STICKER"
+    }    ,{
+      "name": "Elfless",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faerious",
+      "source": "STICKER"
+    }    ,{
+      "name": "Flapwoods",
+      "source": "STICKER"
+    }    ,{
+      "name": "Folklord",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fortiwinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Galagor",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Grampus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khufo",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kuneko",
+      "source": "STICKER"
+    }    ,{
+      "name": "Magikrab",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Mascotorn",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miasmodeus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pyromeleon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ramtasm",
+      "source": "STICKER"
+    }    ,{
+      "name": "Salamagus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Scampire",
+      "source": "STICKER"
+    }    ,{
+      "name": "Shining Kuneko",
+      "source": "STICKER"
+    }    ,{
+      "name": "Snoopin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spooki-onna",
+      "source": "STICKER"
+    }    ,{
+      "name": "Stardigrade",
+      "source": "STAR_1"
+    }    ,{
+      "name": "Triphinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wooltergeist",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Meditate"
+}

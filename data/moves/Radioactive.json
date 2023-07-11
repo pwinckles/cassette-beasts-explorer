@@ -1,0 +1,46 @@
+{
+  "name": "Radioactive",
+  "description": "Chance to burn an opponent automatically upon melee contact.",
+  "categories":   [
+"PASSIVE","STATUS","AUTOMATED"    ]
+
+  "type": "FIRE",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 0,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Burned",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Allseer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Flapwoods",
+      "source": "STICKER"
+    }    ,{
+      "name": "Galagor",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gearyu",
+      "source": "STICKER"
+    }    ,{
+      "name": "Khufo",
+      "source": "STICKER"
+    }    ,{
+      "name": "Smogmagog",
+      "source": "STICKER"
+    }    ,{
+      "name": "Triphinx",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Radioactive"
+}

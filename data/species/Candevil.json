@@ -1,0 +1,32 @@
+{
+  "name": "Candevil",
+  "number": 14,
+  "type": "BEAST",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Malchemy","Vendemon"    ]
+
+  "stats":   {
+    "hp": 115,
+    "meleeAttack": 110,
+    "meleeDefense": 100,
+    "rangedAttack": 110,
+    "rangedDefense": 105,
+    "speed": 100,
+    "attributeSum": 640,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sugar Rush"      ]
+
+    "learned":     [
+"Bon Bon Blast","Raise Arms","Bite","Elemental Wall","Taunt"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bon Bon Blast","Bone Cannon","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fireproof","Focus","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Haunt","Headshot","Hot Potato","Icicle Dart","Inflame","Last Rites","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Scorch","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Sugar Rush","Taunt","The Old 1-2","Trap Jaw","Treat","Trick","Trip","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Candevil"
+}

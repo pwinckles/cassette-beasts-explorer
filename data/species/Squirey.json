@@ -1,0 +1,32 @@
+{
+  "name": "Squirey",
+  "number": 34,
+  "type": "BEAST",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Palangolin","Manispear"    ]
+
+  "stats":   {
+    "hp": 90,
+    "meleeAttack": 110,
+    "meleeDefense": 110,
+    "rangedAttack": 100,
+    "rangedDefense": 90,
+    "speed": 100,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sharpen"      ]
+
+    "learned":     [
+"Copper Chop","Parry Stance","Quick Smack","Slice","Dodge"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Headshot","Heroic Blade","Icicle Dart","Jagged Edge","Last Rites","Multi Shot","Multi Smack","Nod","Parry Stance","Pity AP","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharp Edges","Sharpen","Silicon Slash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Stab In The Dark","Superheated Fist","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trip","Wallop","Wink","Woodcutter"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Squirey"
+}

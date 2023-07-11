@@ -1,0 +1,29 @@
+{
+  "name": "Tripwire",
+  "description": "Chance to automatically use the next move in the list, for 0 AP, when an opponent uses a melee attack. The chance is reduced in proportion to the move’s normal AP cost.",
+  "categories":   [
+"PASSIVE","MISC","AUTOMATED"    ]
+
+  "type": "METAL",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": false,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Auriclaw",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Ferriclaw",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Tripwire"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Cryoshear",
+  "number": 107,
+  "type": "ICE",
+  "remasterFrom": "Icepeck",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 180,
+    "meleeDefense": 90,
+    "rangedAttack": 90,
+    "rangedDefense": 90,
+    "speed": 200,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sprint","Snow Rush","Sharpen","Trip","Frozen Ground","Icicle Dart"      ]
+
+    "learned":     [
+"Sharp Edges","Double Slice","Toxic Stab","Dual Wield","Ice Breaker"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Avalanche","Battery","Berserker","Bish Bash Bosh","Blizzard","Charge","Clobber","Cold Fusion","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Crumble","Crystal Lens","Custom Starter","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Frozen Ground","Gambit","Headshot","Heroic Blade","Ice Breaker","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Icicle Dart","Jagged Edge","Last Rites","Mountain Smash","Multi Shot","Multi Smack","Nod","Parry Stance","Pity AP","Plastic Knife","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharp Edges","Sharpen","Shield Bash","Silicon Slash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Stab In The Dark","Status Resistance","Sturdy Armour","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trip","Unshakeable","Wallop","Wink","Woodcutter"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Cryoshear"
+}

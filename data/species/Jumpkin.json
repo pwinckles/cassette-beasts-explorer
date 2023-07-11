@@ -1,0 +1,32 @@
+{
+  "name": "Jumpkin",
+  "number": 89,
+  "type": "PLANT",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Draculeaf","Beanstalker"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 100,
+    "meleeDefense": 100,
+    "rangedAttack": 75,
+    "rangedDefense": 100,
+    "speed": 140,
+    "attributeSum": 645,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Pumpkin Pie"      ]
+
+    "learned":     [
+"Jump Scare","Trick","Treat","Bite","Plant Wall"      ]
+
+    "compatible":     [
+"Acorn Mortar","AP Boost","AP Drain","AP Refund","AP Starter","Astral Resistance","Bish Bash Bosh","Bite","Blood Donation","Call For Help","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Haunt","Headshot","Hot Potato","Icicle Dart","Jump Scare","Last Rites","Leech","Life Absorb","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Phase Shift","Pity AP","Plant Camouflage","Plant Coating","Plant Resistance","Plant Wall","Plastic Resistance","Plastic Wall","Poison Pollen","Pumpkin Pie","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Ritual","Roll Again","Sharpen","Slice","Smack","Snooze Spore","Snow Rush","Spit","Splinter","Spray","Sprint","The Old 1-2","Toy Hammer","Trap Jaw","Treat","Trick","Trip","Vengeful Curse","Wallop","Wink","Woodcutter"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Jumpkin"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Blossomaw",
+  "number": 27,
+  "type": "PLANT",
+  "remasterFrom": "Dandylion",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 160,
+    "meleeAttack": 100,
+    "meleeDefense": 160,
+    "rangedAttack": 130,
+    "rangedDefense": 160,
+    "speed": 90,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Defend","Elemental Wall","Leech","Snooze Spore","Call For Help","Raise Shields"      ]
+
+    "learned":     [
+"Cotton On","New Leaf","Doc Leaf","AP Donate","Poison Pollen"      ]
+
+    "compatible":     [
+"Acorn Mortar","AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Boil","Bone Cannon","Burning Passion","Call For Help","Charge","Clobber","Coal Story","Compliment","Copycat","Cotton On","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Flirt","Focus","Gambit","Guzzle Fuel","Headshot","Incinerate","Inflame","Last Rites","Leech","Life Absorb","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Pity AP","Plant Camouflage","Plant Coating","Plant Resistance","Plant Wall","Poison Pollen","Provoke","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Scorch","Self-Destruct","Sharpen","Shield Bash","Slice","Smack","Snooze Spore","Spit","Splinter","Spray","Sprint","Status Resistance","Sturdy Armour","Sure-Fire","Taunt","The Old 1-2","Throw","Trap Jaw","Treat","Trip","Unshakeable","Wallop","Wink","Woodcutter","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Blossomaw"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Plasmantler",
+  "number": 72,
+  "type": "LIGHTNING",
+  "remasterFrom": "Boltam",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 120,
+    "meleeDefense": 120,
+    "rangedAttack": 120,
+    "rangedDefense": 160,
+    "speed": 160,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Broadcast","Charge","Battery","Thunder Blast","Bolt From The Blue"      ]
+
+    "learned":     [
+"Magnet","Lightning Wall","Energy Wave","The Old 1-2","Iron Filings"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bolt From The Blue","Broadcast","Charge","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Flirt","Focus","Frozen Ground","Gambit","Gear Shear","Glitter Bomb","Glitter Resistance","Grounded","Headshot","Icicle Dart","Iron Filings","Jagged Edge","Last Rites","Lightning Bolt","Lightning Camouflage","Lightning Coating","Lightning Wall","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Prismatic","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Superheated Fist","Taunt","The Old 1-2","Throw","Thunder Blast","Toy Hammer","Trip","Unicast","Unshakeable","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Plasmantler"
+}

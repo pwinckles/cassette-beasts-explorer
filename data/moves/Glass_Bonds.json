@@ -1,0 +1,41 @@
+{
+  "name": "Glass Bonds",
+  "description": "Damages the target each time it transforms.",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "GLASS",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Glass Bonds",
+      "kind": "DEBUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Fortiwinx",
+      "source": "STICKER"
+    }    ,{
+      "name": "Glaistain",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Pondwalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sharktanker",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Glass_Bonds_(move)"
+}

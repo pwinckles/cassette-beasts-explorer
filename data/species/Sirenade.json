@@ -1,0 +1,32 @@
+{
+  "name": "Sirenade",
+  "number": 24,
+  "type": "AIR",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Decibelle"    ]
+
+  "stats":   {
+    "hp": 110,
+    "meleeAttack": 70,
+    "meleeDefense": 80,
+    "rangedAttack": 130,
+    "rangedDefense": 120,
+    "speed": 90,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Dodge","Call For Help"      ]
+
+    "learned":     [
+"Sonic Boom","Provoke","Air Wall","Taunt","New Leaf"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Bish Bash Bosh","Blood Donation","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Headshot","Hurricane","Icicle Dart","Inflame","Last Rites","Life Absorb","Metal Riff","Multi Shot","Multi Smack","Multicopy","Neutralise","New Leaf","Nod","Nurse","Peekaboo","Pity AP","Plastic Resistance","Plastic Wall","Prismatic","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharpen","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Taunt","The Old 1-2","Throw","Toy Hammer","Treat","Trick","Trip","Unicast","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Sirenade"
+}

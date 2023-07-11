@@ -1,0 +1,32 @@
+{
+  "name": "Rockertrice",
+  "number": 101,
+  "type": "AIR",
+  "remasterFrom": "Cluckabilly",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 145,
+    "meleeDefense": 130,
+    "rangedAttack": 135,
+    "rangedDefense": 130,
+    "speed": 130,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Nod","Double Smack","Air Wall","bE rAnDoM!!","Metal Riff"      ]
+
+    "learned":     [
+"Stony Look","Inflame","Echolocation","Sonic Boom","Incinerate"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Bish Bash Bosh","Boil","Broadcast","Burning Passion","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Fog","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Guzzle Fuel","Headshot","Hurricane","Incinerate","Inflame","Last Rites","Metal Riff","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Provoke","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Scorch","Self-Destruct","Sharpen","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Stony Look","Sure-Fire","Taunt","The Old 1-2","Throw","Treat","Trick","Trip","Unicast","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Rockertrice"
+}

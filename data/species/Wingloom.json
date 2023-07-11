@@ -1,0 +1,32 @@
+{
+  "name": "Wingloom",
+  "number": 31,
+  "type": "LIGHTNING",
+  "remasterFrom": "Dominoth",
+  "remasterTo":   [
+"Mothmanic"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 100,
+    "meleeDefense": 120,
+    "rangedAttack": 100,
+    "rangedDefense": 120,
+    "speed": 90,
+    "attributeSum": 650,
+    "ap": 7,
+    "moveSlots": 5
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Zephyr","Taunt","Dodge","Air Wall"      ]
+
+    "learned":     [
+"Thunder Blast","Air Coating","Energy Shot","Fog","Broadcast"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Bone Cannon","Broadcast","Call For Help","Change the Record","Charge","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Gambit","Grounded","Headshot","Hurricane","Hypnotise","Last Rites","Leech","Lightning Bolt","Lightning Camouflage","Lightning Coating","Lightning Wall","Magnet","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Pre-emptive Strike","Provoke","Raise Arms","Raise Shields","Random Starter","Revenge Strike","Roll Again","Sharpen","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Sticky Spray","Taunt","The Old 1-2","Throw","Thunder Blast","Trick","Trip","Unicast","Vampire","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Wingloom"
+}

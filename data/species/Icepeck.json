@@ -1,0 +1,32 @@
+{
+  "name": "Icepeck",
+  "number": 106,
+  "type": "ICE",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Cryoshear"    ]
+
+  "stats":   {
+    "hp": 80,
+    "meleeAttack": 150,
+    "meleeDefense": 80,
+    "rangedAttack": 80,
+    "rangedDefense": 80,
+    "speed": 190,
+    "attributeSum": 660,
+    "ap": 6,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sprint"      ]
+
+    "learned":     [
+"Snow Rush","Sharpen","Trip","Frozen Ground","Icicle Dart"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Avalanche","Bish Bash Bosh","Blizzard","Charge","Clobber","Cold Fusion","Compliment","Critical AP","Criticise","Crossfade","Crumble","Crystal Lens","Custom Starter","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Headshot","Ice Breaker","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Icicle Dart","Jagged Edge","Last Rites","Mountain Smash","Multi Shot","Multi Smack","Nod","Pity AP","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","The Old 1-2","Trip","Unshakeable","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Icepeck"
+}

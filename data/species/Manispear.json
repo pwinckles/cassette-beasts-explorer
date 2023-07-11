@@ -1,0 +1,32 @@
+{
+  "name": "Manispear",
+  "number": 35,
+  "type": "METAL",
+  "remasterFrom": "Squirey",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 110,
+    "meleeAttack": 120,
+    "meleeDefense": 170,
+    "rangedAttack": 100,
+    "rangedDefense": 150,
+    "speed": 100,
+    "attributeSum": 750,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sharpen","Copper Chop","Parry Stance","Quick Smack","Slice","Dodge"      ]
+
+    "learned":     [
+"Sturdy Armour","Bloodlust","Defend","Shield Bash","The Old 1-2"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Bone Cannon","Call For Help","Change the Record","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Frozen Ground","Gambit","Gear Shear","Grounded","Headshot","Heroic Blade","Hypnotise","Icicle Dart","Iron Filings","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Roll Again","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Silicon Slash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Stab In The Dark","Status Resistance","Sturdy Armour","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trick","Trip","Unshakeable","Wallop","Wink","Woodcutter"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Manispear"
+}

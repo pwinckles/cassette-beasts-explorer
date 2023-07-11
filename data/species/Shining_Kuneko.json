@@ -1,0 +1,32 @@
+{
+  "name": "Shining Kuneko",
+  "number": 111,
+  "type": "ASTRAL",
+  "remasterFrom": "Kuneko",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 140,
+    "meleeAttack": 140,
+    "meleeDefense": 140,
+    "rangedAttack": 140,
+    "rangedDefense": 140,
+    "speed": 140,
+    "attributeSum": 840,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Wink","Double Slice","Sharp Edges","Bad Joke","Air Wall","bE rAnDoM!!"      ]
+
+    "learned":     [
+"Ritual","Shooting Star","Galactic Beatdown","Broadcast","Cosmic Kunai"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Bad Joke","Battery","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Bloodlust","Breathing Technique","Broadcast","Call For Help","Change the Record","Charge","Clobber","Compliment","Copper Chop","Copy That","Copycat","Cosmic Kunai","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Frozen Ground","Galactic Beatdown","Gambit","Glitter Bomb","Glitter Resistance","Haunt","Headshot","Heroic Blade","Hurricane","Hypnotise","Icicle Dart","Inflame","Insomnia","Jagged Edge","Last Rites","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Multicopy","Neutralise","Nod","Parry Stance","Peekaboo","Phase Shift","Pity AP","Plastic Knife","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Ritual","Roll Again","Sharp Edges","Sharpen","Shooting Star","Silicon Slash","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Stab In The Dark","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trap Jaw","Treat","Trick","Trip","Unicast","Vengeful Curse","Wallop","Wink","Zephyr","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Shining_Kuneko"
+}

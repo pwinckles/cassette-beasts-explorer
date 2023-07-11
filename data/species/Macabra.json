@@ -1,0 +1,32 @@
+{
+  "name": "Macabra",
+  "number": 28,
+  "type": "BEAST",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Folklord"    ]
+
+  "stats":   {
+    "hp": 140,
+    "meleeAttack": 120,
+    "meleeDefense": 60,
+    "rangedAttack": 100,
+    "rangedDefense": 100,
+    "speed": 120,
+    "attributeSum": 640,
+    "ap": 6,
+    "moveSlots": 3
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Nod"      ]
+
+    "learned":     [
+"Bite","Abramacabra","Bone Cannon","Desperation","Blood Donation"      ]
+
+    "compatible":     [
+"Abramacabra","AP Boost","AP Drain","AP Refund","AP Starter","Astral Resistance","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Boil","Bone Cannon","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Gambit","Guzzle Fuel","Haunt","Headshot","Inflame","Last Rites","Life Absorb","Multi Shot","Multi Smack","Nod","Phase Shift","Pity AP","Poison Resistance","Pustule Bomb","Raise Arms","Raise Shields","Random Starter","Ritual","Sharpen","Slice","Smack","Spit","Spray","Sprint","The Old 1-2","Trap Jaw","Trip","Vampire","Vengeful Curse","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Macabra"
+}

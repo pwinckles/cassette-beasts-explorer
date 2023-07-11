@@ -1,0 +1,32 @@
+{
+  "name": "Coaldron",
+  "number": 77,
+  "type": "EARTH",
+  "remasterFrom": "Terracooka",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 160,
+    "meleeAttack": 110,
+    "meleeDefense": 140,
+    "rangedAttack": 160,
+    "rangedDefense": 140,
+    "speed": 90,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 5
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Clay-Fired","Hot Potato","Earth Wall","Sandstorm","Crumble"      ]
+
+    "learned":     [
+"Boil","AP Refund","Multi Shot","Focus","Headshot"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Bish Bash Bosh","Boil","Bottle Volley","Call For Help","Chemical Imbalance","Clay-Fired","Clobber","Close Encounter","Coal Story","Compliment","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fireproof","Focus","Fossil","Galactic Beatdown","Gambit","Grounded","Headshot","Heroic Blade","Hot Potato","Jagged Edge","Last Rites","Moonshine","Mountain Smash","Multi Shot","Multi Smack","Nod","Pity AP","Plastic Knife","Raise Arms","Raise Shields","Random Starter","Sandstorm","Scorch","Sharp Edges","Sharpen","Shooting Star","Silicon Slash","Slice","Smack","Spit","Spray","Sprint","Stab In The Dark","The Old 1-2","Toxic Stab","Trip","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Coaldron"
+}

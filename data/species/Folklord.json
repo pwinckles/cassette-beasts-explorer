@@ -1,0 +1,32 @@
+{
+  "name": "Folklord",
+  "number": 29,
+  "type": "BEAST",
+  "remasterFrom": "Macabra",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 140,
+    "meleeAttack": 135,
+    "meleeDefense": 135,
+    "rangedAttack": 100,
+    "rangedDefense": 120,
+    "speed": 120,
+    "attributeSum": 750,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Nod","Bite","Abramacabra","Bone Cannon","Desperation","Blood Donation"      ]
+
+    "learned":     [
+"Copy That","Multi Smack","Crossfade","Ritual","Clobber"      ]
+
+    "compatible":     [
+"Abramacabra","AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Boil","Bone Cannon","Breathing Technique","Clobber","Compliment","Copper Chop","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Gambit","Guzzle Fuel","Haunt","Headshot","Hypnotise","Inflame","Insomnia","Last Rites","Life Absorb","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Multicopy","Nod","Phase Shift","Pity AP","Poison Resistance","Pustule Bomb","Raise Arms","Raise Shields","Random Starter","Ritual","Sharpen","Slice","Smack","Spit","Spray","Sprint","Superheated Fist","The Old 1-2","Throw","Toy Hammer","Trap Jaw","Trip","Vampire","Vengeful Curse","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Folklord"
+}

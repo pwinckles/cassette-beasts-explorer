@@ -1,0 +1,32 @@
+{
+  "name": "Malchemy",
+  "number": 15,
+  "type": "POISON",
+  "remasterFrom": "Candevil",
+  "remasterTo":   [
+"Miasmodeus"    ]
+
+  "stats":   {
+    "hp": 120,
+    "meleeAttack": 125,
+    "meleeDefense": 110,
+    "rangedAttack": 145,
+    "rangedDefense": 110,
+    "speed": 130,
+    "attributeSum": 740,
+    "ap": 8,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Sugar Rush","Bon Bon Blast","Bite","Elemental Wall","Taunt"      ]
+
+    "learned":     [
+"Trick","Pustule Bomb","Chemical Imbalance","Toxic Stab","Poison Coating"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Bad Joke","Battery","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bon Bon Blast","Bone Cannon","Bottle Volley","Call For Help","Change the Record","Chemical Imbalance","Clobber","Coal Story","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fireproof","Focus","Frozen Ground","Gambit","Glass Cannon","Glass Resistance","Glitter Bomb","Glitter Resistance","Haunt","Headshot","Hot Potato","Icicle Dart","Inflame","Last Rites","Moonshine","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Scorch","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Sticky Spray","Sugar Rush","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trap Jaw","Treat","Trick","Trip","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Malchemy"
+}

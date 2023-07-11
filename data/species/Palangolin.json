@@ -1,0 +1,32 @@
+{
+  "name": "Palangolin",
+  "number": 36,
+  "type": "METAL",
+  "remasterFrom": "Squirey",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 120,
+    "meleeDefense": 120,
+    "rangedAttack": 100,
+    "rangedDefense": 100,
+    "speed": 160,
+    "attributeSum": 750,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sharpen","Copper Chop","Parry Stance","Quick Smack","Slice","Dodge"      ]
+
+    "learned":     [
+"Metal Wall","Fair Fight","Wink","Multi Smack","Retribution"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fair Fight","Focus","Frozen Ground","Gambit","Gear Shear","Grounded","Headshot","Heroic Blade","Icicle Dart","Iron Filings","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Parry Stance","Pity AP","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Retribution","Roll Again","Self-Assured","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Silicon Slash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Stab In The Dark","Sturdy Armour","Superheated Fist","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trip","Unshakeable","Wallop","Wink","Woodcutter"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Palangolin"
+}

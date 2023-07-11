@@ -1,0 +1,41 @@
+{
+  "name": "Dog Years",
+  "description": "Extends the duration of the target’s status effects.",
+  "categories":   [
+"ACTIVE","MISC"    ]
+
+  "type": "BEAST",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 4,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Fortiwinx",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Pombomb",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Puppercut",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Sanzatime",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Southpaw",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Spitzfyre",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Dog_Years"
+}

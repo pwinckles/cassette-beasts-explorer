@@ -1,0 +1,32 @@
+{
+  "name": "Regensea",
+  "number": 88,
+  "type": "WATER",
+  "remasterFrom": "Spirouette",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 170,
+    "meleeAttack": 115,
+    "meleeDefense": 100,
+    "rangedAttack": 145,
+    "rangedDefense": 100,
+    "speed": 170,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Sprint","Icicle Dart","Water Wall","Quick Smack","Water Coating","Torrent","Fog"      ]
+
+    "learned":     [
+"Undertow","Delegate","Energy Wave","Water Dance","Headshot"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","Bish Bash Bosh","Boil","Call For Help","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Flirt","Focus","Fog","Frozen Ground","Gambit","Headshot","Icicle Dart","Last Rites","Multi Shot","Multi Smack","Nod","Pity AP","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","The Old 1-2","Torrent","Trip","Undertow","Wallop","Water Camouflage","Water Coating","Water Dance","Water Wall","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Regensea"
+}

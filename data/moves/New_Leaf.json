@@ -1,0 +1,100 @@
+{
+  "name": "New Leaf",
+  "description": "Removes status effects from the target.",
+  "categories":   [
+"MISC","ACTIVE"    ]
+
+  "type": "PLANT",
+  "accuracy":   {
+    "@type": "UNAVOIDABLE"
+  },
+  "cost": 3,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Adeptile",
+      "source": "STICKER"
+    }    ,{
+      "name": "Aeroboros",
+      "source": "STICKER"
+    }    ,{
+      "name": "Bansheep",
+      "source": "STICKER"
+    }    ,{
+      "name": "Beanstalker",
+      "source": "STICKER"
+    }    ,{
+      "name": "Blossomaw",
+      "source": "STAR_2"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Busheye",
+      "source": "STICKER"
+    }    ,{
+      "name": "Capricorpse",
+      "source": "STICKER"
+    }    ,{
+      "name": "Dandylion",
+      "source": "STICKER"
+    }    ,{
+      "name": "Decibelle",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Draculeaf",
+      "source": "STICKER"
+    }    ,{
+      "name": "Frillypad",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Hedgeherne",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Huntorch",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Jumpkin",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kirikuri",
+      "source": "STICKER"
+    }    ,{
+      "name": "Liligator",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Padpole",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pyromeleon",
+      "source": "STICKER"
+    }    ,{
+      "name": "Ramtasm",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Salamagus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sirenade",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Twirligig",
+      "source": "STICKER"
+    }    ,{
+      "name": "Wooltergeist",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Zombleat",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/New_Leaf"
+}

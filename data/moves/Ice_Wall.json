@@ -1,0 +1,71 @@
+{
+  "name": "Ice Wall",
+  "description": "Sacrifice 20% of HP to create a wall that will absorb up to 3 hits for up to 3 turns.",
+  "categories":   [
+"STATUS","ACTIVE"    ]
+
+  "type": "ICE",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 2,
+  "target": "SINGLE",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    {
+      "name": "Ice Wall",
+      "kind": "BUFF"
+    }    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Cryoshear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveal",
+      "source": "STICKER"
+    }    ,{
+      "name": "Diveberg",
+      "source": "STICKER"
+    }    ,{
+      "name": "Elfless",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Faerious",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Faucetear",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fountess",
+      "source": "STICKER"
+    }    ,{
+      "name": "Grampus",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Icepeck",
+      "source": "STICKER"
+    }    ,{
+      "name": "Lobstacle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Scubalrus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Sparktan",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spooki-onna",
+      "source": "STICKER"
+    }    ,{
+      "name": "Undyin",
+      "source": "STAR_3"
+    }    ,{
+      "name": "Zeustrike",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Ice_Wall_(move)"
+}

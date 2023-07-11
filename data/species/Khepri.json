@@ -1,0 +1,32 @@
+{
+  "name": "Khepri",
+  "number": 116,
+  "type": "FIRE",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 1,
+    "meleeDefense": 100,
+    "rangedAttack": 300,
+    "rangedDefense": 250,
+    "speed": 79,
+    "attributeSum": 830,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Spit","Raise Arms","Unshakeable"      ]
+
+    "learned":     [
+"Crumble","Self-Destruct","Fire Wall","AP Boost","Rapid Fire"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Automation","Bish Bash Bosh","Boil","Broadcast","Burning Passion","Clobber","Close Encounter","Coal Story","Compliment","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Earth Resistance","Earth Wall","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Galactic Beatdown","Gambit","Gear Shear","Glitter Bomb","Grounded","Guzzle Fuel","Headshot","Hot Potato","Ice Breaker","Ice Resistance","Incinerate","Inflame","Last Rites","Leech","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Wall","Moonshine","Mountain Smash","Multi Shot","Multi Smack","Nod","Pity AP","Pustule Bomb","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Scorch","Self-Destruct","Sharpen","Shooting Star","Shrapnel","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Sticky Spray","Sure-Fire","The Old 1-2","Trip","Unshakeable","Vampire","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Khepri"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Thwackalope",
+  "number": 51,
+  "type": "AIR",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 110,
+    "meleeAttack": 180,
+    "meleeDefense": 110,
+    "rangedAttack": 110,
+    "rangedDefense": 110,
+    "speed": 180,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 5
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sprint"      ]
+
+    "learned":     [
+"Zoomies","Charge","Air Wall","Clobber","Pole Vault Assault"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Bish Bash Bosh","Broadcast","Charge","Clobber","Compliment","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Flirt","Focus","Fog","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Headshot","Hurricane","Icicle Dart","Last Rites","Multi Shot","Multi Smack","Nod","Pity AP","Pole Vault Assault","Prismatic","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Sharpen","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","The Old 1-2","Throw","Trip","Unicast","Wallop","Wink","Zephyr","Zoomies"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Thwackalope"
+}

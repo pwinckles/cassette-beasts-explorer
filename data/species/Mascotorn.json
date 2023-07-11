@@ -1,0 +1,32 @@
+{
+  "name": "Mascotorn",
+  "number": 81,
+  "type": "PLASTIC",
+  "remasterFrom": "Mascotoy",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 150,
+    "meleeAttack": 200,
+    "meleeDefense": 150,
+    "rangedAttack": 100,
+    "rangedDefense": 110,
+    "speed": 90,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 6
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Toy Hammer","Bite","Plastic Knife","Peekaboo","Trick"      ]
+
+    "learned":     [
+"Haunt","Stab In The Dark","Double Slice","Pity AP","Ritual"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Breathing Technique","Brick Blast","Call For Help","Change the Record","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Gambit","Glitter Bomb","Glitter Resistance","Haunt","Headshot","Heroic Blade","Hypnotise","Ice Breaker","Inflame","Insomnia","Jagged Edge","Last Rites","Life Absorb","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Phase Shift","Pity AP","Plastic Camouflage","Plastic Coating","Plastic Knife","Plastic Resistance","Plastic Wall","Pre-emptive Strike","Prismatic","Provoke","Raise Arms","Raise Shields","Random Starter","Recycle","Revenge Strike","Ritual","Roll Again","Self-Assured","Sharp Edges","Sharpen","Shield Bash","Silicon Slash","Slice","Smack","Spit","Spray","Sprint","Stab In The Dark","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trap Jaw","Trick","Trip","Unshakeable","Vampire","Vengeful Curse","Wallop","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Mascotorn"
+}

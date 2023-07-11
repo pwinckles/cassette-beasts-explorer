@@ -1,0 +1,32 @@
+{
+  "name": "Cluckabilly",
+  "number": 100,
+  "type": "AIR",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Rockertrice"    ]
+
+  "stats":   {
+    "hp": 100,
+    "meleeAttack": 115,
+    "meleeDefense": 90,
+    "rangedAttack": 105,
+    "rangedDefense": 90,
+    "speed": 100,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Nod"      ]
+
+    "learned":     [
+"Double Smack","Call For Help","Air Wall","bE rAnDoM!!","Metal Riff"      ]
+
+    "compatible":     [
+"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Bish Bash Bosh","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Headshot","Hurricane","Inflame","Last Rites","Metal Riff","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Provoke","Raise Arms","Raise Shields","Random Starter","Roll Again","Sharpen","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Taunt","The Old 1-2","Throw","Treat","Trick","Trip","Unicast","Wallop","Wink","Zephyr"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Cluckabilly"
+}

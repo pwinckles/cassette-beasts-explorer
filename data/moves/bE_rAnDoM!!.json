@@ -1,0 +1,92 @@
+{
+  "name": "bE rAnDoM!!",
+  "description": "Uses a random move that you have enough AP for.",
+  "categories":   [
+"ACTIVE","MISC"    ]
+
+  "type": "ASTRAL",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 0,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Apocrowlypse",
+      "source": "STICKER"
+    }    ,{
+      "name": "Brushroom",
+      "source": "STICKER"
+    }    ,{
+      "name": "Candevil",
+      "source": "STICKER"
+    }    ,{
+      "name": "Cluckabilly",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Decibelle",
+      "source": "STICKER"
+    }    ,{
+      "name": "Elfless",
+      "source": "STICKER"
+    }    ,{
+      "name": "Faerious",
+      "source": "STICKER"
+    }    ,{
+      "name": "Fungogh",
+      "source": "STICKER"
+    }    ,{
+      "name": "Grampus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Gumbaal",
+      "source": "STICKER"
+    }    ,{
+      "name": "Kuneko",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Malchemy",
+      "source": "STICKER"
+    }    ,{
+      "name": "Miasmodeus",
+      "source": "STICKER"
+    }    ,{
+      "name": "Muskrateer",
+      "source": "STICKER"
+    }    ,{
+      "name": "Nevermort",
+      "source": "STICKER"
+    }    ,{
+      "name": "Picksie",
+      "source": "STICKER"
+    }    ,{
+      "name": "Pombomb",
+      "source": "STAR_5"
+    }    ,{
+      "name": "Ratcousel",
+      "source": "STAR_4"
+    }    ,{
+      "name": "Rockertrice",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Shining Kuneko",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Sirenade",
+      "source": "STICKER"
+    }    ,{
+      "name": "Spitzfyre",
+      "source": "INITIAL"
+    }    ,{
+      "name": "Vendemon",
+      "source": "STICKER"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/BE_rAnDoM!!"
+}

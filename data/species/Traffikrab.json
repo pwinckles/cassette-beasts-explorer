@@ -1,0 +1,32 @@
+{
+  "name": "Traffikrab",
+  "number": 11,
+  "type": "PLASTIC",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"Magikrab","Lobstacle","Weevilite"    ]
+
+  "stats":   {
+    "hp": 80,
+    "meleeAttack": 120,
+    "meleeDefense": 80,
+    "rangedAttack": 120,
+    "rangedDefense": 110,
+    "speed": 90,
+    "attributeSum": 600,
+    "ap": 5,
+    "moveSlots": 4
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Traffic Jam"      ]
+
+    "learned":     [
+"Elemental Wall","Inflame","Multi Smack","Water Coating","Undertow"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Berserker","Bish Bash Bosh","Bloodlust","Boil","Bottle Volley","Brick Blast","Call For Help","Change the Record","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Gambit","Glass Resistance","Headshot","Hypnotise","Incinerate","Inflame","Last Rites","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Plastic Camouflage","Plastic Coating","Plastic Knife","Plastic Resistance","Plastic Wall","Pre-emptive Strike","Provoke","Raise Arms","Raise Shields","Random Starter","Recycle","Revenge Strike","Roll Again","Sharpen","Slice","Smack","Spit","Spray","Sprint","Taunt","The Old 1-2","Torrent","Toy Hammer","Traffic Jam","Trick","Trip","Undertow","Wallop","Water Camouflage","Water Coating","Waterproof","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Traffikrab"
+}

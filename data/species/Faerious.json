@@ -1,0 +1,32 @@
+{
+  "name": "Faerious",
+  "number": 68,
+  "type": "ICE",
+  "remasterFrom": "Elfless",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 160,
+    "meleeAttack": 160,
+    "meleeDefense": 100,
+    "rangedAttack": 120,
+    "rangedDefense": 100,
+    "speed": 160,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Sprint","Treat","Snow Rush","AP Donate","Ice Wall","Toy Hammer"      ]
+
+    "learned":     [
+"Sharp Edges","Parry Stance","Heroic Blade","Woodcutter","Glitter Bomb"      ]
+
+    "compatible":     [
+"AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Avalanche","Bad Joke","Battery","bE rAnDoM!!","Berserker","Bish Bash Bosh","Blizzard","Bloodlust","Breathing Technique","Call For Help","Change the Record","Clobber","Cold Fusion","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Crystal Lens","Custom Starter","Damage Roll","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Headshot","Heroic Blade","Hypnotise","Ice Breaker","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Icicle Dart","Inflame","Insomnia","Jagged Edge","Last Rites","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Multicopy","Neutralise","Nod","Nurse","Parry Stance","Peekaboo","Pity AP","Plant Resistance","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Ritual","Roll Again","Sharp Edges","Sharpen","Silicon Slash","Slice","Smack","Snow Rush","Spit","Splinter","Spray","Sprint","Stab In The Dark","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Treat","Trick","Trip","Vengeful Curse","Wallop","Wink","Woodcutter","Yule Regret That"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Faerious"
+}

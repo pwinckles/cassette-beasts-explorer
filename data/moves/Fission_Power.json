@@ -1,0 +1,26 @@
+{
+  "name": "Fission Power",
+  "description": "The user undergoes fission, dividing itself into two copies.",
+  "categories":   [
+"ACTIVE","MISC"    ]
+
+  "type": "TYPELESS",
+  "accuracy":   {
+    "@type": "AVOIDABLE",
+    "percentToHit": 100
+  },
+  "cost": 1,
+  "target": "SELF",
+  "copyable": true,
+  "priority": 0,
+  "statusEffects":   [
+    ]
+
+  "compatibleSpecies":   [
+    {
+      "name": "Anathema",
+      "source": "INITIAL"
+    }    ]
+
+  "url": "https://wiki.cassettebeasts.com/wiki/Fission_Power"
+}

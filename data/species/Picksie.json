@@ -1,0 +1,32 @@
+{
+  "name": "Picksie",
+  "number": 128,
+  "type": "EARTH",
+  "remasterFrom": "None",
+  "remasterTo":   [
+"None"    ]
+
+  "stats":   {
+    "hp": 130,
+    "meleeAttack": 130,
+    "meleeDefense": 130,
+    "rangedAttack": 130,
+    "rangedDefense": 130,
+    "speed": 150,
+    "attributeSum": 800,
+    "ap": 10,
+    "moveSlots": 8
+  },
+  "moves":   {
+    "initial":     [
+"Smack","Treasure Dig","Gemstone Wall","Peekaboo","Random Starter","Call For Help"      ]
+
+    "learned":     [
+"AP Steal","Coal Story","Crumble","Crystal Lens","Mountain Smash"      ]
+
+    "compatible":     [
+"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Bad Joke","Battery","bE rAnDoM!!","Berserker","Bish Bash Bosh","Bloodlust","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Crumble","Crystal Lens","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fossil","Frozen Ground","Gambit","Gemstone Wall","Glitter Bomb","Glitter Resistance","Grounded","Headshot","Hypnotise","Ice Breaker","Ice Resistance","Icicle Dart","Inflame","Last Rites","Mountain Smash","Multi Shot","Multi Smack","Multicopy","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Roll Again","Sandstorm","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Superheated Fist","Taunt","The Old 1-2","Throw","Toy Hammer","Treasure Dig","Treat","Trick","Trip","Unshakeable","Wallop","Wink"      ]
+
+  },
+  "url": "https://wiki.cassettebeasts.com/wiki/Picksie"
+}
