@@ -9,7 +9,7 @@ Java 17 or later is required.
 
 ### Prebuilt
 
-Download the latest prebuilt `cbe-cli.jar` from the releases page.
+Download the latest prebuilt `cbe-cli.jar` from the [releases page](https://github.com/pwinckles/cassette-beasts-explorer/releases).
 
 ### Build from source
 
