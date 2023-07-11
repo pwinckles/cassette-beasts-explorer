@@ -39,6 +39,9 @@ up arrow key to edit previous queries. To do this, start the CLI like: `rlwrap j
 
 ## Query Examples
 
+The data is indexed using Lucene, and queries must be written using Lucene's query syntax. Refer to the
+[Lucene documentation](https://lucene.apache.org/core/9_7_0/queryparser/org/apache/lucene/queryparser/flexible/standard/StandardQueryParser.html) for details.
+
 ### Species
 
 #### Filter species by attributes
