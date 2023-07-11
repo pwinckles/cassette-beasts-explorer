@@ -3,6 +3,8 @@
 Currently, this project is a searchable index of Cassette Beast species and moves. I may or may not create a more
 feature rich GUI for it in the future.
 
+All of the data used in this project was sourced from the excellent [Cassette Beasts wiki](https://wiki.cassettebeasts.com).
+
 ## Install
 
 Java 17 or later is required.
