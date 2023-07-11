@@ -2,6 +2,8 @@
 
 ## [Unreleased] - ReleaseDate
 
+## [1.0.1] - 2023-07-11
+
 ### Added
 
 - Index species without `remaster_from` or `remaster_to` values as `none`
@@ -11,5 +13,6 @@
 
 Initial release
 
-[Unreleased]: https://github.com/pwinckles/cassette-beasts-explorer/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/pwinckles/cassette-beasts-explorer/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/pwinckles/cassette-beasts-explorer/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/pwinckles/cassette-beasts-explorer/releases/tag/v1.0.0
