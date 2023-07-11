@@ -67,6 +67,12 @@ public final class Main {
             throws QueryNodeException, IOException {
         var results = searcher.search(query);
 
+        if (results.isEmpty()) {
+            System.out.println("No matches found");
+        } else {
+            System.out.printf("Found %s results%n%n", results.size());
+        }
+
         results.forEach(result -> {
             if (result instanceof SearchResult.SpeciesResult s) {
                 print(speciesMap.get(s.name()));
@@ -77,8 +83,6 @@ public final class Main {
 
         if (!results.isEmpty()) {
             System.out.println("=".repeat(80));
-        } else {
-            System.out.println("No matches found");
         }
     }
 
