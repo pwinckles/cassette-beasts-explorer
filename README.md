@@ -160,23 +160,23 @@ Query: compatible_species:beanstalker AND status_effect:defence AND status_effec
 
 ### Species
 
-| Index name      | Description                                                 |
-|-----------------|-------------------------------------------------------------|
-| species_num     | The species' number, formatted as an int                    |
-| species_name    | The name of the species                                     |
-| species_type    | The type of the species                                     |
-| hp              | The base HP attribute value                                 |
-| matk            | The base melee attack attribute value                       |
-| mdef            | The base melee defense attribute value                      |
-| ratk            | The base ranged attack attribute value                      |
-| rdef            | The base ranged defense attribute value                     |
-| spd             | The base speed attribute value                              |
-| attr_sum        | The sum of all of the base attribute values                 |
-| ap              | The number of available AP                                  |
-| slots           | The number of available move slots                          |
-| compatible_move | The name of a move that is compatible with the species      |
-| remaster_from   | The name of the prior form of the species                   |
-| remaster_to     | The name of the species this species may be remastered into |
+| Index name      | Description                                                             |
+|-----------------|-------------------------------------------------------------------------|
+| species_num     | The species' number, formatted as an int                                |
+| species_name    | The name of the species                                                 |
+| species_type    | The type of the species                                                 |
+| hp              | The base HP attribute value                                             |
+| matk            | The base melee attack attribute value                                   |
+| mdef            | The base melee defense attribute value                                  |
+| ratk            | The base ranged attack attribute value                                  |
+| rdef            | The base ranged defense attribute value                                 |
+| spd             | The base speed attribute value                                          |
+| attr_sum        | The sum of all of the base attribute values                             |
+| ap              | The number of available AP                                              |
+| slots           | The number of available move slots                                      |
+| compatible_move | The name of a move that is compatible with the species                  |
+| remaster_from   | The name of the prior form of the species, or `none`.                   |
+| remaster_to     | The name of the species this species may be remastered into, or `none`. |
 
 ### Moves
 

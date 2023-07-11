@@ -101,8 +101,9 @@ public final class Main {
                 | ap              | The number of available AP                                      |
                 | slots           | The number of available move slots                              |
                 | compatible_move | The name of a move that is compatible with the species          |
-                | remaster_from   | The name of the prior form of the species                       |
-                | remaster_to     | The name of the species this species may be remastered into     |
+                | remaster_from   | The name of the prior form of the species, or `none`            |
+                | remaster_to     | The name of the species this species may be remastered into, or |
+                |                 | `none`.                                                         |
 
                 ## Move indices ##
                 | Index name         | Description                                                  |

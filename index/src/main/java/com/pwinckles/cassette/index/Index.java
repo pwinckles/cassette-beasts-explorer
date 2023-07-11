@@ -10,6 +10,7 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.core.KeywordTokenizerFactory;
 import org.apache.lucene.analysis.core.LowerCaseFilterFactory;
@@ -36,6 +37,7 @@ public class Index implements AutoCloseable {
     public static final String DOC_TYPE_INDEX = "doc_type";
     public static final String DOC_TYPE_SPECIES = "species";
     public static final String DOC_TYPE_MOVE = "move";
+    public static final String NONE = "none";
 
     private static final Map<MoveCategory, String> CAT_MAP = Map.of(
             MoveCategory.MELEE, "melee attack",
@@ -96,10 +98,14 @@ public class Index implements AutoCloseable {
         doc.add(new IntField(SpeciesIndexNames.NUMBER, species.number(), Field.Store.NO));
         doc.add(new TextField(SpeciesIndexNames.NAME, species.name(), Field.Store.YES));
         doc.add(new TextField(SpeciesIndexNames.TYPE, species.type().name(), Field.Store.NO));
-        if (species.remasterFrom() != null) {
-            doc.add(new TextField(SpeciesIndexNames.REMASTER_FROM, species.remasterFrom(), Field.Store.NO));
-        }
+        doc.add(new TextField(
+                SpeciesIndexNames.REMASTER_FROM,
+                Objects.requireNonNullElse(species.remasterFrom(), NONE),
+                Field.Store.NO));
         species.remasterTo().forEach(to -> doc.add(new TextField(SpeciesIndexNames.REMASTER_TO, to, Field.Store.NO)));
+        if (species.remasterTo().isEmpty()) {
+            doc.add(new TextField(SpeciesIndexNames.REMASTER_TO, NONE, Field.Store.NO));
+        }
         doc.add(new IntField(SpeciesIndexNames.HP, species.stats().hp(), Field.Store.NO));
         doc.add(new IntField(SpeciesIndexNames.M_ATTACK, species.stats().meleeAttack(), Field.Store.NO));
         doc.add(new IntField(SpeciesIndexNames.M_DEFENSE, species.stats().meleeDefense(), Field.Store.NO));
