@@ -1,11 +1,9 @@
 package com.pwinckles.cassette.scraper;
 
-import com.pwinckles.cassette.common.model.Move;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import com.pwinckles.cassette.common.model.MoveBuilder;
-import com.pwinckles.cassette.common.model.Species;
 import com.pwinckles.cassette.common.model.SpeciesBuilder;
-import io.avaje.jsonb.JsonType;
-import io.avaje.jsonb.Jsonb;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -27,17 +25,14 @@ public class WikiScraper {
     private final SpeciesScraper speciesScraper;
     private final MoveScraper moveScraper;
 
-    private final JsonType<Species> speciesJsonType;
-    private final JsonType<Move> moveJsonType;
+    private final ObjectMapper objectMapper;
 
     private final Duration wait;
 
     public WikiScraper() {
         this.speciesScraper = new SpeciesScraper();
         this.moveScraper = new MoveScraper();
-        var jsonb = Jsonb.builder().build();
-        this.speciesJsonType = jsonb.type(Species.class);
-        this.moveJsonType = jsonb.type(Move.class);
+        this.objectMapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         this.wait = Duration.ofSeconds(1);
     }
 
@@ -62,8 +57,7 @@ public class WikiScraper {
             } else {
                 var url = BASE_URL + s.ref;
                 var scraped = SpeciesBuilder.from(speciesScraper.scrape(url)).withUrl(url);
-                var json = speciesJsonType.toJsonPretty(scraped);
-                Files.writeString(output, json);
+                objectMapper.writeValue(output.toFile(), scraped);
 
                 if (it.hasNext()) {
                     Thread.sleep(wait.toMillis());
@@ -88,8 +82,7 @@ public class WikiScraper {
             } else {
                 var url = BASE_URL + move.ref;
                 var scraped = MoveBuilder.from(moveScraper.scrape(url)).withUrl(url);
-                var json = moveJsonType.toJsonPretty(scraped);
-                Files.writeString(output, json);
+                objectMapper.writeValue(output.toFile(), scraped);
 
                 if (it.hasNext()) {
                     Thread.sleep(wait.toMillis());

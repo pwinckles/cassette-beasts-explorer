@@ -1,11 +1,9 @@
 package com.pwinckles.cassette.scraper;
 
-import com.pwinckles.cassette.common.model.Data;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.pwinckles.cassette.common.model.DataBuilder;
 import com.pwinckles.cassette.common.model.Move;
 import com.pwinckles.cassette.common.model.Species;
-import io.avaje.jsonb.JsonType;
-import io.avaje.jsonb.Jsonb;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.file.Files;
@@ -17,15 +15,10 @@ public class Assembler {
 
     private static final Logger log = LoggerFactory.getLogger(Assembler.class);
 
-    private JsonType<Data> dataJsonType;
-    private final JsonType<Species> speciesJsonType;
-    private final JsonType<Move> moveJsonType;
+    private final ObjectMapper objectMapper;
 
     public Assembler() {
-        var jsonb = Jsonb.builder().build();
-        this.dataJsonType = jsonb.type(Data.class);
-        this.speciesJsonType = jsonb.type(Species.class);
-        this.moveJsonType = jsonb.type(Move.class);
+        this.objectMapper = new ObjectMapper();
     }
 
     public void assemble(Path dir) throws IOException {
@@ -35,21 +28,19 @@ public class Assembler {
         var data = DataBuilder.builder();
 
         try (var files = Files.list(dir.resolve(Constants.SPECIES_DIR))) {
-            files.map(file -> readJson(file, speciesJsonType)).forEach(data::addSpecies);
+            files.map(file -> readJson(file, Species.class)).forEach(data::addSpecies);
         }
 
         try (var files = Files.list(dir.resolve(Constants.MOVES_DIR))) {
-            files.map(file -> readJson(file, moveJsonType)).forEach(data::addMoves);
+            files.map(file -> readJson(file, Move.class)).forEach(data::addMoves);
         }
 
-        try (var writer = Files.newBufferedWriter(outputFile)) {
-            dataJsonType.toJson(data.build(), writer);
-        }
+        objectMapper.writeValue(outputFile.toFile(), data.build());
     }
 
-    private <T> T readJson(Path file, JsonType<T> jsonType) {
-        try (var reader = Files.newBufferedReader(file)) {
-            return jsonType.fromJson(reader);
+    private <T> T readJson(Path file, Class<T> clazz) {
+        try {
+            return objectMapper.readValue(file.toFile(), clazz);
         } catch (IOException e) {
             throw new UncheckedIOException(e.getMessage(), e);
         }

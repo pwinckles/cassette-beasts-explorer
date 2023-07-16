@@ -1,5 +1,6 @@
 package com.pwinckles.cassette.cli;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.pwinckles.cassette.common.model.Data;
 import com.pwinckles.cassette.common.model.Move;
 import com.pwinckles.cassette.common.model.MoveAccuracy;
@@ -8,7 +9,6 @@ import com.pwinckles.cassette.common.model.MoveHits;
 import com.pwinckles.cassette.common.model.Species;
 import com.pwinckles.cassette.index.Index;
 import com.pwinckles.cassette.index.SearchResult;
-import io.avaje.jsonb.Jsonb;
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.util.Map;
@@ -187,10 +187,9 @@ public final class Main {
     }
 
     private static Data readData() throws IOException {
-        var jsonb = Jsonb.builder().build();
-        var dataJsonType = jsonb.type(Data.class);
+        var objectMapper = new ObjectMapper();
         try (var is = new BufferedInputStream(Main.class.getResourceAsStream("/data.json"))) {
-            return dataJsonType.fromJson(is);
+            return objectMapper.readValue(is, Data.class);
         }
     }
 

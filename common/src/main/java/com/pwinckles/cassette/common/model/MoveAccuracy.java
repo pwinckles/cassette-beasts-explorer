@@ -1,10 +1,13 @@
 package com.pwinckles.cassette.common.model;
 
-import io.avaje.jsonb.Json;
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
-@Json
-@Json.SubType(type = MoveAccuracy.Unavoidable.class, name = "UNAVOIDABLE")
-@Json.SubType(type = MoveAccuracy.Avoidable.class, name = "AVOIDABLE")
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "type")
+@JsonSubTypes({
+    @JsonSubTypes.Type(value = MoveAccuracy.Unavoidable.class, name = "UNAVOIDABLE"),
+    @JsonSubTypes.Type(value = MoveAccuracy.Avoidable.class, name = "AVOIDABLE")
+})
 public interface MoveAccuracy {
 
     record Unavoidable() implements MoveAccuracy {}

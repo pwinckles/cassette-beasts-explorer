@@ -1,12 +1,10 @@
 package com.pwinckles.cassette.common.model;
 
-import io.avaje.jsonb.Json;
 import io.soabase.recordbuilder.core.RecordBuilderFull;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
-@Json
 @RecordBuilderFull
 public record Move(
         String name,

@@ -19,13 +19,8 @@
     <dependencies>
         <!-- json -->
         <dependency>
-            <groupId>io.avaje</groupId>
-            <artifactId>avaje-jsonb</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.avaje</groupId>
-            <artifactId>avaje-jsonb-generator</artifactId>
-            <scope>provided</scope>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
         </dependency>
 
         <!-- Lang ergonomics -->

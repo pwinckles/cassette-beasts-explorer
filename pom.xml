@@ -40,7 +40,7 @@
         <slf4j.version>2.0.7</slf4j.version>
         <record-builder.version>36</record-builder.version>
         <lucene.version>9.7.0</lucene.version>
-        <avaje.jsonb.version>1.6-RC5</avaje.jsonb.version>
+        <jackson.version>2.15.2</jackson.version>
     </properties>
 
     <dependencyManagement>
@@ -71,15 +71,14 @@
 
             <!-- json -->
             <dependency>
-                <groupId>io.avaje</groupId>
-                <artifactId>avaje-jsonb</artifactId>
-                <version>${avaje.jsonb.version}</version>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.avaje</groupId>
-                <artifactId>avaje-jsonb-generator</artifactId>
-                <version>${avaje.jsonb.version}</version>
-                <scope>provided</scope>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
 
             <!-- Logging -->
