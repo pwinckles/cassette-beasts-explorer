@@ -49,6 +49,8 @@ The data is indexed using Lucene, and queries must be written using Lucene's que
 ```
 Query: matk:[161 TO *] AND spd:[161 TO *]
 
+Found 5 results
+
 ================================================================================
  #003 Ripterra [Beast]
  https://wiki.cassettebeasts.com/wiki/Ripterra
@@ -80,13 +82,10 @@ Query: matk:[161 TO *] AND spd:[161 TO *]
 #### Filter species by compatible moves
 
 ```
-Query: compatible_move:(+bite +"trap jaw" +"stab in the dark" +("deja vu" OR "two heads") +(broadcast OR echolocation))
+Query: compatible_move:(+bite +"trap jaw" +"stab in the dark" +("deja vu" "two heads") +(broadcast echolocation)) AND remaster_to:none
 
-================================================================================
- #110 Kuneko [Air]
- https://wiki.cassettebeasts.com/wiki/Kuneko
-  HP | M. Atk | M. Def | R. Atk | R. Def | Speed | Total
- 115 |    115 |    115 |    115 |    115 |   115 |   690
+Found 1 results
+
 ================================================================================
  #111 Shining Kuneko [Astral]
  https://wiki.cassettebeasts.com/wiki/Shining_Kuneko
@@ -97,62 +96,37 @@ Query: compatible_move:(+bite +"trap jaw" +"stab in the dark" +("deja vu" OR "tw
 
 ### Moves
 
-#### Filter moves by power
-
-```
-Query: power:[100 TO *] AND target:team
-
-================================================================================
- Cosmic Kunai [Ranged Attack]
- https://wiki.cassettebeasts.com/wiki/Cosmic_Kunai
- Hits a whole team. Destroys walls.
-      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
-    Astral |   10 |   150 |     1 |         100 |        0 | Team
-================================================================================
-```
-
 #### Filter moves by species
 
 ```
-Query: compatible_species:beanstalker AND status_effect:defence AND status_effect_kind:buff
+Query: compatible_species:beanstalker AND move_cat:melee AND cost:2
+
+Found 4 results
 
 ================================================================================
- Defend [Status Effect]
- https://wiki.cassettebeasts.com/wiki/Defend
- Raises the user’s Melee Defence.
+ Silicon Slash [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Silicon_Slash
+ Hits one target.
       Type | Cost | Power |  Hits |    Accuracy | Priority | Target
-  Typeless |    1 |       |       |         100 |        0 | Self
- Status Effects: Melee Defence Up [Buff]
+     Glass |    2 |    60 |     1 |         100 |        0 | Single
 ================================================================================
- Raise Shields [Status Effect]
- https://wiki.cassettebeasts.com/wiki/Raise_Shields
- Raises the user’s Ranged Defence.
+ Toy Hammer [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Toy_Hammer
+ Hits one target.
       Type | Cost | Power |  Hits |    Accuracy | Priority | Target
-  Typeless |    1 |       |       |         100 |        0 | Self
- Status Effects: Ranged Defence Up [Buff]
+   Plastic |    2 |    60 |     1 |         100 |        0 | Single
 ================================================================================
- Treat [Status Effect]
- https://wiki.cassettebeasts.com/wiki/Treat
- Gives the target a random buff.
+ Double Smack [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Double_Smack
+ Hits one target multiple times.
       Type | Cost | Power |  Hits |    Accuracy | Priority | Target
-  Typeless |    1 |       |       | Unavoidable |        0 | Single
- Status Effects: Accuracy Up [Buff]
-                 AP Boost [Buff]
-                 Cottoned On [Buff]
-                 Evasion Up [Buff]
-                 Glitter Coating [Transmutation]
-                 Healing Leaf [Buff]
-                 Healing Steam [Buff]
-                 Locked On [Buff]
-                 Melee Attack Up [Buff]
-                 Melee Defence Up [Buff]
-                 Mind-Meld [Buff]
-                 Multistrike [Buff]
-                 Multitarget [Buff]
-                 Parry Stance [Buff]
-                 Ranged Attack Up [Buff]
-                 Ranged Defence Up [Buff]
-                 Speed Up [Buff]
+  Typeless |    2 |    30 |     2 |         100 |        0 | Single
+================================================================================
+ Wallop [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Wallop
+ Hits one target.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+  Typeless |    2 |    60 |     1 |         100 |        0 | Single
 ================================================================================
 ```
 
