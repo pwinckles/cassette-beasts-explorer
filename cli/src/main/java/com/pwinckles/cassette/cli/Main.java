@@ -70,7 +70,7 @@ public final class Main {
         if (results.isEmpty()) {
             System.out.println("No matches found");
         } else {
-            System.out.printf("Found %s results%n%n", results.size());
+            System.out.printf("Matches %s%n%n", results.size());
         }
 
         results.forEach(result -> {

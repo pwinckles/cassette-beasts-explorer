@@ -2,6 +2,10 @@
 
 ## [Unreleased] - ReleaseDate
 
+### Fixed
+
+- Corrected tenses in result count display
+
 ## [1.0.1] - 2023-07-11
 
 ### Added
