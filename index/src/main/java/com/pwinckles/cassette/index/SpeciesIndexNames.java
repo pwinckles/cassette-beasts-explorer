@@ -5,6 +5,7 @@ final class SpeciesIndexNames {
     static final String NUMBER = "species_num";
     static final String NAME = "species_name";
     static final String TYPE = "species_type";
+    static final String BOOTLEG = "bootleg";
     static final String HP = "hp";
     static final String M_ATTACK = "matk";
     static final String M_DEFENSE = "mdef";

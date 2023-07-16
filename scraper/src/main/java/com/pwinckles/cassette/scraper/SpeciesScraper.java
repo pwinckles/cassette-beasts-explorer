@@ -1,5 +1,6 @@
 package com.pwinckles.cassette.scraper;
 
+import com.pwinckles.cassette.common.model.BootlegMovesBuilder;
 import com.pwinckles.cassette.common.model.Species;
 import com.pwinckles.cassette.common.model.SpeciesBuilder;
 import com.pwinckles.cassette.common.model.SpeciesMovesBuilder;
@@ -7,6 +8,9 @@ import com.pwinckles.cassette.common.model.SpeciesStatsBuilder;
 import com.pwinckles.cassette.common.model.SpeciesType;
 import java.io.IOException;
 import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.function.BiConsumer;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -108,6 +112,28 @@ public class SpeciesScraper {
             moves.addCompatible(cells.get(1).text());
         });
 
+        var bootlegBuilder = BootlegMovesBuilder.builder();
+
+        var commonBootlegTable = doc.selectFirst("h3:has(span#Bootlegs) + table");
+        var commonBootlegRows = commonBootlegTable.select("tr");
+
+        commonBootlegRows.stream().skip(2).forEach(row -> {
+            var cells = row.select("td");
+            bootlegBuilder.addCommon(cells.get(1).text());
+        });
+
+        var bootlegTypeMap = new HashMap<SpeciesType, List<String>>();
+
+        var bootlegTypedRows = commonBootlegTable.nextElementSibling().select("tr");
+        bootlegTypedRows.stream().skip(2).forEach(row -> {
+            var cells = row.select("td");
+            var type = SpeciesType.fromString(cells.get(0).text().split(" ", 2)[0]);
+            var list = bootlegTypeMap.computeIfAbsent(type, k -> new ArrayList<>());
+            list.add(cells.get(1).text());
+        });
+
+        bootlegBuilder.typeSpecific(bootlegTypeMap);
+        moves.bootleg(bootlegBuilder.build());
         species.moves(moves.build());
 
         return species.build();

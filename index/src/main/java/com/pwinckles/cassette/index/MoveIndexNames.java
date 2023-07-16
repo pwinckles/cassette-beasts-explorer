@@ -18,6 +18,7 @@ final class MoveIndexNames {
     static final String STATUS_EFFECT = "status_effect";
     static final String STATUS_EFFECT_KIND = "status_effect_kind";
     static final String SPECIES = "compatible_species";
+    static final String BOOTLEG_SPECIES = "compatible_bootleg";
 
     private MoveIndexNames() {}
 }

@@ -5,9 +5,12 @@ import com.pwinckles.cassette.common.model.Move;
 import com.pwinckles.cassette.common.model.MoveAccuracy;
 import com.pwinckles.cassette.common.model.MoveCategory;
 import com.pwinckles.cassette.common.model.Species;
+import com.pwinckles.cassette.common.model.SpeciesType;
 import java.io.IOException;
 import java.text.NumberFormat;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -83,8 +86,17 @@ public class Index implements AutoCloseable {
         var writerConfig = new IndexWriterConfig(analyzer);
         writerConfig.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
         try (var writer = new IndexWriter(dir, writerConfig)) {
-            data.species().stream().map(this::toDocument).forEach(doc -> writeDoc(writer, doc));
-            data.moves().stream().map(this::toDocument).forEach(doc -> writeDoc(writer, doc));
+            var bootlegMoveMap = new HashMap<String, List<String>>();
+            data.species().forEach(species -> {
+                writeDoc(writer, toDocument(species));
+                species.moves().bootleg().typeSpecific().keySet().forEach(type -> {
+                    addBootlegMoves(type, species, bootlegMoveMap);
+                    writeDoc(writer, toBootlegDocument(type, species));
+                });
+            });
+            data.moves().stream()
+                    .map(move -> toDocument(move, bootlegMoveMap.getOrDefault(move.name(), Collections.emptyList())))
+                    .forEach(doc -> writeDoc(writer, doc));
         }
     }
 
@@ -94,10 +106,36 @@ public class Index implements AutoCloseable {
 
     private Document toDocument(Species species) {
         var doc = new Document();
+        doc.add(new TextField(SpeciesIndexNames.TYPE, species.type().name(), Field.Store.YES));
+        doc.add(new TextField(SpeciesIndexNames.BOOTLEG, "false", Field.Store.NO));
+        populateCommonSpeciesFields(doc, species);
+        species.moves()
+                .compatible()
+                .forEach(move -> doc.add(new TextField(SpeciesIndexNames.MOVE, move, Field.Store.NO)));
+        return doc;
+    }
+
+    private Document toBootlegDocument(SpeciesType type, Species species) {
+        var doc = new Document();
+        doc.add(new TextField(SpeciesIndexNames.TYPE, type.name(), Field.Store.YES));
+        doc.add(new TextField(SpeciesIndexNames.BOOTLEG, "true", Field.Store.NO));
+        populateCommonSpeciesFields(doc, species);
+        species.moves()
+                .bootleg()
+                .common()
+                .forEach(move -> doc.add(new TextField(SpeciesIndexNames.MOVE, move, Field.Store.NO)));
+        species.moves()
+                .bootleg()
+                .typeSpecific()
+                .get(type)
+                .forEach(move -> doc.add(new TextField(SpeciesIndexNames.MOVE, move, Field.Store.NO)));
+        return doc;
+    }
+
+    private void populateCommonSpeciesFields(Document doc, Species species) {
         doc.add(new TextField(DOC_TYPE_INDEX, DOC_TYPE_SPECIES, Field.Store.YES));
         doc.add(new IntField(SpeciesIndexNames.NUMBER, species.number(), Field.Store.NO));
         doc.add(new TextField(SpeciesIndexNames.NAME, species.name(), Field.Store.YES));
-        doc.add(new TextField(SpeciesIndexNames.TYPE, species.type().name(), Field.Store.NO));
         doc.add(new TextField(
                 SpeciesIndexNames.REMASTER_FROM,
                 Objects.requireNonNullElse(species.remasterFrom(), NONE),
@@ -115,13 +153,9 @@ public class Index implements AutoCloseable {
         doc.add(new IntField(SpeciesIndexNames.ATTR_SUM, species.stats().attributeSum(), Field.Store.NO));
         doc.add(new IntField(SpeciesIndexNames.AP, species.stats().ap(), Field.Store.NO));
         doc.add(new IntField(SpeciesIndexNames.SLOTS, species.stats().moveSlots(), Field.Store.NO));
-        species.moves()
-                .compatible()
-                .forEach(move -> doc.add(new TextField(SpeciesIndexNames.MOVE, move, Field.Store.NO)));
-        return doc;
     }
 
-    private Document toDocument(Move move) {
+    private Document toDocument(Move move, List<String> bootlegSpecies) {
         var doc = new Document();
         doc.add(new TextField(DOC_TYPE_INDEX, DOC_TYPE_MOVE, Field.Store.YES));
         doc.add(new TextField(MoveIndexNames.NAME, move.name(), Field.Store.YES));
@@ -154,7 +188,19 @@ public class Index implements AutoCloseable {
         });
         move.compatibleSpecies()
                 .forEach(species -> doc.add(new TextField(MoveIndexNames.SPECIES, species.name(), Field.Store.NO)));
+        bootlegSpecies.forEach(
+                species -> doc.add(new TextField(MoveIndexNames.BOOTLEG_SPECIES, species, Field.Store.NO)));
         return doc;
+    }
+
+    private void addBootlegMoves(SpeciesType type, Species species, Map<String, List<String>> bootlegMoveMap) {
+        var name = species.name() + " " + type;
+        species.moves().bootleg().common().stream()
+                .map(move -> bootlegMoveMap.computeIfAbsent(move, k -> new ArrayList<>()))
+                .forEach(list -> list.add(name));
+        species.moves().bootleg().typeSpecific().get(type).stream()
+                .map(move -> bootlegMoveMap.computeIfAbsent(move, k -> new ArrayList<>()))
+                .forEach(list -> list.add(name));
     }
 
     private void writeDoc(IndexWriter writer, Document doc) {
