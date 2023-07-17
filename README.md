@@ -130,13 +130,33 @@ Matches: 4
 ================================================================================
 ```
 
-#### Filter moves by bootleg species
+#### Filter for moves that are unique to a bootleg
 
 ```
-Query: compatible_bootleg:"beanstalker lightning" AND move_cat:melee AND cost:2
+Query: compatible_bootleg:"beanstalker lightning" AND NOT compatible_species:beanstalker
 
-Matches: 5
+Matches: 10
 
+================================================================================
+ Lightning Bolt [Ranged Attack]
+ https://wiki.cassettebeasts.com/wiki/Lightning_Bolt
+ Hits one target.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+ Lightning |    3 |    90 |     1 |         100 |        0 | Single
+================================================================================
+ Thunder Blast [Ranged Attack]
+ https://wiki.cassettebeasts.com/wiki/Thunder_Blast
+ Hits one target. The target is hit by an additional 30 Air-type damage.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+ Lightning |    3 |    60 |     1 |         100 |        0 | Single
+================================================================================
+ Lightning Wall [Status Effect]
+ https://wiki.cassettebeasts.com/wiki/Lightning_Wall_(move)
+ Sacrifice 20% of HP to create a wall that will absorb up to 3 hits for up to 3
+ turns.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+ Lightning |    2 |       |       |         100 |        0 | Single
+ Status Effects: Lightning Wall [Buff]
 ================================================================================
  Charge [Melee Attack]
  https://wiki.cassettebeasts.com/wiki/Charge
@@ -144,29 +164,47 @@ Matches: 5
       Type | Cost | Power |  Hits |    Accuracy | Priority | Target
  Lightning |    2 |    60 |     1 |         100 |        0 | Single
 ================================================================================
- Silicon Slash [Melee Attack]
- https://wiki.cassettebeasts.com/wiki/Silicon_Slash
- Hits one target.
+ Unicast [Status Effect]
+ https://wiki.cassettebeasts.com/wiki/Unicast
+ Gives the target Unitarget status for 3 turn(s).
       Type | Cost | Power |  Hits |    Accuracy | Priority | Target
-     Glass |    2 |    60 |     1 |         100 |        0 | Single
+ Lightning |    2 |       |       |         100 |        0 | Single
+ Status Effects: Unitarget [Debuff]
 ================================================================================
- Toy Hammer [Melee Attack]
- https://wiki.cassettebeasts.com/wiki/Toy_Hammer
- Hits one target.
+ Lightning Coating [Status Effect]
+ https://wiki.cassettebeasts.com/wiki/Lightning_Coating_(move)
+ Changes the type of the user or an ally.
       Type | Cost | Power |  Hits |    Accuracy | Priority | Target
-   Plastic |    2 |    60 |     1 |         100 |        0 | Single
+ Lightning |    2 |       |       |         100 |        0 | Single Ally
+ Status Effects: Lightning Coating [Transmutation]
 ================================================================================
- Double Smack [Melee Attack]
- https://wiki.cassettebeasts.com/wiki/Double_Smack
- Hits one target multiple times.
+ Broadcast [Status Effect]
+ https://wiki.cassettebeasts.com/wiki/Broadcast
+ Gives the user Multitarget status for 3 turn(s).
       Type | Cost | Power |  Hits |    Accuracy | Priority | Target
-  Typeless |    2 |    30 |     2 |         100 |        0 | Single
+       Air |    2 |       |       |         100 |        0 | Self
+ Status Effects: Multitarget [Buff]
 ================================================================================
- Wallop [Melee Attack]
- https://wiki.cassettebeasts.com/wiki/Wallop
- Hits one target.
+ Magnet [Automated, Status Effect]
+ https://wiki.cassettebeasts.com/wiki/Magnet
+ Used automatically at the start of battle for 0 AP. Prevents opponents
+ targeting user’s allies for 3 turn(s).
       Type | Cost | Power |  Hits |    Accuracy | Priority | Target
-  Typeless |    2 |    60 |     1 |         100 |        0 | Single
+     Metal |    1 |       |       |         100 |        0 | Self
+ Status Effects: Intercepting [Buff]
+================================================================================
+ Battery [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Battery
+ Hits one target twice. Lands critical hits if used after Charge.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+ Lightning |    3 |    40 |     2 |         100 |        0 | Single
+================================================================================
+ Grounded [Passive, Misc]
+ https://wiki.cassettebeasts.com/wiki/Grounded
+ Passively reduces incoming Lightning-type damage by 50%, and negates any
+ reactions that would occur. Does not affect critical hits.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+ Lightning |    0 |       |       |         100 |        0 | Self
 ================================================================================
 ```
 
