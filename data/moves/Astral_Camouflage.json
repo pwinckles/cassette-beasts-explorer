@@ -1,125 +1,121 @@
 {
-  "name": "Astral Camouflage",
-  "description": "Changes the type of the user. Automatically used at the start of battle for 0 AP.",
-  "categories":   [
-"AUTOMATED","STATUS","ACTIVE"    ]
-
-  "type": "ASTRAL",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Astral Camouflage",
+  "description" : "Changes the type of the user. Automatically used at the start of battle for 0 AP.",
+  "categories" : [ "ACTIVE", "AUTOMATED", "STATUS" ],
+  "type" : "ASTRAL",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Astral Coating",
-      "kind": "TRANSMUTATION"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Bansheep",
-      "source": "STICKER"
-    }    ,{
-      "name": "Binterloper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Binvader",
-      "source": "STICKER"
-    }    ,{
-      "name": "Braxsuit",
-      "source": "STICKER"
-    }    ,{
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Capricorpse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Coaldron",
-      "source": "STICKER"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "STICKER"
-    }    ,{
-      "name": "Elfless",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faerious",
-      "source": "STICKER"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "STICKER"
-    }    ,{
-      "name": "Folklord",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fortiwinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Grampus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khepri",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mascotorn",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pyromeleon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ripterra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Salamagus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Scampire",
-      "source": "STICKER"
-    }    ,{
-      "name": "Snoopin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sparktan",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spooki-onna",
-      "source": "STICKER"
-    }    ,{
-      "name": "Terracooka",
-      "source": "STICKER"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Undyin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zeustrike",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zombleat",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Astral_Camouflage"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Astral Coating",
+    "kind" : "TRANSMUTATION"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Bansheep",
+    "source" : "STICKER"
+  }, {
+    "name" : "Binterloper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Binvader",
+    "source" : "STICKER"
+  }, {
+    "name" : "Braxsuit",
+    "source" : "STICKER"
+  }, {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Capricorpse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Coaldron",
+    "source" : "STICKER"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "STICKER"
+  }, {
+    "name" : "Elfless",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faerious",
+    "source" : "STICKER"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "STICKER"
+  }, {
+    "name" : "Folklord",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fortiwinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Grampus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khepri",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mascotorn",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pyromeleon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ripterra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Salamagus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Scampire",
+    "source" : "STICKER"
+  }, {
+    "name" : "Snoopin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sparktan",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spooki-onna",
+    "source" : "STICKER"
+  }, {
+    "name" : "Terracooka",
+    "source" : "STICKER"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Undyin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zeustrike",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zombleat",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Astral_Camouflage"
 }

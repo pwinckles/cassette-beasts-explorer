@@ -1,41 +1,37 @@
 {
-  "name": "Liquid Body",
-  "description": "Prevents the user from being inflicted with Burned, but makes all incoming Ice and Lightning-type attacks critical.",
-  "categories":   [
-"MISC","PASSIVE"    ]
-
-  "type": "POISON",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Liquid Body",
+  "description" : "Prevents the user from being inflicted with Burned, but makes all incoming Ice and Lightning-type attacks critical.",
+  "categories" : [ "PASSIVE", "MISC" ],
+  "type" : "POISON",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 0,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Frillypad",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jellyton",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Liligator",
-      "source": "STICKER"
-    }    ,{
-      "name": "Padpole",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Liquid_Body"
+  "cost" : 0,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Frillypad",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jellyton",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Liligator",
+    "source" : "STICKER"
+  }, {
+    "name" : "Padpole",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Liquid_Body"
 }

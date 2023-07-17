@@ -1,232 +1,226 @@
 {
-  "name": "Quick Smack",
-  "description": "Hits one target. Takes priority over other moves.",
-  "categories":   [
-"MELEE","ACTIVE"    ]
-
-  "type": "TYPELESS",
-  "power": 30,
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "Quick Smack",
+  "description" : "Hits one target. Takes priority over other moves.",
+  "categories" : [ "MELEE", "ACTIVE" ],
+  "type" : "TYPELESS",
+  "power" : 30,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 1,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 1,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Adeptile",
-      "source": "STICKER"
-    }    ,{
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Arkidd",
-      "source": "STICKER"
-    }    ,{
-      "name": "Artillerex",
-      "source": "STICKER"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Beanstalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Boltam",
-      "source": "STICKER"
-    }    ,{
-      "name": "Braxsuit",
-      "source": "STICKER"
-    }    ,{
-      "name": "Bulletino",
-      "source": "STICKER"
-    }    ,{
-      "name": "Candevil",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cat-5",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cryoshear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Decibelle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "STICKER"
-    }    ,{
-      "name": "Elfless",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faerious",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "STICKER"
-    }    ,{
-      "name": "Frillypad",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Glaistain",
-      "source": "STICKER"
-    }    ,{
-      "name": "Grampus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Hopskin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Icepeck",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jellyton",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jormungold",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jumpkin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kirikuri",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Liligator",
-      "source": "STICKER"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Manispear",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "STICKER"
-    }    ,{
-      "name": "Masquerattle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miss Mimic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Muskrateer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Nevermort",
-      "source": "STICKER"
-    }    ,{
-      "name": "Padpole",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Palangolin",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Picksie",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pinbolt",
-      "source": "STICKER"
-    }    ,{
-      "name": "Plasmantler",
-      "source": "STICKER"
-    }    ,{
-      "name": "Puppercut",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pyromeleon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Regensea",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Ripterra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Salamagus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Scampire",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sirenade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Snoopin",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Southpaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sparktan",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spirouette",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Springheel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Squirey",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Thwackalope",
-      "source": "STICKER"
-    }    ,{
-      "name": "Tokusect",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Velocirifle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Weevilite",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zeustrike",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Quick_Smack"
+  "cost" : 1,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 1,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Adeptile",
+    "source" : "STICKER"
+  }, {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Arkidd",
+    "source" : "STICKER"
+  }, {
+    "name" : "Artillerex",
+    "source" : "STICKER"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Beanstalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Boltam",
+    "source" : "STICKER"
+  }, {
+    "name" : "Braxsuit",
+    "source" : "STICKER"
+  }, {
+    "name" : "Bulletino",
+    "source" : "STICKER"
+  }, {
+    "name" : "Candevil",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cat-5",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cryoshear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Decibelle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "STICKER"
+  }, {
+    "name" : "Elfless",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faerious",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "STICKER"
+  }, {
+    "name" : "Frillypad",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Glaistain",
+    "source" : "STICKER"
+  }, {
+    "name" : "Grampus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Hopskin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Icepeck",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jellyton",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jormungold",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jumpkin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kirikuri",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Liligator",
+    "source" : "STICKER"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Manispear",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "STICKER"
+  }, {
+    "name" : "Masquerattle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miss Mimic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Muskrateer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Nevermort",
+    "source" : "STICKER"
+  }, {
+    "name" : "Padpole",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Palangolin",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Picksie",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pinbolt",
+    "source" : "STICKER"
+  }, {
+    "name" : "Plasmantler",
+    "source" : "STICKER"
+  }, {
+    "name" : "Puppercut",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pyromeleon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Regensea",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Ripterra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Salamagus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Scampire",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sirenade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Snoopin",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Southpaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sparktan",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spirouette",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Springheel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Squirey",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Thwackalope",
+    "source" : "STICKER"
+  }, {
+    "name" : "Tokusect",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Velocirifle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Weevilite",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zeustrike",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Quick_Smack"
 }

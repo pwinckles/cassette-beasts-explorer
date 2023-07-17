@@ -1,74 +1,70 @@
 {
-  "name": "Poison Resistance",
-  "description": "Passively reduces incoming Poison-type damage by 50%, and negates any reactions that would occur. Does not affect critical hits.",
-  "categories":   [
-"MISC","PASSIVE"    ]
-
-  "type": "POISON",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Poison Resistance",
+  "description" : "Passively reduces incoming Poison-type damage by 50%, and negates any reactions that would occur. Does not affect critical hits.",
+  "categories" : [ "PASSIVE", "MISC" ],
+  "type" : "POISON",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 0,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Anathema",
-      "source": "STICKER"
-    }    ,{
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Carniviper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Folklord",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jellyton",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jormungold",
-      "source": "STICKER"
-    }    ,{
-      "name": "Macabra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "STICKER"
-    }    ,{
-      "name": "Masquerattle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Nevermort",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Poison_Resistance"
+  "cost" : 0,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Anathema",
+    "source" : "STICKER"
+  }, {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Carniviper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Folklord",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jellyton",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jormungold",
+    "source" : "STICKER"
+  }, {
+    "name" : "Macabra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "STICKER"
+  }, {
+    "name" : "Masquerattle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Nevermort",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Poison_Resistance"
 }

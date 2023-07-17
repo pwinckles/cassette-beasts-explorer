@@ -1,47 +1,43 @@
 {
-  "name": "Glass Coating",
-  "description": "Changes the type of the user or an ally.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "GLASS",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Glass Coating",
+  "description" : "Changes the type of the user or an ally.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "GLASS",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SINGLE_ALLY",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Glass Coating",
-      "kind": "TRANSMUTATION"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fortiwinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Glaistain",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sanzatime",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Glass_Coating_(move)"
+  "cost" : 2,
+  "target" : "SINGLE_ALLY",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Glass Coating",
+    "kind" : "TRANSMUTATION"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fortiwinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Glaistain",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sanzatime",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Glass_Coating_(move)"
 }

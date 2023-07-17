@@ -1,189 +1,184 @@
 {
-  "name": "AP Steal",
-  "description": "Steals 1 AP from the target and gives it to the user.",
-  "categories":   [
-"ACTIVE","MISC"    ]
-
-  "type": "POISON",
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "AP Steal",
+  "description" : "Steals 1 AP from the target and gives it to the user.",
+  "categories" : [ "MISC", "ACTIVE" ],
+  "type" : "POISON",
+  "power" : null,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 70
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 70
   },
-  "cost": 0,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Adeptile",
-      "source": "STICKER"
-    }    ,{
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Anathema",
-      "source": "STICKER"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Busheye",
-      "source": "STICKER"
-    }    ,{
-      "name": "Carniviper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Clocksley",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Djinn Entonic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dominoth",
-      "source": "STICKER"
-    }    ,{
-      "name": "Elfless",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faerious",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Frillypad",
-      "source": "STICKER"
-    }    ,{
-      "name": "Galagor",
-      "source": "STICKER"
-    }    ,{
-      "name": "Glaistain",
-      "source": "STICKER"
-    }    ,{
-      "name": "Grampus",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Hedgeherne",
-      "source": "STICKER"
-    }    ,{
-      "name": "Hopskin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Huntorch",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jellyton",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jormungold",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khufo",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kingrave",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Liligator",
-      "source": "STICKER"
-    }    ,{
-      "name": "Lobstacle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Magikrab",
-      "source": "STICKER"
-    }    ,{
-      "name": "Manispear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mascotorn",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mascotoy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Masquerattle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miss Mimic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Padpole",
-      "source": "STICKER"
-    }    ,{
-      "name": "Picksie",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Pyromeleon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ripterra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Robindam",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Salamagus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Scampire",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Skelevangelist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Snoopin",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Springheel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Tokusect",
-      "source": "STICKER"
-    }    ,{
-      "name": "Traffikrab",
-      "source": "STICKER"
-    }    ,{
-      "name": "Trapwurm",
-      "source": "STICKER"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Weevilite",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wingloom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wyrmaw",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/AP_Steal"
+  "cost" : 0,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Adeptile",
+    "source" : "STICKER"
+  }, {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Anathema",
+    "source" : "STICKER"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Busheye",
+    "source" : "STICKER"
+  }, {
+    "name" : "Carniviper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Clocksley",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Djinn Entonic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dominoth",
+    "source" : "STICKER"
+  }, {
+    "name" : "Elfless",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faerious",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Frillypad",
+    "source" : "STICKER"
+  }, {
+    "name" : "Galagor",
+    "source" : "STICKER"
+  }, {
+    "name" : "Glaistain",
+    "source" : "STICKER"
+  }, {
+    "name" : "Grampus",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Hedgeherne",
+    "source" : "STICKER"
+  }, {
+    "name" : "Hopskin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Huntorch",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jellyton",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jormungold",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khufo",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kingrave",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Liligator",
+    "source" : "STICKER"
+  }, {
+    "name" : "Lobstacle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Magikrab",
+    "source" : "STICKER"
+  }, {
+    "name" : "Manispear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mascotorn",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mascotoy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Masquerattle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miss Mimic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Padpole",
+    "source" : "STICKER"
+  }, {
+    "name" : "Picksie",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Pyromeleon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ripterra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Robindam",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Salamagus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Scampire",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Skelevangelist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Snoopin",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Springheel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Tokusect",
+    "source" : "STICKER"
+  }, {
+    "name" : "Traffikrab",
+    "source" : "STICKER"
+  }, {
+    "name" : "Trapwurm",
+    "source" : "STICKER"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Weevilite",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wingloom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wyrmaw",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/AP_Steal"
 }

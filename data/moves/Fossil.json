@@ -1,62 +1,58 @@
 {
-  "name": "Fossil",
-  "description": "Automatically restores the user to full health if they become Petrified.",
-  "categories":   [
-"MISC","AUTOMATED","PASSIVE"    ]
-
-  "type": "EARTH",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Fossil",
+  "description" : "Automatically restores the user to full health if they become Petrified.",
+  "categories" : [ "PASSIVE", "AUTOMATED", "MISC" ],
+  "type" : "EARTH",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 0,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Capricorpse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Coaldron",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fortiwinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kingrave",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Pawndead",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Picksie",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Sanzatime",
-      "source": "STICKER"
-    }    ,{
-      "name": "Skelevangelist",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Terracooka",
-      "source": "STICKER"
-    }    ,{
-      "name": "Trapwurm",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wyrmaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zombleat",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Fossil"
+  "cost" : 0,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Capricorpse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Coaldron",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fortiwinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kingrave",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Pawndead",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Picksie",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Sanzatime",
+    "source" : "STICKER"
+  }, {
+    "name" : "Skelevangelist",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Terracooka",
+    "source" : "STICKER"
+  }, {
+    "name" : "Trapwurm",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wyrmaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zombleat",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Fossil"
 }

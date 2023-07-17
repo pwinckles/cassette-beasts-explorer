@@ -1,26 +1,22 @@
 {
-  "name": "Treasure Dig",
-  "description": "Digs up a random item. The winner of the battle gets to keep the item.",
-  "categories":   [
-"MISC","ACTIVE"    ]
-
-  "type": "EARTH",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 50
+  "name" : "Treasure Dig",
+  "description" : "Digs up a random item. The winner of the battle gets to keep the item.",
+  "categories" : [ "MISC", "ACTIVE" ],
+  "type" : "EARTH",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 50
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Picksie",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Treasure_Dig"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Picksie",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Treasure_Dig"
 }

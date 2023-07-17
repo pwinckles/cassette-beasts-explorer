@@ -1,170 +1,166 @@
 {
-  "name": "Broadcast",
-  "description": "Gives the user Multitarget status for 3 turn(s).",
-  "categories":   [
-"ACTIVE","STATUS"    ]
-
-  "type": "AIR",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Broadcast",
+  "description" : "Gives the user Multitarget status for 3 turn(s).",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "AIR",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Multitarget",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Allseer",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Anathema",
-      "source": "STICKER"
-    }    ,{
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Arkidd",
-      "source": "STICKER"
-    }    ,{
-      "name": "Artillerex",
-      "source": "STICKER"
-    }    ,{
-      "name": "Averevoir",
-      "source": "STICKER"
-    }    ,{
-      "name": "Binterloper",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Binvader",
-      "source": "STICKER"
-    }    ,{
-      "name": "Boltam",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Braxsuit",
-      "source": "STICKER"
-    }    ,{
-      "name": "Bulletino",
-      "source": "STICKER"
-    }    ,{
-      "name": "Burnace",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cat-5",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Clocksley",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cluckabilly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Decibelle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dominoth",
-      "source": "STICKER"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Galagor",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Gearyu",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khepri",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khufo",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Kittelly",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miss Mimic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Nevermort",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pinbolt",
-      "source": "STICKER"
-    }    ,{
-      "name": "Plasmantler",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Robindam",
-      "source": "STICKER"
-    }    ,{
-      "name": "Rockertrice",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Sirenade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Smogmagog",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sparktan",
-      "source": "STICKER"
-    }    ,{
-      "name": "Stardigrade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Thwackalope",
-      "source": "STICKER"
-    }    ,{
-      "name": "Tokusect",
-      "source": "STICKER"
-    }    ,{
-      "name": "Triphinx",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Velocirifle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Weevilite",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wingloom",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Zeustrike",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Broadcast"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Multitarget",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Allseer",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Anathema",
+    "source" : "STICKER"
+  }, {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Arkidd",
+    "source" : "STICKER"
+  }, {
+    "name" : "Artillerex",
+    "source" : "STICKER"
+  }, {
+    "name" : "Averevoir",
+    "source" : "STICKER"
+  }, {
+    "name" : "Binterloper",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Binvader",
+    "source" : "STICKER"
+  }, {
+    "name" : "Boltam",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Braxsuit",
+    "source" : "STICKER"
+  }, {
+    "name" : "Bulletino",
+    "source" : "STICKER"
+  }, {
+    "name" : "Burnace",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cat-5",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Clocksley",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cluckabilly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Decibelle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dominoth",
+    "source" : "STICKER"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Galagor",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Gearyu",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khepri",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khufo",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Kittelly",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miss Mimic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Nevermort",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pinbolt",
+    "source" : "STICKER"
+  }, {
+    "name" : "Plasmantler",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Robindam",
+    "source" : "STICKER"
+  }, {
+    "name" : "Rockertrice",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Sirenade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Smogmagog",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sparktan",
+    "source" : "STICKER"
+  }, {
+    "name" : "Stardigrade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Thwackalope",
+    "source" : "STICKER"
+  }, {
+    "name" : "Tokusect",
+    "source" : "STICKER"
+  }, {
+    "name" : "Triphinx",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Velocirifle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Weevilite",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wingloom",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Zeustrike",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Broadcast"
 }

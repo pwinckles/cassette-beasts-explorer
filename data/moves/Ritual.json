@@ -1,167 +1,163 @@
 {
-  "name": "Ritual",
-  "description": "Brings the user back to life at 25% HP upon defeat.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "ASTRAL",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Ritual",
+  "description" : "Brings the user back to life at 25% HP upon defeat.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "ASTRAL",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 6,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Ritual",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Adeptile",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Aeroboros",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Anathema",
-      "source": "STICKER"
-    }    ,{
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Beanstalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Braxsuit",
-      "source": "STICKER"
-    }    ,{
-      "name": "Capricorpse",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Djinn Entonic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Elfless",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faerious",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "STICKER"
-    }    ,{
-      "name": "Folklord",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Fortiwinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Galagor",
-      "source": "STICKER"
-    }    ,{
-      "name": "Grampus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Jumpkin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khufo",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Kingrave",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Macabra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Magikrab",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Mascotorn",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Mascotoy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Pawndead",
-      "source": "STICKER"
-    }    ,{
-      "name": "Puppercut",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pyromeleon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Ramtasm",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Ripterra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Salamagus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Scampire",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Skelevangelist",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Snoopin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Southpaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spooki-onna",
-      "source": "STICKER"
-    }    ,{
-      "name": "Stardigrade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Undyin",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Wooltergeist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zombleat",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Ritual_(move)"
+  "cost" : 6,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Ritual",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Adeptile",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Aeroboros",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Anathema",
+    "source" : "STICKER"
+  }, {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Beanstalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Braxsuit",
+    "source" : "STICKER"
+  }, {
+    "name" : "Capricorpse",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Djinn Entonic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Elfless",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faerious",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "STICKER"
+  }, {
+    "name" : "Folklord",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Fortiwinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Galagor",
+    "source" : "STICKER"
+  }, {
+    "name" : "Grampus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Jumpkin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khufo",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Kingrave",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Macabra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Magikrab",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Mascotorn",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Mascotoy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Pawndead",
+    "source" : "STICKER"
+  }, {
+    "name" : "Puppercut",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pyromeleon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Ramtasm",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Ripterra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Salamagus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Scampire",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Skelevangelist",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Snoopin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Southpaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spooki-onna",
+    "source" : "STICKER"
+  }, {
+    "name" : "Stardigrade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Undyin",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Wooltergeist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zombleat",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Ritual_(move)"
 }

@@ -1,29 +1,25 @@
 {
-  "name": "Tower Defence",
-  "description": "Changes the user’s type to Earth, and raises their Defence stats. Takes effect the first time the user’s health falls below half.",
-  "categories":   [
-"STATUS","PASSIVE"    ]
-
-  "type": "EARTH",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Tower Defence",
+  "description" : "Changes the user’s type to Earth, and raises their Defence stats. Takes effect the first time the user’s health falls below half.",
+  "categories" : [ "PASSIVE", "STATUS" ],
+  "type" : "EARTH",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 0,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Tower Defence",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Averevoir",
-      "source": "STAR_1"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Tower_Defence_(move)"
+  "cost" : 0,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Tower Defence",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Averevoir",
+    "source" : "STAR_1"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Tower_Defence_(move)"
 }

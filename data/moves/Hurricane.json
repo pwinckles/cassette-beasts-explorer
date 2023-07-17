@@ -1,82 +1,76 @@
 {
-  "name": "Hurricane",
-  "description": "Hits a whole team. Destroys walls.",
-  "categories":   [
-"RANGED","ACTIVE"    ]
-
-  "type": "AIR",
-  "power": 90,
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "Hurricane",
+  "description" : "Hits a whole team. Destroys walls.",
+  "categories" : [ "RANGED", "ACTIVE" ],
+  "type" : "AIR",
+  "power" : 90,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 5,
-  "target": "TEAM",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Aeroboros",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Averevoir",
-      "source": "STICKER"
-    }    ,{
-      "name": "Braxsuit",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cluckabilly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Decibelle",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Dominoth",
-      "source": "STICKER"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Rockertrice",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sirenade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sparktan",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spooki-onna",
-      "source": "STICKER"
-    }    ,{
-      "name": "Thwackalope",
-      "source": "STICKER"
-    }    ,{
-      "name": "Tokusect",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wingloom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zeustrike",
-      "source": "STAR_4"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Hurricane"
+  "cost" : 5,
+  "target" : "TEAM",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Aeroboros",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Averevoir",
+    "source" : "STICKER"
+  }, {
+    "name" : "Braxsuit",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cluckabilly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Decibelle",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Dominoth",
+    "source" : "STICKER"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Rockertrice",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sirenade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sparktan",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spooki-onna",
+    "source" : "STICKER"
+  }, {
+    "name" : "Thwackalope",
+    "source" : "STICKER"
+  }, {
+    "name" : "Tokusect",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wingloom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zeustrike",
+    "source" : "STAR_4"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Hurricane"
 }

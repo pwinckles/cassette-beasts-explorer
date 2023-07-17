@@ -1,128 +1,124 @@
 {
-  "name": "Lightning Camouflage",
-  "description": "Changes the type of the user. Automatically used at the start of battle for 0 AP.",
-  "categories":   [
-"ACTIVE","STATUS","AUTOMATED"    ]
-
-  "type": "LIGHTNING",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Lightning Camouflage",
+  "description" : "Changes the type of the user. Automatically used at the start of battle for 0 AP.",
+  "categories" : [ "ACTIVE", "AUTOMATED", "STATUS" ],
+  "type" : "LIGHTNING",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Lightning Coating",
-      "kind": "TRANSMUTATION"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Artillerex",
-      "source": "STICKER"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Binterloper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Binvader",
-      "source": "STICKER"
-    }    ,{
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Bulletino",
-      "source": "STICKER"
-    }    ,{
-      "name": "Burnace",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faucetear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fountess",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Galagor",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gearyu",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jormungold",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khufo",
-      "source": "STICKER"
-    }    ,{
-      "name": "Manispear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miss Mimic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Palangolin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Puppercut",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Smogmagog",
-      "source": "STICKER"
-    }    ,{
-      "name": "Southpaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spooki-onna",
-      "source": "STICKER"
-    }    ,{
-      "name": "Stardigrade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Trapwurm",
-      "source": "STICKER"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Velocirifle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Weevilite",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wyrmaw",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Lightning_Camouflage"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Lightning Coating",
+    "kind" : "TRANSMUTATION"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Artillerex",
+    "source" : "STICKER"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Binterloper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Binvader",
+    "source" : "STICKER"
+  }, {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Bulletino",
+    "source" : "STICKER"
+  }, {
+    "name" : "Burnace",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faucetear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fountess",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Galagor",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gearyu",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jormungold",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khufo",
+    "source" : "STICKER"
+  }, {
+    "name" : "Manispear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miss Mimic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Palangolin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Puppercut",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Smogmagog",
+    "source" : "STICKER"
+  }, {
+    "name" : "Southpaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spooki-onna",
+    "source" : "STICKER"
+  }, {
+    "name" : "Stardigrade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Trapwurm",
+    "source" : "STICKER"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Velocirifle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Weevilite",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wyrmaw",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Lightning_Camouflage"
 }

@@ -1,68 +1,64 @@
 {
-  "name": "Poison Coating",
-  "description": "Changes the type of the user or an ally.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "POISON",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Poison Coating",
+  "description" : "Changes the type of the user or an ally.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "POISON",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SINGLE_ALLY",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Poison Coating",
-      "kind": "TRANSMUTATION"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Carniviper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jellyton",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jormungold",
-      "source": "STICKER"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "STICKER"
-    }    ,{
-      "name": "Masquerattle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Nevermort",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Poison_Coating_(move)"
+  "cost" : 2,
+  "target" : "SINGLE_ALLY",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Poison Coating",
+    "kind" : "TRANSMUTATION"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Carniviper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jellyton",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jormungold",
+    "source" : "STICKER"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "STICKER"
+  }, {
+    "name" : "Masquerattle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Nevermort",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Poison_Coating_(move)"
 }

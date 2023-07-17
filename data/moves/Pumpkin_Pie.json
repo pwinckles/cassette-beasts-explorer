@@ -1,37 +1,33 @@
 {
-  "name": "Pumpkin Pie",
-  "description": "Raises the user’s Speed and AP generation.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "PLANT",
-  "accuracy":   {
-    "@type": "UNAVOIDABLE"
+  "name" : "Pumpkin Pie",
+  "description" : "Raises the user’s Speed and AP generation.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "PLANT",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "UNAVOIDABLE"
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "AP Boost",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Speed Up",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Beanstalker",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Jumpkin",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Pumpkin_Pie"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "AP Boost",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Speed Up",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Beanstalker",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Jumpkin",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Pumpkin_Pie"
 }

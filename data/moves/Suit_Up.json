@@ -1,34 +1,30 @@
 {
-  "name": "Suit Up",
-  "description": "Raises the user’s Melee Defence and Ranged Defence.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "TYPELESS",
-  "accuracy":   {
-    "@type": "UNAVOIDABLE"
+  "name" : "Suit Up",
+  "description" : "Raises the user’s Melee Defence and Ranged Defence.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "TYPELESS",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "UNAVOIDABLE"
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Melee Defence Up",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Ranged Defence Up",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Braxsuit",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Suit_Up"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Melee Defence Up",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Ranged Defence Up",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Braxsuit",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Suit_Up"
 }

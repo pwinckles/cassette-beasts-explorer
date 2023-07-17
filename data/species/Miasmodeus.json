@@ -1,32 +1,43 @@
 {
-  "name": "Miasmodeus",
-  "number": 16,
-  "type": "POISON",
-  "remasterFrom": "Malchemy",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 130,
-    "meleeAttack": 150,
-    "meleeDefense": 120,
-    "rangedAttack": 170,
-    "rangedDefense": 120,
-    "speed": 150,
-    "attributeSum": 840,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Miasmodeus",
+  "number" : 16,
+  "type" : "POISON",
+  "remasterFrom" : "Malchemy",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 130,
+    "meleeAttack" : 150,
+    "meleeDefense" : 120,
+    "rangedAttack" : 170,
+    "rangedDefense" : 120,
+    "speed" : 150,
+    "attributeSum" : 840,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Spit","Sugar Rush","Bon Bon Blast","Bite","Elemental Wall","Chemical Imbalance","Pustule Bomb","Toxic Stab"      ]
-
-    "learned":     [
-"Ritual","Déjà Vu","Moonshine","Gambit","Headshot"      ]
-
-    "compatible":     [
-"AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Bad Joke","Battery","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bon Bon Blast","Bone Cannon","Bottle Volley","Breathing Technique","Call For Help","Change the Record","Chemical Imbalance","Clobber","Coal Story","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fireproof","Focus","Frozen Ground","Gambit","Glass Cannon","Glass Resistance","Glitter Bomb","Glitter Resistance","Haunt","Headshot","Hot Potato","Hypnotise","Icicle Dart","Inflame","Insomnia","Last Rites","Magic Tome","Meditate","Mind-Meld","Moonshine","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Ritual","Roll Again","Scorch","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Sticky Spray","Sugar Rush","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trap Jaw","Treat","Trick","Trip","Vengeful Curse","Wallop","Wink"      ]
-
+  "moves" : {
+    "initial" : [ "Spit", "Sugar Rush", "Bon Bon Blast", "Bite", "Elemental Wall", "Chemical Imbalance", "Pustule Bomb", "Toxic Stab" ],
+    "learned" : [ "Ritual", "Déjà Vu", "Moonshine", "Gambit", "Headshot" ],
+    "compatible" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Bad Joke", "Battery", "bE rAnDoM!!", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bon Bon Blast", "Bone Cannon", "Bottle Volley", "Breathing Technique", "Call For Help", "Change the Record", "Chemical Imbalance", "Clobber", "Coal Story", "Compliment", "Copper Chop", "Copy That", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fireproof", "Focus", "Frozen Ground", "Gambit", "Glass Cannon", "Glass Resistance", "Glitter Bomb", "Glitter Resistance", "Haunt", "Headshot", "Hot Potato", "Hypnotise", "Icicle Dart", "Inflame", "Insomnia", "Last Rites", "Magic Tome", "Meditate", "Mind-Meld", "Moonshine", "Multi Shot", "Multi Smack", "Multicopy", "Nod", "Peekaboo", "Pity AP", "Poison Camouflage", "Poison Coating", "Poison Resistance", "Poison Wall", "Provoke", "Pustule Bomb", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Ritual", "Roll Again", "Scorch", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Sticky Spray", "Sugar Rush", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toxic Stab", "Toy Hammer", "Trap Jaw", "Treat", "Trick", "Trip", "Vengeful Curse", "Wallop", "Wink" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Bad Joke", "Battery", "bE rAnDoM!!", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bon Bon Blast", "Bone Cannon", "Bottle Volley", "Breathing Technique", "Call For Help", "Change the Record", "Chemical Imbalance", "Clobber", "Coal Story", "Compliment", "Copper Chop", "Copy That", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fireproof", "Focus", "Frozen Ground", "Gambit", "Glass Cannon", "Glass Resistance", "Glitter Bomb", "Glitter Resistance", "Haunt", "Headshot", "Hot Potato", "Hypnotise", "Icicle Dart", "Inflame", "Insomnia", "Last Rites", "Magic Tome", "Meditate", "Mind-Meld", "Moonshine", "Multi Shot", "Multi Smack", "Multicopy", "Nod", "Peekaboo", "Pity AP", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Ritual", "Roll Again", "Scorch", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Sugar Rush", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toy Hammer", "Trap Jaw", "Treat", "Trick", "Trip", "Vengeful Curse", "Wallop", "Wink" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Miasmodeus"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Miasmodeus"
 }

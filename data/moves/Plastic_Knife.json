@@ -1,94 +1,88 @@
 {
-  "name": "Plastic Knife",
-  "description": "Hits one target multiple times.",
-  "categories":   [
-"MELEE","ACTIVE"    ]
-
-  "type": "PLASTIC",
-  "power": 40,
-  "numHits":   {
-    "min": 2,
-    "max": 2
+  "name" : "Plastic Knife",
+  "description" : "Hits one target multiple times.",
+  "categories" : [ "MELEE", "ACTIVE" ],
+  "type" : "PLASTIC",
+  "power" : 40,
+  "numHits" : {
+    "min" : 2,
+    "max" : 2
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 3,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Beanstalker",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Binterloper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Clocksley",
-      "source": "STICKER"
-    }    ,{
-      "name": "Coaldron",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cryoshear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Glaistain",
-      "source": "STICKER"
-    }    ,{
-      "name": "Hopskin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Lobstacle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mascotorn",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mascotoy",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Miss Mimic",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ripterra",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Robindam",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Terracooka",
-      "source": "STICKER"
-    }    ,{
-      "name": "Traffikrab",
-      "source": "STICKER"
-    }    ,{
-      "name": "Weevilite",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Plastic_Knife"
+  "cost" : 3,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Beanstalker",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Binterloper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Clocksley",
+    "source" : "STICKER"
+  }, {
+    "name" : "Coaldron",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cryoshear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Glaistain",
+    "source" : "STICKER"
+  }, {
+    "name" : "Hopskin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Lobstacle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mascotorn",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mascotoy",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Miss Mimic",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ripterra",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Robindam",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Terracooka",
+    "source" : "STICKER"
+  }, {
+    "name" : "Traffikrab",
+    "source" : "STICKER"
+  }, {
+    "name" : "Weevilite",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Plastic_Knife"
 }

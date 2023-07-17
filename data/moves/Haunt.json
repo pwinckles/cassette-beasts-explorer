@@ -1,161 +1,157 @@
 {
-  "name": "Haunt",
-  "description": "The user becomes a ghost and cannot be hit by attacks. After 3 turns, the tape breaks.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "ASTRAL",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Haunt",
+  "description" : "The user becomes a ghost and cannot be hit by attacks. After 3 turns, the tape breaks.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "ASTRAL",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Ghostly",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Adeptile",
-      "source": "STICKER"
-    }    ,{
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Anathema",
-      "source": "STICKER"
-    }    ,{
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Bansheep",
-      "source": "STICKER"
-    }    ,{
-      "name": "Beanstalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Candevil",
-      "source": "STICKER"
-    }    ,{
-      "name": "Capricorpse",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Djinn Entonic",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Folklord",
-      "source": "STICKER"
-    }    ,{
-      "name": "Galagor",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jormungold",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jumpkin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khufo",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kingrave",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Macabra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Magikrab",
-      "source": "STICKER"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mascotorn",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Mascotoy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Masquerattle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pawndead",
-      "source": "STICKER"
-    }    ,{
-      "name": "Puppercut",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ramtasm",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Ripterra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Skelevangelist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Southpaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sparktan",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spooki-onna",
-      "source": "STICKER"
-    }    ,{
-      "name": "Stardigrade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Undyin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wooltergeist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zeustrike",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zombleat",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Haunt"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Ghostly",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Adeptile",
+    "source" : "STICKER"
+  }, {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Anathema",
+    "source" : "STICKER"
+  }, {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Bansheep",
+    "source" : "STICKER"
+  }, {
+    "name" : "Beanstalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Candevil",
+    "source" : "STICKER"
+  }, {
+    "name" : "Capricorpse",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Djinn Entonic",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Folklord",
+    "source" : "STICKER"
+  }, {
+    "name" : "Galagor",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jormungold",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jumpkin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khufo",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kingrave",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Macabra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Magikrab",
+    "source" : "STICKER"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mascotorn",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Mascotoy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Masquerattle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pawndead",
+    "source" : "STICKER"
+  }, {
+    "name" : "Puppercut",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ramtasm",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Ripterra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Skelevangelist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Southpaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sparktan",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spooki-onna",
+    "source" : "STICKER"
+  }, {
+    "name" : "Stardigrade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Undyin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wooltergeist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zeustrike",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zombleat",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Haunt"
 }

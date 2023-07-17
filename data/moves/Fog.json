@@ -1,118 +1,114 @@
 {
-  "name": "Fog",
-  "description": "Reduces accuracy of ranged attacks that aren’t Water, Air or Ice-type to 0% for 3 turns.",
-  "categories":   [
-"ACTIVE","STATUS"    ]
-
-  "type": "WATER",
-  "accuracy":   {
-    "@type": "UNAVOIDABLE"
+  "name" : "Fog",
+  "description" : "Reduces accuracy of ranged attacks that aren’t Water, Air or Ice-type to 0% for 3 turns.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "WATER",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "UNAVOIDABLE"
   },
-  "cost": 4,
-  "target": "ALL",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Fog",
-      "kind": "DEBUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Averevoir",
-      "source": "STICKER"
-    }    ,{
-      "name": "Braxsuit",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cluckabilly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Decibelle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Diveal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Diveberg",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dominoth",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faucetear",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fountess",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Frillypad",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Liligator",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Padpole",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Regensea",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Rockertrice",
-      "source": "STICKER"
-    }    ,{
-      "name": "Scubalrus",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sirenade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sparktan",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spirouette",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Spooki-onna",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Thwackalope",
-      "source": "STICKER"
-    }    ,{
-      "name": "Tokusect",
-      "source": "STICKER"
-    }    ,{
-      "name": "Undyin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wingloom",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Zeustrike",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Fog_(move)"
+  "cost" : 4,
+  "target" : "ALL",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Fog",
+    "kind" : "DEBUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Averevoir",
+    "source" : "STICKER"
+  }, {
+    "name" : "Braxsuit",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cluckabilly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Decibelle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Diveal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Diveberg",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dominoth",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faucetear",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fountess",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Frillypad",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Liligator",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Padpole",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Regensea",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Rockertrice",
+    "source" : "STICKER"
+  }, {
+    "name" : "Scubalrus",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sirenade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sparktan",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spirouette",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Spooki-onna",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Thwackalope",
+    "source" : "STICKER"
+  }, {
+    "name" : "Tokusect",
+    "source" : "STICKER"
+  }, {
+    "name" : "Undyin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wingloom",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Zeustrike",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Fog_(move)"
 }

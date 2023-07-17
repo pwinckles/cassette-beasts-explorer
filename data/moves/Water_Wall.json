@@ -1,68 +1,64 @@
 {
-  "name": "Water Wall",
-  "description": "Sacrifice 20% of HP to create a wall that will absorb up to 3 hits for up to 3 turns.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "WATER",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Water Wall",
+  "description" : "Sacrifice 20% of HP to create a wall that will absorb up to 3 hits for up to 3 turns.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "WATER",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Water Wall",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Diveal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Diveberg",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faucetear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fountess",
-      "source": "STICKER"
-    }    ,{
-      "name": "Frillypad",
-      "source": "STICKER"
-    }    ,{
-      "name": "Liligator",
-      "source": "STICKER"
-    }    ,{
-      "name": "Lobstacle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Padpole",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Regensea",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Scubalrus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spirouette",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Undyin",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Water_Wall_(move)"
+  "cost" : 2,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Water Wall",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Diveal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Diveberg",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faucetear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fountess",
+    "source" : "STICKER"
+  }, {
+    "name" : "Frillypad",
+    "source" : "STICKER"
+  }, {
+    "name" : "Liligator",
+    "source" : "STICKER"
+  }, {
+    "name" : "Lobstacle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Padpole",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Regensea",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Scubalrus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spirouette",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Undyin",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Water_Wall_(move)"
 }

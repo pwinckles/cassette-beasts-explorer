@@ -1,41 +1,37 @@
 {
-  "name": "Window",
-  "description": "Allows Ranged Attacks to hit the target through walls.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "GLASS",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Window",
+  "description" : "Allows Ranged Attacks to hit the target through walls.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "GLASS",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 1,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Window",
-      "kind": "DEBUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Fortiwinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Glaistain",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sanzatime",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Window_(move)"
+  "cost" : 1,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Window",
+    "kind" : "DEBUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Fortiwinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Glaistain",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sanzatime",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Window_(move)"
 }

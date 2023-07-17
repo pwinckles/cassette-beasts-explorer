@@ -1,49 +1,43 @@
 {
-  "name": "Radiation Breath",
-  "description": "Hits each member of a team multiple times.",
-  "categories":   [
-"RANGED","ACTIVE"    ]
-
-  "type": "POISON",
-  "power": 20,
-  "numHits":   {
-    "min": 2,
-    "max": 6
+  "name" : "Radiation Breath",
+  "description" : "Hits each member of a team multiple times.",
+  "categories" : [ "RANGED", "ACTIVE" ],
+  "type" : "POISON",
+  "power" : 20,
+  "numHits" : {
+    "min" : 2,
+    "max" : 6
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 4,
-  "target": "TEAM",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "STICKER"
-    }    ,{
-      "name": "Galagor",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gearyu",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Khufo",
-      "source": "STICKER"
-    }    ,{
-      "name": "Smogmagog",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Radiation_Breath"
+  "cost" : 4,
+  "target" : "TEAM",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "STICKER"
+  }, {
+    "name" : "Galagor",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gearyu",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Khufo",
+    "source" : "STICKER"
+  }, {
+    "name" : "Smogmagog",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Radiation_Breath"
 }

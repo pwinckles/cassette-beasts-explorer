@@ -1,413 +1,409 @@
 {
-  "name": "AP Drain",
-  "description": "Reduces the target’s AP generation.",
-  "categories":   [
-"ACTIVE","STATUS"    ]
-
-  "type": "ASTRAL",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "AP Drain",
+  "description" : "Reduces the target’s AP generation.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "ASTRAL",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 1,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "AP Drain",
-      "kind": "DEBUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Adeptile",
-      "source": "STICKER"
-    }    ,{
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Anathema",
-      "source": "STICKER"
-    }    ,{
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Arkidd",
-      "source": "STICKER"
-    }    ,{
-      "name": "Artillerex",
-      "source": "STICKER"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Averevoir",
-      "source": "STICKER"
-    }    ,{
-      "name": "Bansheep",
-      "source": "STICKER"
-    }    ,{
-      "name": "Beanstalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Binterloper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Binvader",
-      "source": "STICKER"
-    }    ,{
-      "name": "Blossomaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Boltam",
-      "source": "STICKER"
-    }    ,{
-      "name": "Braxsuit",
-      "source": "STICKER"
-    }    ,{
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Bulletino",
-      "source": "STICKER"
-    }    ,{
-      "name": "Burnace",
-      "source": "STICKER"
-    }    ,{
-      "name": "Busheye",
-      "source": "STICKER"
-    }    ,{
-      "name": "Candevil",
-      "source": "STICKER"
-    }    ,{
-      "name": "Capricorpse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Carniviper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cat-5",
-      "source": "STICKER"
-    }    ,{
-      "name": "Clocksley",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cluckabilly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Coaldron",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cryoshear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dandylion",
-      "source": "STICKER"
-    }    ,{
-      "name": "Decibelle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Diveal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Diveberg",
-      "source": "STICKER"
-    }    ,{
-      "name": "Djinn Entonic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dominoth",
-      "source": "STICKER"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "STICKER"
-    }    ,{
-      "name": "Elfless",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faerious",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faucetear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "STICKER"
-    }    ,{
-      "name": "Folklord",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fortiwinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fountess",
-      "source": "STICKER"
-    }    ,{
-      "name": "Frillypad",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Galagor",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gearyu",
-      "source": "STICKER"
-    }    ,{
-      "name": "Glaistain",
-      "source": "STICKER"
-    }    ,{
-      "name": "Grampus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Hedgeherne",
-      "source": "STICKER"
-    }    ,{
-      "name": "Hopskin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Huntorch",
-      "source": "STICKER"
-    }    ,{
-      "name": "Icepeck",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jellyton",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jormungold",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jumpkin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khepri",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khufo",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kingrave",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kirikuri",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kittelly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Liligator",
-      "source": "STICKER"
-    }    ,{
-      "name": "Lobstacle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Macabra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Magikrab",
-      "source": "STICKER"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Manispear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mascotorn",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mascotoy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Masquerattle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miss Mimic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Muskrateer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Nevermort",
-      "source": "STICKER"
-    }    ,{
-      "name": "Padpole",
-      "source": "STICKER"
-    }    ,{
-      "name": "Palangolin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pawndead",
-      "source": "STICKER"
-    }    ,{
-      "name": "Picksie",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pinbolt",
-      "source": "STICKER"
-    }    ,{
-      "name": "Plasmantler",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pombomb",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Puppercut",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pyromeleon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ramtasm",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Regensea",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ripterra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Robindam",
-      "source": "STICKER"
-    }    ,{
-      "name": "Rockertrice",
-      "source": "STICKER"
-    }    ,{
-      "name": "Salamagus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sanzatime",
-      "source": "STICKER"
-    }    ,{
-      "name": "Scampire",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Scubalrus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sirenade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Skelevangelist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Smogmagog",
-      "source": "STICKER"
-    }    ,{
-      "name": "Snoopin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Southpaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sparktan",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spirouette",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spitzfyre",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spooki-onna",
-      "source": "STICKER"
-    }    ,{
-      "name": "Springheel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Squirey",
-      "source": "STICKER"
-    }    ,{
-      "name": "Stardigrade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Terracooka",
-      "source": "STICKER"
-    }    ,{
-      "name": "Thwackalope",
-      "source": "STICKER"
-    }    ,{
-      "name": "Tokusect",
-      "source": "STICKER"
-    }    ,{
-      "name": "Traffikrab",
-      "source": "STICKER"
-    }    ,{
-      "name": "Trapwurm",
-      "source": "STICKER"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Twirligig",
-      "source": "STICKER"
-    }    ,{
-      "name": "Undyin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Velocirifle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Weevilite",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wingloom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wooltergeist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wyrmaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zeustrike",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zombleat",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/AP_Drain_(move)"
+  "cost" : 1,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "AP Drain",
+    "kind" : "DEBUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Adeptile",
+    "source" : "STICKER"
+  }, {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Anathema",
+    "source" : "STICKER"
+  }, {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Arkidd",
+    "source" : "STICKER"
+  }, {
+    "name" : "Artillerex",
+    "source" : "STICKER"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Averevoir",
+    "source" : "STICKER"
+  }, {
+    "name" : "Bansheep",
+    "source" : "STICKER"
+  }, {
+    "name" : "Beanstalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Binterloper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Binvader",
+    "source" : "STICKER"
+  }, {
+    "name" : "Blossomaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Boltam",
+    "source" : "STICKER"
+  }, {
+    "name" : "Braxsuit",
+    "source" : "STICKER"
+  }, {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Bulletino",
+    "source" : "STICKER"
+  }, {
+    "name" : "Burnace",
+    "source" : "STICKER"
+  }, {
+    "name" : "Busheye",
+    "source" : "STICKER"
+  }, {
+    "name" : "Candevil",
+    "source" : "STICKER"
+  }, {
+    "name" : "Capricorpse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Carniviper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cat-5",
+    "source" : "STICKER"
+  }, {
+    "name" : "Clocksley",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cluckabilly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Coaldron",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cryoshear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dandylion",
+    "source" : "STICKER"
+  }, {
+    "name" : "Decibelle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Diveal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Diveberg",
+    "source" : "STICKER"
+  }, {
+    "name" : "Djinn Entonic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dominoth",
+    "source" : "STICKER"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "STICKER"
+  }, {
+    "name" : "Elfless",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faerious",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faucetear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "STICKER"
+  }, {
+    "name" : "Folklord",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fortiwinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fountess",
+    "source" : "STICKER"
+  }, {
+    "name" : "Frillypad",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Galagor",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gearyu",
+    "source" : "STICKER"
+  }, {
+    "name" : "Glaistain",
+    "source" : "STICKER"
+  }, {
+    "name" : "Grampus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Hedgeherne",
+    "source" : "STICKER"
+  }, {
+    "name" : "Hopskin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Huntorch",
+    "source" : "STICKER"
+  }, {
+    "name" : "Icepeck",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jellyton",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jormungold",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jumpkin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khepri",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khufo",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kingrave",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kirikuri",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kittelly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Liligator",
+    "source" : "STICKER"
+  }, {
+    "name" : "Lobstacle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Macabra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Magikrab",
+    "source" : "STICKER"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Manispear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mascotorn",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mascotoy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Masquerattle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miss Mimic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Muskrateer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Nevermort",
+    "source" : "STICKER"
+  }, {
+    "name" : "Padpole",
+    "source" : "STICKER"
+  }, {
+    "name" : "Palangolin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pawndead",
+    "source" : "STICKER"
+  }, {
+    "name" : "Picksie",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pinbolt",
+    "source" : "STICKER"
+  }, {
+    "name" : "Plasmantler",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pombomb",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Puppercut",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pyromeleon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ramtasm",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Regensea",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ripterra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Robindam",
+    "source" : "STICKER"
+  }, {
+    "name" : "Rockertrice",
+    "source" : "STICKER"
+  }, {
+    "name" : "Salamagus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sanzatime",
+    "source" : "STICKER"
+  }, {
+    "name" : "Scampire",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Scubalrus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sirenade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Skelevangelist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Smogmagog",
+    "source" : "STICKER"
+  }, {
+    "name" : "Snoopin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Southpaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sparktan",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spirouette",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spitzfyre",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spooki-onna",
+    "source" : "STICKER"
+  }, {
+    "name" : "Springheel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Squirey",
+    "source" : "STICKER"
+  }, {
+    "name" : "Stardigrade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Terracooka",
+    "source" : "STICKER"
+  }, {
+    "name" : "Thwackalope",
+    "source" : "STICKER"
+  }, {
+    "name" : "Tokusect",
+    "source" : "STICKER"
+  }, {
+    "name" : "Traffikrab",
+    "source" : "STICKER"
+  }, {
+    "name" : "Trapwurm",
+    "source" : "STICKER"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Twirligig",
+    "source" : "STICKER"
+  }, {
+    "name" : "Undyin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Velocirifle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Weevilite",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wingloom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wooltergeist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wyrmaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zeustrike",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zombleat",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/AP_Drain_(move)"
 }

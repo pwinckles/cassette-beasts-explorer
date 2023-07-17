@@ -1,32 +1,43 @@
 {
-  "name": "Faerious",
-  "number": 68,
-  "type": "ICE",
-  "remasterFrom": "Elfless",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 160,
-    "meleeAttack": 160,
-    "meleeDefense": 100,
-    "rangedAttack": 120,
-    "rangedDefense": 100,
-    "speed": 160,
-    "attributeSum": 800,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Faerious",
+  "number" : 68,
+  "type" : "ICE",
+  "remasterFrom" : "Elfless",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 160,
+    "meleeAttack" : 160,
+    "meleeDefense" : 100,
+    "rangedAttack" : 120,
+    "rangedDefense" : 100,
+    "speed" : 160,
+    "attributeSum" : 800,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Smack","Sprint","Treat","Snow Rush","AP Donate","Ice Wall","Toy Hammer"      ]
-
-    "learned":     [
-"Sharp Edges","Parry Stance","Heroic Blade","Woodcutter","Glitter Bomb"      ]
-
-    "compatible":     [
-"AP Boost","AP Donate","AP Drain","AP Factory","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Avalanche","Bad Joke","Battery","bE rAnDoM!!","Berserker","Bish Bash Bosh","Blizzard","Bloodlust","Breathing Technique","Call For Help","Change the Record","Clobber","Cold Fusion","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Crystal Lens","Custom Starter","Damage Roll","Deep Freeze","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Headshot","Heroic Blade","Hypnotise","Ice Breaker","Ice Camouflage","Ice Coating","Ice Resistance","Ice Wall","Icicle Dart","Inflame","Insomnia","Jagged Edge","Last Rites","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Multicopy","Neutralise","Nod","Nurse","Parry Stance","Peekaboo","Pity AP","Plant Resistance","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Ritual","Roll Again","Sharp Edges","Sharpen","Silicon Slash","Slice","Smack","Snow Rush","Spit","Splinter","Spray","Sprint","Stab In The Dark","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Treat","Trick","Trip","Vengeful Curse","Wallop","Wink","Woodcutter","Yule Regret That"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Sprint", "Treat", "Snow Rush", "AP Donate", "Ice Wall", "Toy Hammer" ],
+    "learned" : [ "Sharp Edges", "Parry Stance", "Heroic Blade", "Woodcutter", "Glitter Bomb" ],
+    "compatible" : [ "AP Boost", "AP Donate", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "AP Steal", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Avalanche", "Bad Joke", "Battery", "bE rAnDoM!!", "Berserker", "Bish Bash Bosh", "Blizzard", "Bloodlust", "Breathing Technique", "Call For Help", "Change the Record", "Clobber", "Cold Fusion", "Compliment", "Copper Chop", "Copy That", "Critical AP", "Criticise", "Crossfade", "Crystal Lens", "Custom Starter", "Damage Roll", "Deep Freeze", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Glitter Bomb", "Glitter Resistance", "Headshot", "Heroic Blade", "Hypnotise", "Ice Breaker", "Ice Camouflage", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Inflame", "Insomnia", "Jagged Edge", "Last Rites", "Magic Tome", "Meditate", "Mind-Meld", "Multi Shot", "Multi Smack", "Multicopy", "Neutralise", "Nod", "Nurse", "Parry Stance", "Peekaboo", "Pity AP", "Plant Resistance", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Ritual", "Roll Again", "Sharp Edges", "Sharpen", "Silicon Slash", "Slice", "Smack", "Snow Rush", "Spit", "Splinter", "Spray", "Sprint", "Stab In The Dark", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toxic Stab", "Toy Hammer", "Treat", "Trick", "Trip", "Vengeful Curse", "Wallop", "Wink", "Woodcutter", "Yule Regret That" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Donate", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "AP Steal", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Bad Joke", "Battery", "bE rAnDoM!!", "Berserker", "Bish Bash Bosh", "Bloodlust", "Breathing Technique", "Call For Help", "Change the Record", "Clobber", "Compliment", "Copper Chop", "Copy That", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Glitter Bomb", "Glitter Resistance", "Headshot", "Heroic Blade", "Hypnotise", "Icicle Dart", "Inflame", "Insomnia", "Jagged Edge", "Last Rites", "Magic Tome", "Meditate", "Mind-Meld", "Multi Shot", "Multi Smack", "Multicopy", "Neutralise", "Nod", "Nurse", "Parry Stance", "Peekaboo", "Pity AP", "Plant Resistance", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Ritual", "Roll Again", "Sharp Edges", "Sharpen", "Silicon Slash", "Slice", "Smack", "Snow Rush", "Spit", "Splinter", "Spray", "Sprint", "Stab In The Dark", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toxic Stab", "Toy Hammer", "Treat", "Trick", "Trip", "Vengeful Curse", "Wallop", "Wink", "Woodcutter", "Yule Regret That" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Faerious"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Faerious"
 }

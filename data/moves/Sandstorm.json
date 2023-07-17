@@ -1,67 +1,61 @@
 {
-  "name": "Sandstorm",
-  "description": "Hits a whole team. Reduces the targets’ remaining status effect durations by 1.",
-  "categories":   [
-"RANGED","ACTIVE"    ]
-
-  "type": "EARTH",
-  "power": 60,
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "Sandstorm",
+  "description" : "Hits a whole team. Reduces the targets’ remaining status effect durations by 1.",
+  "categories" : [ "RANGED", "ACTIVE" ],
+  "type" : "EARTH",
+  "power" : 60,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 3,
-  "target": "TEAM",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Capricorpse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Coaldron",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Fortiwinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kingrave",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pawndead",
-      "source": "STICKER"
-    }    ,{
-      "name": "Picksie",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sanzatime",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Skelevangelist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Terracooka",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Trapwurm",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wyrmaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zombleat",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Sandstorm"
+  "cost" : 3,
+  "target" : "TEAM",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Capricorpse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Coaldron",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Fortiwinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kingrave",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pawndead",
+    "source" : "STICKER"
+  }, {
+    "name" : "Picksie",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sanzatime",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Skelevangelist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Terracooka",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Trapwurm",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wyrmaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zombleat",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Sandstorm"
 }

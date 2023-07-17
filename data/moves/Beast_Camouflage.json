@@ -1,119 +1,115 @@
 {
-  "name": "Beast Camouflage",
-  "description": "Changes the type of the user. Automatically used at the start of battle for 0 AP.",
-  "categories":   [
-"AUTOMATED","STATUS","ACTIVE"    ]
-
-  "type": "BEAST",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Beast Camouflage",
+  "description" : "Changes the type of the user. Automatically used at the start of battle for 0 AP.",
+  "categories" : [ "ACTIVE", "AUTOMATED", "STATUS" ],
+  "type" : "BEAST",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Beast Coating",
-      "kind": "TRANSMUTATION"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Blossomaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Boltam",
-      "source": "STICKER"
-    }    ,{
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Capricorpse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cat-5",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dandylion",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dominoth",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kittelly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Manispear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Palangolin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pinbolt",
-      "source": "STICKER"
-    }    ,{
-      "name": "Plasmantler",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pombomb",
-      "source": "STICKER"
-    }    ,{
-      "name": "Puppercut",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ramtasm",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Southpaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spitzfyre",
-      "source": "STICKER"
-    }    ,{
-      "name": "Thwackalope",
-      "source": "STICKER"
-    }    ,{
-      "name": "Tokusect",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wingloom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wooltergeist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zombleat",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Beast_Camouflage"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Beast Coating",
+    "kind" : "TRANSMUTATION"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Blossomaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Boltam",
+    "source" : "STICKER"
+  }, {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Capricorpse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cat-5",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dandylion",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dominoth",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kittelly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Manispear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Palangolin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pinbolt",
+    "source" : "STICKER"
+  }, {
+    "name" : "Plasmantler",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pombomb",
+    "source" : "STICKER"
+  }, {
+    "name" : "Puppercut",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ramtasm",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Southpaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spitzfyre",
+    "source" : "STICKER"
+  }, {
+    "name" : "Thwackalope",
+    "source" : "STICKER"
+  }, {
+    "name" : "Tokusect",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wingloom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wooltergeist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zombleat",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Beast_Camouflage"
 }

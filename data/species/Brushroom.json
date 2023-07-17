@@ -1,32 +1,43 @@
 {
-  "name": "Brushroom",
-  "number": 69,
-  "type": "PLANT",
-  "remasterFrom": "None",
-  "remasterTo":   [
-"Fungogh"    ]
-
-  "stats":   {
-    "hp": 100,
-    "meleeAttack": 100,
-    "meleeDefense": 100,
-    "rangedAttack": 90,
-    "rangedDefense": 110,
-    "speed": 100,
-    "attributeSum": 600,
-    "ap": 5,
-    "moveSlots": 8
+  "name" : "Brushroom",
+  "number" : 69,
+  "type" : "PLANT",
+  "remasterFrom" : "None",
+  "remasterTo" : [ "Fungogh" ],
+  "stats" : {
+    "hp" : 100,
+    "meleeAttack" : 100,
+    "meleeDefense" : 100,
+    "rangedAttack" : 90,
+    "rangedDefense" : 110,
+    "speed" : 100,
+    "attributeSum" : 600,
+    "ap" : 5,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Smack","Plastic Coating","Paint Swipe"      ]
-
-    "learned":     [
-"Elemental Wall","Water Coating","Poison Pollen","Snooze Spore","Leech"      ]
-
-    "compatible":     [
-"Acorn Mortar","Air Camouflage","Air Coating","AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Bad Joke","Battery","bE rAnDoM!!","Beast Camouflage","Beast Coating","Bish Bash Bosh","Call For Help","Change the Record","Chemical Imbalance","Clobber","Compliment","Copper Chop","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Dual Wield","Earth Camouflage","Earth Coating","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Camouflage","Fire Coating","Focus","Gambit","Glass Camouflage","Glass Coating","Glitter Bomb","Glitter Resistance","Headshot","Ice Camouflage","Ice Coating","Inflame","Last Rites","Leech","Life Absorb","Lightning Camouflage","Lightning Coating","Metal Camouflage","Metal Coating","Multi Shot","Multi Smack","Multicopy","New Leaf","Nod","Paint Swipe","Peekaboo","Pity AP","Plant Camouflage","Plant Coating","Plant Resistance","Plant Wall","Plastic Camouflage","Plastic Coating","Plastic Resistance","Plastic Wall","Poison Camouflage","Poison Coating","Poison Pollen","Poison Resistance","Poison Wall","Provoke","Pustule Bomb","Raise Arms","Raise Shields","Random Starter","Roll Again","Sharpen","Slice","Smack","Snooze Spore","Spit","Splinter","Spray","Sprint","Sticky Spray","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Treat","Trick","Trip","Wallop","Water Camouflage","Water Coating","Wink","Woodcutter"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Plastic Coating", "Paint Swipe" ],
+    "learned" : [ "Elemental Wall", "Water Coating", "Poison Pollen", "Snooze Spore", "Leech" ],
+    "compatible" : [ "Acorn Mortar", "Air Camouflage", "Air Coating", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Camouflage", "Astral Coating", "Bad Joke", "Battery", "bE rAnDoM!!", "Beast Camouflage", "Beast Coating", "Bish Bash Bosh", "Call For Help", "Change the Record", "Chemical Imbalance", "Clobber", "Compliment", "Copper Chop", "Copy That", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Doc Leaf", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Earth Camouflage", "Earth Coating", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fire Camouflage", "Fire Coating", "Focus", "Gambit", "Glass Camouflage", "Glass Coating", "Glitter Bomb", "Glitter Resistance", "Headshot", "Ice Camouflage", "Ice Coating", "Inflame", "Last Rites", "Leech", "Life Absorb", "Lightning Camouflage", "Lightning Coating", "Metal Camouflage", "Metal Coating", "Multi Shot", "Multi Smack", "Multicopy", "New Leaf", "Nod", "Paint Swipe", "Peekaboo", "Pity AP", "Plant Camouflage", "Plant Coating", "Plant Resistance", "Plant Wall", "Plastic Camouflage", "Plastic Coating", "Plastic Resistance", "Plastic Wall", "Poison Camouflage", "Poison Coating", "Poison Pollen", "Poison Resistance", "Poison Wall", "Provoke", "Pustule Bomb", "Raise Arms", "Raise Shields", "Random Starter", "Roll Again", "Sharpen", "Slice", "Smack", "Snooze Spore", "Spit", "Splinter", "Spray", "Sprint", "Sticky Spray", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toxic Stab", "Toy Hammer", "Treat", "Trick", "Trip", "Wallop", "Water Camouflage", "Water Coating", "Wink", "Woodcutter" ],
+    "bootleg" : {
+      "common" : [ "Air Camouflage", "Air Coating", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Camouflage", "Astral Coating", "Bad Joke", "Battery", "bE rAnDoM!!", "Beast Camouflage", "Beast Coating", "Bish Bash Bosh", "Call For Help", "Change the Record", "Chemical Imbalance", "Clobber", "Compliment", "Copper Chop", "Copy That", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Earth Camouflage", "Earth Coating", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fire Camouflage", "Fire Coating", "Focus", "Gambit", "Glass Camouflage", "Glass Coating", "Glitter Bomb", "Glitter Resistance", "Headshot", "Ice Camouflage", "Ice Coating", "Inflame", "Last Rites", "Lightning Camouflage", "Lightning Coating", "Metal Camouflage", "Metal Coating", "Multi Shot", "Multi Smack", "Multicopy", "Nod", "Paint Swipe", "Peekaboo", "Pity AP", "Plant Camouflage", "Plant Coating", "Plastic Camouflage", "Plastic Coating", "Plastic Resistance", "Plastic Wall", "Poison Camouflage", "Poison Coating", "Poison Resistance", "Poison Wall", "Provoke", "Pustule Bomb", "Raise Arms", "Raise Shields", "Random Starter", "Roll Again", "Sharpen", "Slice", "Smack", "Spit", "Spray", "Sprint", "Sticky Spray", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toxic Stab", "Toy Hammer", "Treat", "Trick", "Trip", "Wallop", "Water Camouflage", "Water Coating", "Wink" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Brushroom"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Brushroom"
 }

@@ -1,32 +1,43 @@
 {
-  "name": "Jumpkin",
-  "number": 89,
-  "type": "PLANT",
-  "remasterFrom": "None",
-  "remasterTo":   [
-"Draculeaf","Beanstalker"    ]
-
-  "stats":   {
-    "hp": 130,
-    "meleeAttack": 100,
-    "meleeDefense": 100,
-    "rangedAttack": 75,
-    "rangedDefense": 100,
-    "speed": 140,
-    "attributeSum": 645,
-    "ap": 5,
-    "moveSlots": 4
+  "name" : "Jumpkin",
+  "number" : 89,
+  "type" : "PLANT",
+  "remasterFrom" : "None",
+  "remasterTo" : [ "Draculeaf", "Beanstalker" ],
+  "stats" : {
+    "hp" : 130,
+    "meleeAttack" : 100,
+    "meleeDefense" : 100,
+    "rangedAttack" : 75,
+    "rangedDefense" : 100,
+    "speed" : 140,
+    "attributeSum" : 645,
+    "ap" : 5,
+    "moveSlots" : 4
   },
-  "moves":   {
-    "initial":     [
-"Smack","Pumpkin Pie"      ]
-
-    "learned":     [
-"Jump Scare","Trick","Treat","Bite","Plant Wall"      ]
-
-    "compatible":     [
-"Acorn Mortar","AP Boost","AP Drain","AP Refund","AP Starter","Astral Resistance","Bish Bash Bosh","Bite","Blood Donation","Call For Help","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Haunt","Headshot","Hot Potato","Icicle Dart","Jump Scare","Last Rites","Leech","Life Absorb","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Phase Shift","Pity AP","Plant Camouflage","Plant Coating","Plant Resistance","Plant Wall","Plastic Resistance","Plastic Wall","Poison Pollen","Pumpkin Pie","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Ritual","Roll Again","Sharpen","Slice","Smack","Snooze Spore","Snow Rush","Spit","Splinter","Spray","Sprint","The Old 1-2","Toy Hammer","Trap Jaw","Treat","Trick","Trip","Vengeful Curse","Wallop","Wink","Woodcutter"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Pumpkin Pie" ],
+    "learned" : [ "Jump Scare", "Trick", "Treat", "Bite", "Plant Wall" ],
+    "compatible" : [ "Acorn Mortar", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Resistance", "Bish Bash Bosh", "Bite", "Blood Donation", "Call For Help", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Doc Leaf", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Haunt", "Headshot", "Hot Potato", "Icicle Dart", "Jump Scare", "Last Rites", "Leech", "Life Absorb", "Multi Shot", "Multi Smack", "Neutralise", "New Leaf", "Nod", "Nurse", "Phase Shift", "Pity AP", "Plant Camouflage", "Plant Coating", "Plant Resistance", "Plant Wall", "Plastic Resistance", "Plastic Wall", "Poison Pollen", "Pumpkin Pie", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Ritual", "Roll Again", "Sharpen", "Slice", "Smack", "Snooze Spore", "Snow Rush", "Spit", "Splinter", "Spray", "Sprint", "The Old 1-2", "Toy Hammer", "Trap Jaw", "Treat", "Trick", "Trip", "Vengeful Curse", "Wallop", "Wink", "Woodcutter" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Resistance", "Bish Bash Bosh", "Bite", "Blood Donation", "Call For Help", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Doc Leaf", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Haunt", "Headshot", "Hot Potato", "Icicle Dart", "Jump Scare", "Last Rites", "Life Absorb", "Multi Shot", "Multi Smack", "Neutralise", "New Leaf", "Nod", "Nurse", "Phase Shift", "Pity AP", "Plastic Resistance", "Plastic Wall", "Pumpkin Pie", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Ritual", "Roll Again", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "The Old 1-2", "Toy Hammer", "Trap Jaw", "Treat", "Trick", "Trip", "Vengeful Curse", "Wallop", "Wink" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Jumpkin"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Jumpkin"
 }

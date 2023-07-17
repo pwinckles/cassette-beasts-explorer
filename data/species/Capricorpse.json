@@ -1,32 +1,43 @@
 {
-  "name": "Capricorpse",
-  "number": 23,
-  "type": "EARTH",
-  "remasterFrom": "Zombleat",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 160,
-    "meleeAttack": 140,
-    "meleeDefense": 160,
-    "rangedAttack": 110,
-    "rangedDefense": 160,
-    "speed": 110,
-    "attributeSum": 840,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Capricorpse",
+  "number" : 23,
+  "type" : "EARTH",
+  "remasterFrom" : "Zombleat",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 160,
+    "meleeAttack" : 140,
+    "meleeDefense" : 160,
+    "rangedAttack" : 110,
+    "rangedDefense" : 160,
+    "speed" : 110,
+    "attributeSum" : 840,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Smack","Shear Luck","Battering Ram","Bite","Elemental Wall","Coal Story","Multi Smack","Crumble"      ]
-
-    "learned":     [
-"Ritual","Shield Bash","Mountain Smash","Haunt","Last Rites"      ]
-
-    "compatible":     [
-"AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Battering Ram","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Call For Help","Clobber","Coal Story","Compliment","Cotton On","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Earth Camouflage","Earth Coating","Earth Resistance","Earth Wall","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Fossil","Gambit","Grounded","Haunt","Headshot","Last Rites","Life Absorb","Mountain Smash","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Phase Shift","Pity AP","Provoke","Raise Arms","Raise Shields","Random Starter","Retribution","Ritual","Sandstorm","Self-Assured","Sharpen","Shear Luck","Shield Bash","Slice","Smack","Spit","Spray","Sprint","Status Resistance","Sturdy Armour","Taunt","The Old 1-2","Throw","Trip","Unshakeable","Vengeful Curse","Wallop","Wink"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Shear Luck", "Battering Ram", "Bite", "Elemental Wall", "Coal Story", "Multi Smack", "Crumble" ],
+    "learned" : [ "Ritual", "Shield Bash", "Mountain Smash", "Haunt", "Last Rites" ],
+    "compatible" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Battering Ram", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bone Cannon", "Call For Help", "Clobber", "Coal Story", "Compliment", "Cotton On", "Critical AP", "Criticise", "Crossfade", "Crumble", "Custom Starter", "Defend", "Delegate", "Desperation", "Doc Leaf", "Dodge", "Double Slice", "Double Smack", "Earth Camouflage", "Earth Coating", "Earth Resistance", "Earth Wall", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Final Breath", "Focus", "Fossil", "Gambit", "Grounded", "Haunt", "Headshot", "Last Rites", "Life Absorb", "Mountain Smash", "Multi Shot", "Multi Smack", "Neutralise", "New Leaf", "Nod", "Nurse", "Phase Shift", "Pity AP", "Provoke", "Raise Arms", "Raise Shields", "Random Starter", "Retribution", "Ritual", "Sandstorm", "Self-Assured", "Sharpen", "Shear Luck", "Shield Bash", "Slice", "Smack", "Spit", "Spray", "Sprint", "Status Resistance", "Sturdy Armour", "Taunt", "The Old 1-2", "Throw", "Trip", "Unshakeable", "Vengeful Curse", "Wallop", "Wink" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Battering Ram", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bone Cannon", "Call For Help", "Clobber", "Compliment", "Cotton On", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Doc Leaf", "Dodge", "Double Slice", "Double Smack", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Final Breath", "Focus", "Gambit", "Haunt", "Headshot", "Last Rites", "Life Absorb", "Multi Shot", "Multi Smack", "Neutralise", "New Leaf", "Nod", "Nurse", "Phase Shift", "Pity AP", "Provoke", "Raise Arms", "Raise Shields", "Random Starter", "Retribution", "Ritual", "Self-Assured", "Sharpen", "Shear Luck", "Shield Bash", "Slice", "Smack", "Spit", "Spray", "Sprint", "Status Resistance", "Sturdy Armour", "Taunt", "The Old 1-2", "Throw", "Trip", "Unshakeable", "Vengeful Curse", "Wallop", "Wink" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Capricorpse"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Capricorpse"
 }

@@ -1,28 +1,24 @@
 {
-  "name": "Acid Reflex",
-  "description": "Chance to poison an opponent automatically upon melee contact.",
-  "categories":   [
-"AUTOMATED","PASSIVE","STATUS"    ]
-
-  "type": "POISON",
-  "accuracy":   {
-    "@type": "UNAVOIDABLE"
+  "name" : "Acid Reflex",
+  "description" : "Chance to poison an opponent automatically upon melee contact.",
+  "categories" : [ "PASSIVE", "AUTOMATED", "STATUS" ],
+  "type" : "POISON",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "UNAVOIDABLE"
   },
-  "cost": 0,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Poisoned",
-      "kind": "DEBUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Jellyton",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Acid_Reflex"
+  "cost" : 0,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Poisoned",
+    "kind" : "DEBUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Jellyton",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Acid_Reflex"
 }

@@ -1,32 +1,43 @@
 {
-  "name": "Miss Mimic",
-  "number": 119,
-  "type": "METAL",
-  "remasterFrom": "None",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 110,
-    "meleeAttack": 210,
-    "meleeDefense": 110,
-    "rangedAttack": 110,
-    "rangedDefense": 110,
-    "speed": 150,
-    "attributeSum": 800,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Miss Mimic",
+  "number" : 119,
+  "type" : "METAL",
+  "remasterFrom" : "None",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 110,
+    "meleeAttack" : 210,
+    "meleeDefense" : 110,
+    "rangedAttack" : 110,
+    "rangedDefense" : 110,
+    "speed" : 150,
+    "attributeSum" : 800,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Smack","Pre-emptive Strike","Custom Starter","Sharp Edges"      ]
-
-    "learned":     [
-"Double Slice","Plastic Knife","Toxic Stab","Flirt","Stab In The Dark"      ]
-
-    "compatible":     [
-"AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","AP Steal","Automation","Battery","Berserker","Bish Bash Bosh","Bloodlust","Bottle Volley","Broadcast","Call For Help","Change the Record","Charge","Clobber","Compliment","Copper Chop","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Flirt","Focus","Frozen Ground","Gambit","Gear Shear","Glass Resistance","Grounded","Headshot","Heroic Blade","Hypnotise","Icicle Dart","Incinerate","Iron Filings","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Multicopy","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Plastic Camouflage","Plastic Coating","Plastic Knife","Plastic Resistance","Plastic Wall","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Recycle","Revenge Strike","Roll Again","Self-Destruct","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Silicon Slash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Stab In The Dark","Sturdy Armour","Taunt","The Old 1-2","Toxic Stab","Trick","Trip","Unicast","Wallop","Wink","Woodcutter"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Pre-emptive Strike", "Custom Starter", "Sharp Edges" ],
+    "learned" : [ "Double Slice", "Plastic Knife", "Toxic Stab", "Flirt", "Stab In The Dark" ],
+    "compatible" : [ "AP Boost", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "AP Steal", "Automation", "Battery", "Berserker", "Bish Bash Bosh", "Bloodlust", "Bottle Volley", "Broadcast", "Call For Help", "Change the Record", "Charge", "Clobber", "Compliment", "Copper Chop", "Copy That", "Copycat", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Flirt", "Focus", "Frozen Ground", "Gambit", "Gear Shear", "Glass Resistance", "Grounded", "Headshot", "Heroic Blade", "Hypnotise", "Icicle Dart", "Incinerate", "Iron Filings", "Jagged Edge", "Last Rites", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Camouflage", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Multi Shot", "Multi Smack", "Multicopy", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Plastic Camouflage", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Recycle", "Revenge Strike", "Roll Again", "Self-Destruct", "Sharp Edges", "Sharpen", "Shield Bash", "Shrapnel", "Silicon Slash", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Stab In The Dark", "Sturdy Armour", "Taunt", "The Old 1-2", "Toxic Stab", "Trick", "Trip", "Unicast", "Wallop", "Wink", "Woodcutter" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "AP Steal", "Automation", "Battery", "Berserker", "Bish Bash Bosh", "Bloodlust", "Bottle Volley", "Broadcast", "Call For Help", "Change the Record", "Charge", "Clobber", "Compliment", "Copy That", "Copycat", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Flirt", "Focus", "Frozen Ground", "Gambit", "Gear Shear", "Glass Resistance", "Grounded", "Headshot", "Heroic Blade", "Hypnotise", "Icicle Dart", "Incinerate", "Jagged Edge", "Last Rites", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Camouflage", "Metal Coating", "Metal Resistance", "Metal Wall", "Multi Shot", "Multi Smack", "Multicopy", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Plastic Camouflage", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Recycle", "Revenge Strike", "Roll Again", "Self-Destruct", "Sharp Edges", "Sharpen", "Shrapnel", "Silicon Slash", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Stab In The Dark", "Taunt", "The Old 1-2", "Toxic Stab", "Trick", "Trip", "Unicast", "Wallop", "Wink", "Woodcutter" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Miss_Mimic"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Miss_Mimic"
 }

@@ -1,91 +1,87 @@
 {
-  "name": "Bad Joke",
-  "description": "The user tells a random joke. This has no effect.",
-  "categories":   [
-"ACTIVE","MISC"    ]
-
-  "type": "TYPELESS",
-  "accuracy":   {
-    "@type": "UNAVOIDABLE"
+  "name" : "Bad Joke",
+  "description" : "The user tells a random joke. This has no effect.",
+  "categories" : [ "MISC", "ACTIVE" ],
+  "type" : "TYPELESS",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "UNAVOIDABLE"
   },
-  "cost": 0,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Candevil",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cluckabilly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Decibelle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Elfless",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faerious",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Grampus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Muskrateer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Nevermort",
-      "source": "STICKER"
-    }    ,{
-      "name": "Picksie",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pombomb",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Rockertrice",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Sirenade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spitzfyre",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Bad_Joke"
+  "cost" : 0,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Candevil",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cluckabilly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Decibelle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Elfless",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faerious",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Grampus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Muskrateer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Nevermort",
+    "source" : "STICKER"
+  }, {
+    "name" : "Picksie",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pombomb",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Rockertrice",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Sirenade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spitzfyre",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Bad_Joke"
 }

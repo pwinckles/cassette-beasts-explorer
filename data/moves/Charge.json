@@ -1,118 +1,112 @@
 {
-  "name": "Charge",
-  "description": "Hits one target.",
-  "categories":   [
-"MELEE","ACTIVE"    ]
-
-  "type": "LIGHTNING",
-  "power": 60,
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "Charge",
+  "description" : "Hits one target.",
+  "categories" : [ "MELEE", "ACTIVE" ],
+  "type" : "LIGHTNING",
+  "power" : 60,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Arkidd",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Binterloper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Binvader",
-      "source": "STICKER"
-    }    ,{
-      "name": "Blossomaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Boltam",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Burnace",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cat-5",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Cryoshear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dandylion",
-      "source": "STICKER"
-    }    ,{
-      "name": "Galagor",
-      "source": "STICKER"
-    }    ,{
-      "name": "Icepeck",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khufo",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kittelly",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miss Mimic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Pinbolt",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Plasmantler",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Smogmagog",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sparktan",
-      "source": "STICKER"
-    }    ,{
-      "name": "Stardigrade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Thwackalope",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Weevilite",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Wingloom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zeustrike",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Charge"
+  "cost" : 2,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Arkidd",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Binterloper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Binvader",
+    "source" : "STICKER"
+  }, {
+    "name" : "Blossomaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Boltam",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Burnace",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cat-5",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Cryoshear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dandylion",
+    "source" : "STICKER"
+  }, {
+    "name" : "Galagor",
+    "source" : "STICKER"
+  }, {
+    "name" : "Icepeck",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khufo",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kittelly",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miss Mimic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Pinbolt",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Plasmantler",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Smogmagog",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sparktan",
+    "source" : "STICKER"
+  }, {
+    "name" : "Stardigrade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Thwackalope",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Weevilite",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Wingloom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zeustrike",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Charge"
 }

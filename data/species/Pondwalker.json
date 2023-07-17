@@ -1,32 +1,43 @@
 {
-  "name": "Pondwalker",
-  "number": 102,
-  "type": "WATER",
-  "remasterFrom": "None",
-  "remasterTo":   [
-"Sharktanker"    ]
-
-  "stats":   {
-    "hp": 100,
-    "meleeAttack": 100,
-    "meleeDefense": 100,
-    "rangedAttack": 100,
-    "rangedDefense": 100,
-    "speed": 100,
-    "attributeSum": 600,
-    "ap": 5,
-    "moveSlots": 4
+  "name" : "Pondwalker",
+  "number" : 102,
+  "type" : "WATER",
+  "remasterFrom" : "None",
+  "remasterTo" : [ "Sharktanker" ],
+  "stats" : {
+    "hp" : 100,
+    "meleeAttack" : 100,
+    "meleeDefense" : 100,
+    "rangedAttack" : 100,
+    "rangedDefense" : 100,
+    "speed" : 100,
+    "attributeSum" : 600,
+    "ap" : 5,
+    "moveSlots" : 4
   },
-  "moves":   {
-    "initial":     [
-"Spit","Metal Wall"      ]
-
-    "learned":     [
-"Trip","Call For Help","Undertow","Dodge","Torrent"      ]
-
-    "compatible":     [
-"AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Battery","Bish Bash Bosh","Boil","Bottle Volley","Broadcast","Call For Help","Charge","Clobber","Compliment","Critical AP","Criticise","Crossfade","Crystal Lens","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Final Breath","Focus","Fog","Gambit","Gear Shear","Glass Bonds","Glass Camouflage","Glass Cannon","Glass Coating","Glass Resistance","Glass Wall","Grounded","Headshot","Ice Breaker","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Liquid Body","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Prismatic","Raise Arms","Raise Shields","Random Starter","Revolving Door","Self-Assured","Self-Destruct","Sharp Edges","Sharpen","Shrapnel","Silicon Slash","Slice","Smack","Spit","Spray","Sprint","The Old 1-2","Torrent","Trip","Undertow","Unicast","Unshakeable","Wallop","Water Camouflage","Water Coating","Water Wall","Waterproof","Window","Wink"      ]
-
+  "moves" : {
+    "initial" : [ "Spit", "Metal Wall" ],
+    "learned" : [ "Trip", "Call For Help", "Undertow", "Dodge", "Torrent" ],
+    "compatible" : [ "AP Boost", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "Automation", "Battery", "Bish Bash Bosh", "Boil", "Bottle Volley", "Broadcast", "Call For Help", "Charge", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Crystal Lens", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Final Breath", "Focus", "Fog", "Gambit", "Gear Shear", "Glass Bonds", "Glass Camouflage", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Grounded", "Headshot", "Ice Breaker", "Jagged Edge", "Last Rites", "Lightning Camouflage", "Lightning Coating", "Liquid Body", "Magnet", "Metal Camouflage", "Metal Coating", "Metal Resistance", "Metal Wall", "Multi Shot", "Multi Smack", "Nod", "Pity AP", "Prismatic", "Raise Arms", "Raise Shields", "Random Starter", "Revolving Door", "Self-Assured", "Self-Destruct", "Sharp Edges", "Sharpen", "Shrapnel", "Silicon Slash", "Slice", "Smack", "Spit", "Spray", "Sprint", "The Old 1-2", "Torrent", "Trip", "Undertow", "Unicast", "Unshakeable", "Wallop", "Water Camouflage", "Water Coating", "Water Wall", "Waterproof", "Window", "Wink" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "Automation", "Battery", "Bish Bash Bosh", "Bottle Volley", "Broadcast", "Call For Help", "Charge", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Crystal Lens", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Gambit", "Gear Shear", "Glass Bonds", "Glass Camouflage", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Grounded", "Headshot", "Ice Breaker", "Jagged Edge", "Last Rites", "Lightning Camouflage", "Lightning Coating", "Liquid Body", "Magnet", "Metal Camouflage", "Metal Coating", "Metal Resistance", "Metal Wall", "Multi Shot", "Multi Smack", "Nod", "Pity AP", "Prismatic", "Raise Arms", "Raise Shields", "Random Starter", "Revolving Door", "Self-Assured", "Self-Destruct", "Sharp Edges", "Sharpen", "Shrapnel", "Silicon Slash", "Slice", "Smack", "Spit", "Spray", "Sprint", "The Old 1-2", "Trip", "Unicast", "Unshakeable", "Wallop", "Window", "Wink" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Pondwalker"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Pondwalker"
 }

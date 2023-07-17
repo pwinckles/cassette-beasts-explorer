@@ -1,415 +1,409 @@
 {
-  "name": "Smack",
-  "description": "Hits one target.",
-  "categories":   [
-"MELEE","ACTIVE"    ]
-
-  "type": "TYPELESS",
-  "power": 30,
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "Smack",
+  "description" : "Hits one target.",
+  "categories" : [ "MELEE", "ACTIVE" ],
+  "type" : "TYPELESS",
+  "power" : 30,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 0,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Adeptile",
-      "source": "STICKER"
-    }    ,{
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Anathema",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Arkidd",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Artillerex",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Averevoir",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Bansheep",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Beanstalker",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Binterloper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Binvader",
-      "source": "STICKER"
-    }    ,{
-      "name": "Blossomaw",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Boltam",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Braxsuit",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Brushroom",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Bulletino",
-      "source": "STICKER"
-    }    ,{
-      "name": "Burnace",
-      "source": "STICKER"
-    }    ,{
-      "name": "Busheye",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Candevil",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Capricorpse",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Carniviper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cat-5",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Clocksley",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Cluckabilly",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Coaldron",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cryoshear",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Dandylion",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Decibelle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Diveal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Diveberg",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Djinn Entonic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dominoth",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Elfless",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Faerious",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Faucetear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Flapwoods",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Folklord",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Fortiwinx",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Fountess",
-      "source": "STICKER"
-    }    ,{
-      "name": "Frillypad",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Fungogh",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Galagor",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gearyu",
-      "source": "STICKER"
-    }    ,{
-      "name": "Glaistain",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Grampus",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Hedgeherne",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Hopskin",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Huntorch",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Icepeck",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Jellyton",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Jormungold",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jumpkin",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Khepri",
-      "source": "STICKER"
-    }    ,{
-      "name": "Khufo",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kingrave",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Kirikuri",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Kittelly",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Kuneko",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Liligator",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Lobstacle",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Macabra",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Magikrab",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Manispear",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mascotorn",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mascotoy",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Masquerattle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miss Mimic",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Muskrateer",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Nevermort",
-      "source": "STICKER"
-    }    ,{
-      "name": "Padpole",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Palangolin",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Pawndead",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Picksie",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Pinbolt",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Plasmantler",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Pombomb",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pondwalker",
-      "source": "STICKER"
-    }    ,{
-      "name": "Puppercut",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Pyromeleon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Ramtasm",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Regensea",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ripterra",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Robindam",
-      "source": "STICKER"
-    }    ,{
-      "name": "Rockertrice",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Salamagus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sanzatime",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Scampire",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Scubalrus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Sirenade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Skelevangelist",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Smogmagog",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Snoopin",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Southpaw",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Sparktan",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spirouette",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spitzfyre",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spooki-onna",
-      "source": "STICKER"
-    }    ,{
-      "name": "Springheel",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Squirey",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Stardigrade",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Terracooka",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Thwackalope",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Tokusect",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Traffikrab",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Trapwurm",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Twirligig",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Undyin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Velocirifle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Weevilite",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wingloom",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Wooltergeist",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Wyrmaw",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Zeustrike",
-      "source": "STICKER"
-    }    ,{
-      "name": "Zombleat",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Smack"
+  "cost" : 0,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Adeptile",
+    "source" : "STICKER"
+  }, {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Anathema",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Arkidd",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Artillerex",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Averevoir",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Bansheep",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Beanstalker",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Binterloper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Binvader",
+    "source" : "STICKER"
+  }, {
+    "name" : "Blossomaw",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Boltam",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Braxsuit",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Brushroom",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Bulletino",
+    "source" : "STICKER"
+  }, {
+    "name" : "Burnace",
+    "source" : "STICKER"
+  }, {
+    "name" : "Busheye",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Candevil",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Capricorpse",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Carniviper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cat-5",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Clocksley",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Cluckabilly",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Coaldron",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cryoshear",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Dandylion",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Decibelle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Diveal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Diveberg",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Djinn Entonic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dominoth",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Elfless",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Faerious",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Faucetear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Flapwoods",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Folklord",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Fortiwinx",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Fountess",
+    "source" : "STICKER"
+  }, {
+    "name" : "Frillypad",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Fungogh",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Galagor",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gearyu",
+    "source" : "STICKER"
+  }, {
+    "name" : "Glaistain",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Grampus",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Hedgeherne",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Hopskin",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Huntorch",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Icepeck",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Jellyton",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Jormungold",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jumpkin",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Khepri",
+    "source" : "STICKER"
+  }, {
+    "name" : "Khufo",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kingrave",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Kirikuri",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Kittelly",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Kuneko",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Liligator",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Lobstacle",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Macabra",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Magikrab",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Manispear",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mascotorn",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mascotoy",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Masquerattle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miss Mimic",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Muskrateer",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Nevermort",
+    "source" : "STICKER"
+  }, {
+    "name" : "Padpole",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Palangolin",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Pawndead",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Picksie",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Pinbolt",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Plasmantler",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Pombomb",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pondwalker",
+    "source" : "STICKER"
+  }, {
+    "name" : "Puppercut",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Pyromeleon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Ramtasm",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Regensea",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ripterra",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Robindam",
+    "source" : "STICKER"
+  }, {
+    "name" : "Rockertrice",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Salamagus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sanzatime",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Scampire",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Scubalrus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Sirenade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Skelevangelist",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Smogmagog",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Snoopin",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Southpaw",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Sparktan",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spirouette",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spitzfyre",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spooki-onna",
+    "source" : "STICKER"
+  }, {
+    "name" : "Springheel",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Squirey",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Stardigrade",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Terracooka",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Thwackalope",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Tokusect",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Traffikrab",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Trapwurm",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Twirligig",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Undyin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Velocirifle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Weevilite",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wingloom",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Wooltergeist",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Wyrmaw",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Zeustrike",
+    "source" : "STICKER"
+  }, {
+    "name" : "Zombleat",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Smack"
 }

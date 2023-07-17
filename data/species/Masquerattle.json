@@ -1,32 +1,43 @@
 {
-  "name": "Masquerattle",
-  "number": 7,
-  "type": "POISON",
-  "remasterFrom": "Carniviper",
-  "remasterTo":   [
-"Aeroboros","Mardiusa","Jormungold"    ]
-
-  "stats":   {
-    "hp": 90,
-    "meleeAttack": 140,
-    "meleeDefense": 80,
-    "rangedAttack": 140,
-    "rangedDefense": 90,
-    "speed": 160,
-    "attributeSum": 700,
-    "ap": 8,
-    "moveSlots": 5
+  "name" : "Masquerattle",
+  "number" : 7,
+  "type" : "POISON",
+  "remasterFrom" : "Carniviper",
+  "remasterTo" : [ "Aeroboros", "Mardiusa", "Jormungold" ],
+  "stats" : {
+    "hp" : 90,
+    "meleeAttack" : 140,
+    "meleeDefense" : 80,
+    "rangedAttack" : 140,
+    "rangedDefense" : 90,
+    "speed" : 160,
+    "attributeSum" : 700,
+    "ap" : 8,
+    "moveSlots" : 5
   },
-  "moves":   {
-    "initial":     [
-"Spit","Sharpen","Revenge Strike","Bite","Multi Smack"      ]
-
-    "learned":     [
-"Trip","Déjà Vu","Desperation","Hypnotise","Pre-emptive Strike"      ]
-
-    "compatible":     [
-"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Berserker","Bish Bash Bosh","Bite","Bloodlust","Call For Help","Change the Record","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Haunt","Headshot","Hypnotise","Icicle Dart","Inflame","Last Rites","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Pre-emptive Strike","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Roll Again","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Sticky Spray","Taunt","The Old 1-2","Toxic Stab","Trap Jaw","Trick","Trip","Wallop","Wink","Zephyr"      ]
-
+  "moves" : {
+    "initial" : [ "Spit", "Sharpen", "Revenge Strike", "Bite", "Multi Smack" ],
+    "learned" : [ "Trip", "Déjà Vu", "Desperation", "Hypnotise", "Pre-emptive Strike" ],
+    "compatible" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Berserker", "Bish Bash Bosh", "Bite", "Bloodlust", "Call For Help", "Change the Record", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Haunt", "Headshot", "Hypnotise", "Icicle Dart", "Inflame", "Last Rites", "Multi Shot", "Multi Smack", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Poison Camouflage", "Poison Coating", "Poison Resistance", "Poison Wall", "Pre-emptive Strike", "Provoke", "Pustule Bomb", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Roll Again", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Sticky Spray", "Taunt", "The Old 1-2", "Toxic Stab", "Trap Jaw", "Trick", "Trip", "Wallop", "Wink", "Zephyr" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Berserker", "Bish Bash Bosh", "Bite", "Bloodlust", "Call For Help", "Change the Record", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Haunt", "Headshot", "Hypnotise", "Icicle Dart", "Inflame", "Last Rites", "Multi Shot", "Multi Smack", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Roll Again", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Taunt", "The Old 1-2", "Trap Jaw", "Trick", "Trip", "Wallop", "Wink", "Zephyr" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Masquerattle"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Masquerattle"
 }

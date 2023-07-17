@@ -1,314 +1,310 @@
 {
-  "name": "Trick",
-  "description": "Gives the target a random debuff.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "TYPELESS",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Trick",
+  "description" : "Gives the target a random debuff.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "TYPELESS",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 1,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Accuracy Down",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "AP Drain",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Berserk",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Bomb",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Burned",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Conductive",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Confused",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Evasion Down",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Flinched",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Glass Bonds",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Glitter Coating",
-      "kind": "TRANSMUTATION"
-    }    ,{
-      "name": "Leeched",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Melee Attack Down",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Melee Defence Down",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Petrified",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Poisoned",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Ranged Attack Down",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Ranged Defence Down",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Resonance",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Shrapnel",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Sleep",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Speed Down",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Unitarget",
-      "kind": "DEBUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Adeptile",
-      "source": "STICKER"
-    }    ,{
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Allseer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Anathema",
-      "source": "STICKER"
-    }    ,{
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Beanstalker",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Busheye",
-      "source": "STICKER"
-    }    ,{
-      "name": "Candevil",
-      "source": "STICKER"
-    }    ,{
-      "name": "Carniviper",
-      "source": "STICKER"
-    }    ,{
-      "name": "Clocksley",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cluckabilly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Decibelle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Djinn Entonic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dominoth",
-      "source": "STICKER"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Elfless",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faerious",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Frillypad",
-      "source": "STICKER"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Galagor",
-      "source": "STICKER"
-    }    ,{
-      "name": "Glaistain",
-      "source": "STICKER"
-    }    ,{
-      "name": "Grampus",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "STICKER"
-    }    ,{
-      "name": "Hedgeherne",
-      "source": "STICKER"
-    }    ,{
-      "name": "Hopskin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Huntorch",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jellyton",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jormungold",
-      "source": "STICKER"
-    }    ,{
-      "name": "Jumpkin",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Khufo",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kingrave",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Liligator",
-      "source": "STICKER"
-    }    ,{
-      "name": "Lobstacle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Magikrab",
-      "source": "STICKER"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Manispear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mascotorn",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mascotoy",
-      "source": "STAR_5"
-    }    ,{
-      "name": "Masquerattle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miss Mimic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Muskrateer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Nevermort",
-      "source": "STICKER"
-    }    ,{
-      "name": "Padpole",
-      "source": "STICKER"
-    }    ,{
-      "name": "Picksie",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pombomb",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pyromeleon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ripterra",
-      "source": "STICKER"
-    }    ,{
-      "name": "Robindam",
-      "source": "STICKER"
-    }    ,{
-      "name": "Rockertrice",
-      "source": "STICKER"
-    }    ,{
-      "name": "Salamagus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Scampire",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sirenade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Skelevangelist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Snoopin",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Spitzfyre",
-      "source": "STICKER"
-    }    ,{
-      "name": "Springheel",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Tokusect",
-      "source": "STICKER"
-    }    ,{
-      "name": "Traffikrab",
-      "source": "STICKER"
-    }    ,{
-      "name": "Trapwurm",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Triphinx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STICKER"
-    }    ,{
-      "name": "Weevilite",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wingloom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wyrmaw",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Trick"
+  "cost" : 1,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Accuracy Down",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "AP Drain",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Berserk",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Bomb",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Burned",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Conductive",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Confused",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Evasion Down",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Flinched",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Glass Bonds",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Glitter Coating",
+    "kind" : "TRANSMUTATION"
+  }, {
+    "name" : "Leeched",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Melee Attack Down",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Melee Defence Down",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Petrified",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Poisoned",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Ranged Attack Down",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Ranged Defence Down",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Resonance",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Shrapnel",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Sleep",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Speed Down",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Unitarget",
+    "kind" : "DEBUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Adeptile",
+    "source" : "STICKER"
+  }, {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Allseer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Anathema",
+    "source" : "STICKER"
+  }, {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Beanstalker",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Busheye",
+    "source" : "STICKER"
+  }, {
+    "name" : "Candevil",
+    "source" : "STICKER"
+  }, {
+    "name" : "Carniviper",
+    "source" : "STICKER"
+  }, {
+    "name" : "Clocksley",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cluckabilly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Decibelle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Djinn Entonic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dominoth",
+    "source" : "STICKER"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Elfless",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faerious",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Frillypad",
+    "source" : "STICKER"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Galagor",
+    "source" : "STICKER"
+  }, {
+    "name" : "Glaistain",
+    "source" : "STICKER"
+  }, {
+    "name" : "Grampus",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "STICKER"
+  }, {
+    "name" : "Hedgeherne",
+    "source" : "STICKER"
+  }, {
+    "name" : "Hopskin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Huntorch",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jellyton",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jormungold",
+    "source" : "STICKER"
+  }, {
+    "name" : "Jumpkin",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Khufo",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kingrave",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Liligator",
+    "source" : "STICKER"
+  }, {
+    "name" : "Lobstacle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Magikrab",
+    "source" : "STICKER"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Manispear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mascotorn",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mascotoy",
+    "source" : "STAR_5"
+  }, {
+    "name" : "Masquerattle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miss Mimic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Muskrateer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Nevermort",
+    "source" : "STICKER"
+  }, {
+    "name" : "Padpole",
+    "source" : "STICKER"
+  }, {
+    "name" : "Picksie",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pombomb",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pyromeleon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ripterra",
+    "source" : "STICKER"
+  }, {
+    "name" : "Robindam",
+    "source" : "STICKER"
+  }, {
+    "name" : "Rockertrice",
+    "source" : "STICKER"
+  }, {
+    "name" : "Salamagus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Scampire",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sirenade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Skelevangelist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Snoopin",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Spitzfyre",
+    "source" : "STICKER"
+  }, {
+    "name" : "Springheel",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Tokusect",
+    "source" : "STICKER"
+  }, {
+    "name" : "Traffikrab",
+    "source" : "STICKER"
+  }, {
+    "name" : "Trapwurm",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Triphinx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STICKER"
+  }, {
+    "name" : "Weevilite",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wingloom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wyrmaw",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Trick"
 }

@@ -1,35 +1,31 @@
 {
-  "name": "Two Heads",
-  "description": "Used automatically at the start of battle for 0 AP. Gives the user Multistrike status for 3 turn(s).",
-  "categories":   [
-"ACTIVE","STATUS","AUTOMATED"    ]
-
-  "type": "TYPELESS",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Two Heads",
+  "description" : "Used automatically at the start of battle for 0 AP. Gives the user Multistrike status for 3 turn(s).",
+  "categories" : [ "ACTIVE", "AUTOMATED", "STATUS" ],
+  "type" : "TYPELESS",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Multistrike",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Anathema",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Undyin",
-      "source": "STICKER"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Two_Heads"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Multistrike",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Anathema",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Undyin",
+    "source" : "STICKER"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Two_Heads"
 }

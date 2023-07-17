@@ -1,205 +1,199 @@
 {
-  "name": "Bite",
-  "description": "Hits one target. Heals the user a little bit afterwards.",
-  "categories":   [
-"MELEE","ACTIVE"    ]
-
-  "type": "BEAST",
-  "power": 80,
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "Bite",
+  "description" : "Hits one target. Heals the user a little bit afterwards.",
+  "categories" : [ "MELEE", "ACTIVE" ],
+  "type" : "BEAST",
+  "power" : 80,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 3,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Aeroboros",
-      "source": "STICKER"
-    }    ,{
-      "name": "Anathema",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Artillerex",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Auriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Bansheep",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Beanstalker",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Blossomaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Bulletino",
-      "source": "STICKER"
-    }    ,{
-      "name": "Candevil",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Capricorpse",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Carniviper",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Cat-5",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dandylion",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dominoth",
-      "source": "STICKER"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Ferriclaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Folklord",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Frillypad",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gearyu",
-      "source": "STICKER"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Hopskin",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Jormungold",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Jumpkin",
-      "source": "STAR_4"
-    }    ,{
-      "name": "Kittelly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Liligator",
-      "source": "STICKER"
-    }    ,{
-      "name": "Macabra",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Malchemy",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Manispear",
-      "source": "STICKER"
-    }    ,{
-      "name": "Mardiusa",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mascotorn",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mascotoy",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Masquerattle",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Mothmanic",
-      "source": "STICKER"
-    }    ,{
-      "name": "Muskrateer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Padpole",
-      "source": "STICKER"
-    }    ,{
-      "name": "Palangolin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Puppercut",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ramtasm",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ripterra",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Scampire",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Scubalrus",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Sharktanker",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Snoopin",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Southpaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Springheel",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Squirey",
-      "source": "STICKER"
-    }    ,{
-      "name": "Tokusect",
-      "source": "STICKER"
-    }    ,{
-      "name": "Trapwurm",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Undyin",
-      "source": "STICKER"
-    }    ,{
-      "name": "Velocirifle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Wingloom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Wooltergeist",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Wyrmaw",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Zombleat",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Bite"
+  "cost" : 3,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Aeroboros",
+    "source" : "STICKER"
+  }, {
+    "name" : "Anathema",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Artillerex",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Auriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Bansheep",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Beanstalker",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Blossomaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Bulletino",
+    "source" : "STICKER"
+  }, {
+    "name" : "Candevil",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Capricorpse",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Carniviper",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Cat-5",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dandylion",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dominoth",
+    "source" : "STICKER"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Ferriclaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Folklord",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Frillypad",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gearyu",
+    "source" : "STICKER"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Hopskin",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Jormungold",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Jumpkin",
+    "source" : "STAR_4"
+  }, {
+    "name" : "Kittelly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Liligator",
+    "source" : "STICKER"
+  }, {
+    "name" : "Macabra",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Malchemy",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Manispear",
+    "source" : "STICKER"
+  }, {
+    "name" : "Mardiusa",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mascotorn",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mascotoy",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Masquerattle",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Mothmanic",
+    "source" : "STICKER"
+  }, {
+    "name" : "Muskrateer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Padpole",
+    "source" : "STICKER"
+  }, {
+    "name" : "Palangolin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Puppercut",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ramtasm",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ripterra",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Scampire",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Scubalrus",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Sharktanker",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Snoopin",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Southpaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Springheel",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Squirey",
+    "source" : "STICKER"
+  }, {
+    "name" : "Tokusect",
+    "source" : "STICKER"
+  }, {
+    "name" : "Trapwurm",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Undyin",
+    "source" : "STICKER"
+  }, {
+    "name" : "Velocirifle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Wingloom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Wooltergeist",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Wyrmaw",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Zombleat",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Bite"
 }

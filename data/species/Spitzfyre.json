@@ -1,32 +1,43 @@
 {
-  "name": "Spitzfyre",
-  "number": 105,
-  "type": "FIRE",
-  "remasterFrom": "Pombomb",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 120,
-    "meleeAttack": 100,
-    "meleeDefense": 100,
-    "rangedAttack": 150,
-    "rangedDefense": 140,
-    "speed": 120,
-    "attributeSum": 730,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Spitzfyre",
+  "number" : 105,
+  "type" : "FIRE",
+  "remasterFrom" : "Pombomb",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 120,
+    "meleeAttack" : 100,
+    "meleeDefense" : 100,
+    "rangedAttack" : 150,
+    "rangedDefense" : 140,
+    "speed" : 120,
+    "attributeSum" : 730,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Spit","Dog Years","Sticky Tongue","Inflame","Zoomies","Hot Potato","Elemental Wall","bE rAnDoM!!"      ]
-
-    "learned":     [
-"Sure-Fire","Rapid Fire","Glitter Bomb","Air Wall","Sonic Boom"      ]
-
-    "compatible":     [
-"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Bish Bash Bosh","Boil","Bone Cannon","Burning Passion","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Dog Years","Double Slice","Double Smack","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Camouflage","Fire Coating","Fire Wall","Fireproof","Focus","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Guzzle Fuel","Headshot","Hot Potato","Incinerate","Inflame","Last Rites","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Provoke","Pustule Bomb","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Scorch","Self-Destruct","Sharpen","Shrapnel","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Sticky Tongue","Sure-Fire","Taunt","The Old 1-2","Treat","Trick","Trip","Wallop","Wink","Zephyr","Zoomies"      ]
-
+  "moves" : {
+    "initial" : [ "Spit", "Dog Years", "Sticky Tongue", "Inflame", "Zoomies", "Hot Potato", "Elemental Wall", "bE rAnDoM!!" ],
+    "learned" : [ "Sure-Fire", "Rapid Fire", "Glitter Bomb", "Air Wall", "Sonic Boom" ],
+    "compatible" : [ "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Bad Joke", "bE rAnDoM!!", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Bish Bash Bosh", "Boil", "Bone Cannon", "Burning Passion", "Call For Help", "Change the Record", "Clobber", "Coal Story", "Compliment", "Copy That", "Copycat", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Dog Years", "Double Slice", "Double Smack", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fire Camouflage", "Fire Coating", "Fire Wall", "Fireproof", "Focus", "Gambit", "Glitter Bomb", "Glitter Resistance", "Grounded", "Guzzle Fuel", "Headshot", "Hot Potato", "Incinerate", "Inflame", "Last Rites", "Multi Shot", "Multi Smack", "Multicopy", "Nod", "Peekaboo", "Pity AP", "Provoke", "Pustule Bomb", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Roll Again", "Scorch", "Self-Destruct", "Sharpen", "Shrapnel", "Slice", "Smack", "Sonic Boom", "Spit", "Spray", "Sprint", "Sticky Tongue", "Sure-Fire", "Taunt", "The Old 1-2", "Treat", "Trick", "Trip", "Wallop", "Wink", "Zephyr", "Zoomies" ],
+    "bootleg" : {
+      "common" : [ "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Bad Joke", "bE rAnDoM!!", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Bish Bash Bosh", "Bone Cannon", "Call For Help", "Change the Record", "Clobber", "Compliment", "Copy That", "Copycat", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Dog Years", "Double Slice", "Double Smack", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Gambit", "Glitter Bomb", "Glitter Resistance", "Grounded", "Headshot", "Hot Potato", "Inflame", "Last Rites", "Multi Shot", "Multi Smack", "Multicopy", "Nod", "Peekaboo", "Pity AP", "Provoke", "Pustule Bomb", "Raise Arms", "Raise Shields", "Random Starter", "Roll Again", "Self-Destruct", "Sharpen", "Shrapnel", "Slice", "Smack", "Sonic Boom", "Spit", "Spray", "Sprint", "Sticky Tongue", "Taunt", "The Old 1-2", "Treat", "Trick", "Trip", "Wallop", "Wink", "Zephyr", "Zoomies" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Spitzfyre"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Spitzfyre"
 }

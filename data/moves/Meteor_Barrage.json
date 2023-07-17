@@ -1,31 +1,25 @@
 {
-  "name": "Meteor Barrage",
-  "description": "Hits each member of a team multiple times.",
-  "categories":   [
-"RANGED","ACTIVE"    ]
-
-  "type": "EARTH",
-  "power": 20,
-  "numHits":   {
-    "min": 2,
-    "max": 6
+  "name" : "Meteor Barrage",
+  "description" : "Hits each member of a team multiple times.",
+  "categories" : [ "RANGED", "ACTIVE" ],
+  "type" : "EARTH",
+  "power" : 20,
+  "numHits" : {
+    "min" : 2,
+    "max" : 6
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 4,
-  "target": "TEAM",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Artillerex",
-      "source": "STAR_1"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Meteor_Barrage"
+  "cost" : 4,
+  "target" : "TEAM",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Artillerex",
+    "source" : "STAR_1"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Meteor_Barrage"
 }

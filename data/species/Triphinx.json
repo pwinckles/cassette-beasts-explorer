@@ -1,32 +1,43 @@
 {
-  "name": "Triphinx",
-  "number": 54,
-  "type": "METAL",
-  "remasterFrom": "Allseer",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 140,
-    "meleeAttack": 50,
-    "meleeDefense": 140,
-    "rangedAttack": 190,
-    "rangedDefense": 140,
-    "speed": 140,
-    "attributeSum": 800,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Triphinx",
+  "number" : 54,
+  "type" : "METAL",
+  "remasterFrom" : "Allseer",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 140,
+    "meleeAttack" : 50,
+    "meleeDefense" : 140,
+    "rangedAttack" : 190,
+    "rangedDefense" : 140,
+    "speed" : 140,
+    "attributeSum" : 800,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Spit","Raise Shields","Wonderful 7","Shooting Star","Broadcast","Shield Bash","Close Encounter"      ]
-
-    "learned":     [
-"Lightning Wall","Magnet","Energy Wave","Sonic Boom","Self-Destruct"      ]
-
-    "compatible":     [
-"Acorn Mortar","Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Automation","Battery","Berserker","Bish Bash Bosh","Blood Donation","Bloodlust","Bone Cannon","Breathing Technique","Broadcast","Call For Help","Change the Record","Charge","Clobber","Close Encounter","Cold Fusion","Compliment","Copper Chop","Critical AP","Critical Mass","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Galactic Beatdown","Gambit","Gear Shear","Glass Cannon","Grounded","Haunt","Headshot","Hypnotise","Insomnia","Iron Filings","Jagged Edge","Last Rites","Life Absorb","Lightning Camouflage","Lightning Coating","Magic Tome","Magnet","Meditate","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Mind-Meld","Moonshine","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Phase Shift","Pity AP","Pre-emptive Strike","Provoke","Radiation Breath","Radioactive","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Return Fire","Revenge Strike","Ricochet","Ritual","Roll Again","Self-Destruct","Sharp Edges","Sharpen","Shield Bash","Shooting Star","Shrapnel","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Sturdy Armour","Taunt","The Old 1-2","Trick","Trip","Unicast","Vengeful Curse","Wallop","Wink","Wonderful 7","Zephyr"      ]
-
+  "moves" : {
+    "initial" : [ "Spit", "Raise Shields", "Wonderful 7", "Shooting Star", "Broadcast", "Shield Bash", "Close Encounter" ],
+    "learned" : [ "Lightning Wall", "Magnet", "Energy Wave", "Sonic Boom", "Self-Destruct" ],
+    "compatible" : [ "Acorn Mortar", "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "AP Steal", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Automation", "Battery", "Berserker", "Bish Bash Bosh", "Blood Donation", "Bloodlust", "Bone Cannon", "Breathing Technique", "Broadcast", "Call For Help", "Change the Record", "Charge", "Clobber", "Close Encounter", "Cold Fusion", "Compliment", "Copper Chop", "Critical AP", "Critical Mass", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Galactic Beatdown", "Gambit", "Gear Shear", "Glass Cannon", "Grounded", "Haunt", "Headshot", "Hypnotise", "Insomnia", "Iron Filings", "Jagged Edge", "Last Rites", "Life Absorb", "Lightning Camouflage", "Lightning Coating", "Magic Tome", "Magnet", "Meditate", "Metal Camouflage", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Mind-Meld", "Moonshine", "Multi Shot", "Multi Smack", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Phase Shift", "Pity AP", "Pre-emptive Strike", "Provoke", "Radiation Breath", "Radioactive", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Return Fire", "Revenge Strike", "Ricochet", "Ritual", "Roll Again", "Self-Destruct", "Sharp Edges", "Sharpen", "Shield Bash", "Shooting Star", "Shrapnel", "Slice", "Smack", "Sonic Boom", "Spit", "Spray", "Sprint", "Sturdy Armour", "Taunt", "The Old 1-2", "Trick", "Trip", "Unicast", "Vengeful Curse", "Wallop", "Wink", "Wonderful 7", "Zephyr" ],
+    "bootleg" : {
+      "common" : [ "Acorn Mortar", "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "AP Steal", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Automation", "Battery", "Berserker", "Bish Bash Bosh", "Blood Donation", "Bloodlust", "Bone Cannon", "Breathing Technique", "Broadcast", "Call For Help", "Change the Record", "Charge", "Clobber", "Close Encounter", "Cold Fusion", "Compliment", "Critical AP", "Critical Mass", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Galactic Beatdown", "Gambit", "Gear Shear", "Glass Cannon", "Grounded", "Haunt", "Headshot", "Hypnotise", "Insomnia", "Last Rites", "Life Absorb", "Lightning Camouflage", "Lightning Coating", "Magic Tome", "Magnet", "Meditate", "Metal Camouflage", "Metal Coating", "Metal Resistance", "Metal Wall", "Mind-Meld", "Moonshine", "Multi Shot", "Multi Smack", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Phase Shift", "Pity AP", "Pre-emptive Strike", "Provoke", "Radiation Breath", "Radioactive", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Return Fire", "Revenge Strike", "Ricochet", "Ritual", "Roll Again", "Self-Destruct", "Sharpen", "Shooting Star", "Shrapnel", "Slice", "Smack", "Sonic Boom", "Spit", "Spray", "Sprint", "Taunt", "The Old 1-2", "Trick", "Trip", "Unicast", "Vengeful Curse", "Wallop", "Wink", "Wonderful 7", "Zephyr" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Triphinx"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Triphinx"
 }

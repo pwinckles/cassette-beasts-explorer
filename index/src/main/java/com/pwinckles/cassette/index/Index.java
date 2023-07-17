@@ -107,7 +107,7 @@ public class Index implements AutoCloseable {
     private Document toDocument(Species species) {
         var doc = new Document();
         doc.add(new TextField(SpeciesIndexNames.TYPE, species.type().name(), Field.Store.YES));
-        doc.add(new TextField(SpeciesIndexNames.BOOTLEG, "false", Field.Store.NO));
+        doc.add(new TextField(SpeciesIndexNames.BOOTLEG, "false", Field.Store.YES));
         populateCommonSpeciesFields(doc, species);
         species.moves()
                 .compatible()
@@ -118,7 +118,7 @@ public class Index implements AutoCloseable {
     private Document toBootlegDocument(SpeciesType type, Species species) {
         var doc = new Document();
         doc.add(new TextField(SpeciesIndexNames.TYPE, type.name(), Field.Store.YES));
-        doc.add(new TextField(SpeciesIndexNames.BOOTLEG, "true", Field.Store.NO));
+        doc.add(new TextField(SpeciesIndexNames.BOOTLEG, "true", Field.Store.YES));
         populateCommonSpeciesFields(doc, species);
         species.moves()
                 .bootleg()
@@ -257,7 +257,10 @@ public class Index implements AutoCloseable {
                 var doc = storedFields.document(docResult.doc);
                 var result =
                         switch (doc.get(DOC_TYPE_INDEX)) {
-                            case DOC_TYPE_SPECIES -> new SearchResult.SpeciesResult(doc.get(SpeciesIndexNames.NAME));
+                            case DOC_TYPE_SPECIES -> new SearchResult.SpeciesResult(
+                                    doc.get(SpeciesIndexNames.NAME),
+                                    Boolean.parseBoolean(doc.get(SpeciesIndexNames.BOOTLEG)),
+                                    SpeciesType.fromString(doc.get(SpeciesIndexNames.TYPE)));
                             case DOC_TYPE_MOVE -> new SearchResult.MoveResult(doc.get(MoveIndexNames.NAME));
                             default -> throw new IllegalStateException("Unknown doc type: " + doc.get(DOC_TYPE_INDEX));
                         };

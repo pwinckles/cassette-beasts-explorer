@@ -1,175 +1,171 @@
 {
-  "name": "Treat",
-  "description": "Gives the target a random buff.",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "TYPELESS",
-  "accuracy":   {
-    "@type": "UNAVOIDABLE"
+  "name" : "Treat",
+  "description" : "Gives the target a random buff.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "TYPELESS",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "UNAVOIDABLE"
   },
-  "cost": 1,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Accuracy Up",
-      "kind": "BUFF"
-    }    ,{
-      "name": "AP Boost",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Cottoned On",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Evasion Up",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Glitter Coating",
-      "kind": "TRANSMUTATION"
-    }    ,{
-      "name": "Healing Leaf",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Healing Steam",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Locked On",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Melee Attack Up",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Melee Defence Up",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Mind-Meld",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Multistrike",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Multitarget",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Parry Stance",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Ranged Attack Up",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Ranged Defence Up",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Speed Up",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Apocrowlypse",
-      "source": "STICKER"
-    }    ,{
-      "name": "Beanstalker",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Blossomaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Brushroom",
-      "source": "STICKER"
-    }    ,{
-      "name": "Candevil",
-      "source": "STICKER"
-    }    ,{
-      "name": "Clocksley",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cluckabilly",
-      "source": "STICKER"
-    }    ,{
-      "name": "Dandylion",
-      "source": "STICKER"
-    }    ,{
-      "name": "Decibelle",
-      "source": "STICKER"
-    }    ,{
-      "name": "Draculeaf",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Elfless",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Faerious",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Fungogh",
-      "source": "STICKER"
-    }    ,{
-      "name": "Grampus",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Gumbaal",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Jumpkin",
-      "source": "STAR_3"
-    }    ,{
-      "name": "Kingrave",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Malchemy",
-      "source": "STICKER"
-    }    ,{
-      "name": "Miasmodeus",
-      "source": "STICKER"
-    }    ,{
-      "name": "Muskrateer",
-      "source": "STICKER"
-    }    ,{
-      "name": "Nevermort",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pawndead",
-      "source": "STICKER"
-    }    ,{
-      "name": "Picksie",
-      "source": "STICKER"
-    }    ,{
-      "name": "Pombomb",
-      "source": "STICKER"
-    }    ,{
-      "name": "Queenyx",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Robindam",
-      "source": "STICKER"
-    }    ,{
-      "name": "Rockertrice",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Sirenade",
-      "source": "STICKER"
-    }    ,{
-      "name": "Skelevangelist",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spitzfyre",
-      "source": "STICKER"
-    }    ,{
-      "name": "Vendemon",
-      "source": "STAR_1"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Treat"
+  "cost" : 1,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Accuracy Up",
+    "kind" : "BUFF"
+  }, {
+    "name" : "AP Boost",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Cottoned On",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Evasion Up",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Glitter Coating",
+    "kind" : "TRANSMUTATION"
+  }, {
+    "name" : "Healing Leaf",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Healing Steam",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Locked On",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Melee Attack Up",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Melee Defence Up",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Mind-Meld",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Multistrike",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Multitarget",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Parry Stance",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Ranged Attack Up",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Ranged Defence Up",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Speed Up",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Apocrowlypse",
+    "source" : "STICKER"
+  }, {
+    "name" : "Beanstalker",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Blossomaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Brushroom",
+    "source" : "STICKER"
+  }, {
+    "name" : "Candevil",
+    "source" : "STICKER"
+  }, {
+    "name" : "Clocksley",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cluckabilly",
+    "source" : "STICKER"
+  }, {
+    "name" : "Dandylion",
+    "source" : "STICKER"
+  }, {
+    "name" : "Decibelle",
+    "source" : "STICKER"
+  }, {
+    "name" : "Draculeaf",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Elfless",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Faerious",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Fungogh",
+    "source" : "STICKER"
+  }, {
+    "name" : "Grampus",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Gumbaal",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Jumpkin",
+    "source" : "STAR_3"
+  }, {
+    "name" : "Kingrave",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Malchemy",
+    "source" : "STICKER"
+  }, {
+    "name" : "Miasmodeus",
+    "source" : "STICKER"
+  }, {
+    "name" : "Muskrateer",
+    "source" : "STICKER"
+  }, {
+    "name" : "Nevermort",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pawndead",
+    "source" : "STICKER"
+  }, {
+    "name" : "Picksie",
+    "source" : "STICKER"
+  }, {
+    "name" : "Pombomb",
+    "source" : "STICKER"
+  }, {
+    "name" : "Queenyx",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Robindam",
+    "source" : "STICKER"
+  }, {
+    "name" : "Rockertrice",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Sirenade",
+    "source" : "STICKER"
+  }, {
+    "name" : "Skelevangelist",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spitzfyre",
+    "source" : "STICKER"
+  }, {
+    "name" : "Vendemon",
+    "source" : "STAR_1"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Treat"
 }

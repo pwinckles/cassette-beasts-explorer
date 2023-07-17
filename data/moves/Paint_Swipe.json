@@ -1,34 +1,28 @@
 {
-  "name": "Paint Swipe",
-  "description": "Can only be used if the user has a coating active. Hits one target, and transfers the coating onto the target. Always goes last.",
-  "categories":   [
-"MELEE","ACTIVE"    ]
-
-  "type": "TYPELESS",
-  "power": 90,
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "Paint Swipe",
+  "description" : "Can only be used if the user has a coating active. Hits one target, and transfers the coating onto the target. Always goes last.",
+  "categories" : [ "MELEE", "ACTIVE" ],
+  "type" : "TYPELESS",
+  "power" : 90,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 1,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": -1,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Brushroom",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Fungogh",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Paint_Swipe"
+  "cost" : 1,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : -1,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Brushroom",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Fungogh",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Paint_Swipe"
 }

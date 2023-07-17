@@ -7,6 +7,7 @@ import com.pwinckles.cassette.common.model.MoveAccuracy;
 import com.pwinckles.cassette.common.model.MoveCategory;
 import com.pwinckles.cassette.common.model.MoveHits;
 import com.pwinckles.cassette.common.model.Species;
+import com.pwinckles.cassette.common.model.SpeciesType;
 import com.pwinckles.cassette.index.Index;
 import com.pwinckles.cassette.index.SearchResult;
 import java.io.BufferedInputStream;
@@ -70,12 +71,12 @@ public final class Main {
         if (results.isEmpty()) {
             System.out.println("No matches found");
         } else {
-            System.out.printf("Matches %s%n%n", results.size());
+            System.out.printf("Matches: %s%n%n", results.size());
         }
 
         results.forEach(result -> {
             if (result instanceof SearchResult.SpeciesResult s) {
-                print(speciesMap.get(s.name()));
+                print(speciesMap.get(s.name()), s.bootleg(), s.type());
             } else if (result instanceof SearchResult.MoveResult m) {
                 print(movesMap.get(m.name()));
             }
@@ -137,12 +138,16 @@ public final class Main {
                 Query syntax: https://lucene.apache.org/core/9_7_0/queryparser/org/apache/lucene/queryparser/flexible/standard/StandardQueryParser.html""");
     }
 
-    private static void print(Species species) {
+    private static void print(Species species, boolean bootleg, SpeciesType type) {
         var stats = species.stats();
+
+        var typeDisplay = titleCase(type.name());
+        if (bootleg) {
+            typeDisplay += " Bootleg";
+        }
+
         System.out.println("=".repeat(80));
-        System.out.printf(
-                " #%03d %s [%s]%n",
-                species.number(), species.name(), titleCase(species.type().name()));
+        System.out.printf(" #%03d %s [%s]%n", species.number(), species.name(), typeDisplay);
         System.out.printf(" %s%n", species.url());
         System.out.println("  HP | M. Atk | M. Def | R. Atk | R. Def | Speed | Total");
         System.out.printf(

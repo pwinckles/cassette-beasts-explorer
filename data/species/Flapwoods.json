@@ -1,32 +1,43 @@
 {
-  "name": "Flapwoods",
-  "number": 56,
-  "type": "AIR",
-  "remasterFrom": "Braxsuit",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 140,
-    "meleeAttack": 140,
-    "meleeDefense": 100,
-    "rangedAttack": 140,
-    "rangedDefense": 100,
-    "speed": 180,
-    "attributeSum": 800,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Flapwoods",
+  "number" : 56,
+  "type" : "AIR",
+  "remasterFrom" : "Braxsuit",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 140,
+    "meleeAttack" : 140,
+    "meleeDefense" : 100,
+    "rangedAttack" : 140,
+    "rangedDefense" : 100,
+    "speed" : 180,
+    "attributeSum" : 800,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Smack","Suit Up","Slice","Astral Wall","Sonic Boom","Déjà Vu","Shooting Star"      ]
-
-    "learned":     [
-"Multi Shot","Mind-Meld","Galactic Beatdown","Broadcast","Close Encounter"      ]
-
-    "compatible":     [
-"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Battery","Bish Bash Bosh","Breathing Technique","Broadcast","Clobber","Close Encounter","Cold Fusion","Compliment","Copper Chop","Critical AP","Critical Mass","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Frozen Ground","Galactic Beatdown","Gambit","Grounded","Headshot","Hurricane","Hypnotise","Icicle Dart","Insomnia","Last Rites","Magic Tome","Meditate","Mind-Meld","Moonshine","Multi Shot","Multi Smack","Nod","Pity AP","Quick Smack","Radiation Breath","Radioactive","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Ritual","Roll Again","Sharpen","Shooting Star","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Suit Up","Superheated Fist","The Old 1-2","Throw","Toy Hammer","Trip","Unicast","Vengeful Curse","Wallop","Wink","Zephyr"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Suit Up", "Slice", "Astral Wall", "Sonic Boom", "Déjà Vu", "Shooting Star" ],
+    "learned" : [ "Multi Shot", "Mind-Meld", "Galactic Beatdown", "Broadcast", "Close Encounter" ],
+    "compatible" : [ "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Battery", "Bish Bash Bosh", "Breathing Technique", "Broadcast", "Clobber", "Close Encounter", "Cold Fusion", "Compliment", "Copper Chop", "Critical AP", "Critical Mass", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Fog", "Frozen Ground", "Galactic Beatdown", "Gambit", "Grounded", "Headshot", "Hurricane", "Hypnotise", "Icicle Dart", "Insomnia", "Last Rites", "Magic Tome", "Meditate", "Mind-Meld", "Moonshine", "Multi Shot", "Multi Smack", "Nod", "Pity AP", "Quick Smack", "Radiation Breath", "Radioactive", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Ritual", "Roll Again", "Sharpen", "Shooting Star", "Slice", "Smack", "Snow Rush", "Sonic Boom", "Spit", "Spray", "Sprint", "Suit Up", "Superheated Fist", "The Old 1-2", "Throw", "Toy Hammer", "Trip", "Unicast", "Vengeful Curse", "Wallop", "Wink", "Zephyr" ],
+    "bootleg" : {
+      "common" : [ "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Battery", "Bish Bash Bosh", "Breathing Technique", "Clobber", "Close Encounter", "Cold Fusion", "Compliment", "Copper Chop", "Critical AP", "Critical Mass", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Galactic Beatdown", "Gambit", "Grounded", "Headshot", "Hypnotise", "Icicle Dart", "Insomnia", "Last Rites", "Magic Tome", "Meditate", "Mind-Meld", "Moonshine", "Multi Shot", "Multi Smack", "Nod", "Pity AP", "Quick Smack", "Radiation Breath", "Radioactive", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Ritual", "Roll Again", "Sharpen", "Shooting Star", "Slice", "Smack", "Snow Rush", "Sonic Boom", "Spit", "Spray", "Sprint", "Suit Up", "Superheated Fist", "The Old 1-2", "Throw", "Toy Hammer", "Trip", "Vengeful Curse", "Wallop", "Wink", "Zephyr" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Flapwoods"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Flapwoods"
 }

@@ -1,40 +1,36 @@
 {
-  "name": "Bushfire",
-  "description": "Changes the user’s type to Fire, and makes them deal additional Fire damage on contact. Also burns the user.",
-  "categories":   [
-"ACTIVE","STATUS"    ]
-
-  "type": "PLANT",
-  "accuracy":   {
-    "@type": "UNAVOIDABLE"
+  "name" : "Bushfire",
+  "description" : "Changes the user’s type to Fire, and makes them deal additional Fire damage on contact. Also burns the user.",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "PLANT",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "UNAVOIDABLE"
   },
-  "cost": 2,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Burned",
-      "kind": "DEBUFF"
-    }    ,{
-      "name": "Contact Dmg Fire",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Fire Coating",
-      "kind": "TRANSMUTATION"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Busheye",
-      "source": "STICKER"
-    }    ,{
-      "name": "Hedgeherne",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Huntorch",
-      "source": "STAR_1"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Bushfire"
+  "cost" : 2,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Burned",
+    "kind" : "DEBUFF"
+  }, {
+    "name" : "Contact Dmg Fire",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Fire Coating",
+    "kind" : "TRANSMUTATION"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Busheye",
+    "source" : "STICKER"
+  }, {
+    "name" : "Hedgeherne",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Huntorch",
+    "source" : "STAR_1"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Bushfire"
 }

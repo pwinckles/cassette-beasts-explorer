@@ -1,32 +1,43 @@
 {
-  "name": "Weevilite",
-  "number": 12,
-  "type": "PLASTIC",
-  "remasterFrom": "Traffikrab",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 120,
-    "meleeAttack": 120,
-    "meleeDefense": 120,
-    "rangedAttack": 160,
-    "rangedDefense": 120,
-    "speed": 160,
-    "attributeSum": 800,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Weevilite",
+  "number" : 12,
+  "type" : "PLASTIC",
+  "remasterFrom" : "Traffikrab",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 120,
+    "meleeAttack" : 120,
+    "meleeDefense" : 120,
+    "rangedAttack" : 160,
+    "rangedDefense" : 120,
+    "speed" : 160,
+    "attributeSum" : 800,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Spit","Traffic Jam","Elemental Wall","Inflame","Multi Smack","Water Coating","Undertow"      ]
-
-    "learned":     [
-"Brick Blast","Déjà Vu","Charge","Hypnotise","Battery"      ]
-
-    "compatible":     [
-"AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Battery","Berserker","Bish Bash Bosh","Bloodlust","Boil","Bottle Volley","Brick Blast","Broadcast","Call For Help","Change the Record","Charge","Clobber","Compliment","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Glass Resistance","Grounded","Headshot","Hypnotise","Icicle Dart","Incinerate","Inflame","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Plastic Camouflage","Plastic Coating","Plastic Knife","Plastic Resistance","Plastic Wall","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Recycle","Revenge Strike","Roll Again","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Taunt","The Old 1-2","Torrent","Toy Hammer","Traffic Jam","Trick","Trip","Undertow","Unicast","Wallop","Water Camouflage","Water Coating","Waterproof","Wink"      ]
-
+  "moves" : {
+    "initial" : [ "Spit", "Traffic Jam", "Elemental Wall", "Inflame", "Multi Smack", "Water Coating", "Undertow" ],
+    "learned" : [ "Brick Blast", "Déjà Vu", "Charge", "Hypnotise", "Battery" ],
+    "compatible" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Battery", "Berserker", "Bish Bash Bosh", "Bloodlust", "Boil", "Bottle Volley", "Brick Blast", "Broadcast", "Call For Help", "Change the Record", "Charge", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Glass Resistance", "Grounded", "Headshot", "Hypnotise", "Icicle Dart", "Incinerate", "Inflame", "Last Rites", "Lightning Camouflage", "Lightning Coating", "Magnet", "Multi Shot", "Multi Smack", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Plastic Camouflage", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Recycle", "Revenge Strike", "Roll Again", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Taunt", "The Old 1-2", "Torrent", "Toy Hammer", "Traffic Jam", "Trick", "Trip", "Undertow", "Unicast", "Wallop", "Water Camouflage", "Water Coating", "Waterproof", "Wink" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Battery", "Berserker", "Bish Bash Bosh", "Bloodlust", "Boil", "Bottle Volley", "Broadcast", "Call For Help", "Change the Record", "Charge", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Glass Resistance", "Grounded", "Headshot", "Hypnotise", "Icicle Dart", "Incinerate", "Inflame", "Last Rites", "Lightning Camouflage", "Lightning Coating", "Magnet", "Multi Shot", "Multi Smack", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Plastic Camouflage", "Plastic Coating", "Plastic Wall", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Recycle", "Revenge Strike", "Roll Again", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Taunt", "The Old 1-2", "Torrent", "Traffic Jam", "Trick", "Trip", "Undertow", "Unicast", "Wallop", "Water Camouflage", "Water Coating", "Waterproof", "Wink" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Weevilite"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Weevilite"
 }

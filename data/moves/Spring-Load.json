@@ -1,31 +1,27 @@
 {
-  "name": "Spring-Load",
-  "description": "Automatically gives the user the Spring-Loaded status if they don’t already have it. This turns the user’s melee attack into ranged attacks.",
-  "categories":   [
-"PASSIVE","STATUS","AUTOMATED"    ]
-
-  "type": "PLASTIC",
-  "accuracy":   {
-    "@type": "UNAVOIDABLE"
+  "name" : "Spring-Load",
+  "description" : "Automatically gives the user the Spring-Loaded status if they don’t already have it. This turns the user’s melee attack into ranged attacks.",
+  "categories" : [ "PASSIVE", "AUTOMATED", "STATUS" ],
+  "type" : "PLASTIC",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "UNAVOIDABLE"
   },
-  "cost": 0,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Spring-Loaded",
-      "kind": "MISC"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Clocksley",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Robindam",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Spring-Load"
+  "cost" : 0,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Spring-Loaded",
+    "kind" : "MISC"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Clocksley",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Robindam",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Spring-Load"
 }

@@ -1,32 +1,43 @@
 {
-  "name": "Candevil",
-  "number": 14,
-  "type": "BEAST",
-  "remasterFrom": "None",
-  "remasterTo":   [
-"Malchemy","Vendemon"    ]
-
-  "stats":   {
-    "hp": 115,
-    "meleeAttack": 110,
-    "meleeDefense": 100,
-    "rangedAttack": 110,
-    "rangedDefense": 105,
-    "speed": 100,
-    "attributeSum": 640,
-    "ap": 5,
-    "moveSlots": 4
+  "name" : "Candevil",
+  "number" : 14,
+  "type" : "BEAST",
+  "remasterFrom" : "None",
+  "remasterTo" : [ "Malchemy", "Vendemon" ],
+  "stats" : {
+    "hp" : 115,
+    "meleeAttack" : 110,
+    "meleeDefense" : 100,
+    "rangedAttack" : 110,
+    "rangedDefense" : 105,
+    "speed" : 100,
+    "attributeSum" : 640,
+    "ap" : 5,
+    "moveSlots" : 4
   },
-  "moves":   {
-    "initial":     [
-"Smack","Sugar Rush"      ]
-
-    "learned":     [
-"Bon Bon Blast","Raise Arms","Bite","Elemental Wall","Taunt"      ]
-
-    "compatible":     [
-"AP Boost","AP Drain","AP Refund","AP Starter","Bad Joke","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bon Bon Blast","Bone Cannon","Call For Help","Change the Record","Clobber","Coal Story","Compliment","Copy That","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fireproof","Focus","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Haunt","Headshot","Hot Potato","Icicle Dart","Inflame","Last Rites","Multi Shot","Multi Smack","Multicopy","Nod","Peekaboo","Pity AP","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Roll Again","Scorch","Sharpen","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Sugar Rush","Taunt","The Old 1-2","Trap Jaw","Treat","Trick","Trip","Wallop","Wink"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Sugar Rush" ],
+    "learned" : [ "Bon Bon Blast", "Raise Arms", "Bite", "Elemental Wall", "Taunt" ],
+    "compatible" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Bad Joke", "bE rAnDoM!!", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bon Bon Blast", "Bone Cannon", "Call For Help", "Change the Record", "Clobber", "Coal Story", "Compliment", "Copy That", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fireproof", "Focus", "Frozen Ground", "Gambit", "Glitter Bomb", "Glitter Resistance", "Haunt", "Headshot", "Hot Potato", "Icicle Dart", "Inflame", "Last Rites", "Multi Shot", "Multi Smack", "Multicopy", "Nod", "Peekaboo", "Pity AP", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Roll Again", "Scorch", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Sugar Rush", "Taunt", "The Old 1-2", "Trap Jaw", "Treat", "Trick", "Trip", "Wallop", "Wink" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Bad Joke", "bE rAnDoM!!", "Bish Bash Bosh", "Bite", "Bon Bon Blast", "Call For Help", "Change the Record", "Clobber", "Coal Story", "Compliment", "Copy That", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fireproof", "Focus", "Frozen Ground", "Gambit", "Glitter Bomb", "Glitter Resistance", "Haunt", "Headshot", "Hot Potato", "Icicle Dart", "Inflame", "Last Rites", "Multi Shot", "Multi Smack", "Multicopy", "Nod", "Peekaboo", "Pity AP", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Roll Again", "Scorch", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Sugar Rush", "Taunt", "The Old 1-2", "Trap Jaw", "Treat", "Trick", "Trip", "Wallop", "Wink" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Candevil"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Candevil"
 }

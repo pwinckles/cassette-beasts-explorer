@@ -1,24 +1,19 @@
 {
-  "name": "Fusion Power",
-  "description": "Has an effect unique to this fusion pairing.",
-  "categories":   [
-"MISC","ACTIVE"    ]
-
-  "type": "TYPELESS",
-  "power": 200,
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "name" : "Fusion Power",
+  "description" : "Has an effect unique to this fusion pairing.",
+  "categories" : [ "MISC", "ACTIVE" ],
+  "type" : "TYPELESS",
+  "power" : 200,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 10,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Fusion_Power"
+  "cost" : 10,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Fusion_Power"
 }

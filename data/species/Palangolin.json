@@ -1,32 +1,43 @@
 {
-  "name": "Palangolin",
-  "number": 36,
-  "type": "METAL",
-  "remasterFrom": "Squirey",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 150,
-    "meleeAttack": 120,
-    "meleeDefense": 120,
-    "rangedAttack": 100,
-    "rangedDefense": 100,
-    "speed": 160,
-    "attributeSum": 750,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Palangolin",
+  "number" : 36,
+  "type" : "METAL",
+  "remasterFrom" : "Squirey",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 150,
+    "meleeAttack" : 120,
+    "meleeDefense" : 120,
+    "rangedAttack" : 100,
+    "rangedDefense" : 100,
+    "speed" : 160,
+    "attributeSum" : 750,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Smack","Sharpen","Copper Chop","Parry Stance","Quick Smack","Slice","Dodge"      ]
-
-    "learned":     [
-"Metal Wall","Fair Fight","Wink","Multi Smack","Retribution"      ]
-
-    "compatible":     [
-"AP Boost","AP Drain","AP Refund","AP Starter","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fair Fight","Focus","Frozen Ground","Gambit","Gear Shear","Grounded","Headshot","Heroic Blade","Icicle Dart","Iron Filings","Jagged Edge","Last Rites","Lightning Camouflage","Lightning Coating","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Parry Stance","Pity AP","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Retribution","Roll Again","Self-Assured","Sharp Edges","Sharpen","Shield Bash","Shrapnel","Silicon Slash","Slice","Smack","Snow Rush","Spit","Spray","Sprint","Stab In The Dark","Sturdy Armour","Superheated Fist","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trip","Unshakeable","Wallop","Wink","Woodcutter"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Sharpen", "Copper Chop", "Parry Stance", "Quick Smack", "Slice", "Dodge" ],
+    "learned" : [ "Metal Wall", "Fair Fight", "Wink", "Multi Smack", "Retribution" ],
+    "compatible" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Battery", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bone Cannon", "Clobber", "Compliment", "Copper Chop", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fair Fight", "Focus", "Frozen Ground", "Gambit", "Gear Shear", "Grounded", "Headshot", "Heroic Blade", "Icicle Dart", "Iron Filings", "Jagged Edge", "Last Rites", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Camouflage", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Multi Shot", "Multi Smack", "Nod", "Parry Stance", "Pity AP", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Retribution", "Roll Again", "Self-Assured", "Sharp Edges", "Sharpen", "Shield Bash", "Shrapnel", "Silicon Slash", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Stab In The Dark", "Sturdy Armour", "Superheated Fist", "The Old 1-2", "Throw", "Toxic Stab", "Toy Hammer", "Trip", "Unshakeable", "Wallop", "Wink", "Woodcutter" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "Battery", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bone Cannon", "Clobber", "Compliment", "Copper Chop", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fair Fight", "Focus", "Frozen Ground", "Gambit", "Headshot", "Heroic Blade", "Icicle Dart", "Jagged Edge", "Last Rites", "Multi Shot", "Multi Smack", "Nod", "Parry Stance", "Pity AP", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Retribution", "Roll Again", "Self-Assured", "Sharp Edges", "Sharpen", "Silicon Slash", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Stab In The Dark", "Superheated Fist", "The Old 1-2", "Throw", "Toxic Stab", "Toy Hammer", "Trip", "Unshakeable", "Wallop", "Wink", "Woodcutter" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Palangolin"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Palangolin"
 }

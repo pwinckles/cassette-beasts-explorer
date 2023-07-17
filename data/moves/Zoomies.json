@@ -1,67 +1,61 @@
 {
-  "name": "Zoomies",
-  "description": "Hits one target. Takes priority over other moves.",
-  "categories":   [
-"MELEE","ACTIVE"    ]
-
-  "type": "BEAST",
-  "power": 30,
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "Zoomies",
+  "description" : "Hits one target. Takes priority over other moves.",
+  "categories" : [ "MELEE", "ACTIVE" ],
+  "type" : "BEAST",
+  "power" : 30,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 1,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 1,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Blossomaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Cat-5",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Dandylion",
-      "source": "STICKER"
-    }    ,{
-      "name": "Kittelly",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Muskrateer",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Pombomb",
-      "source": "STAR_2"
-    }    ,{
-      "name": "Puppercut",
-      "source": "STICKER"
-    }    ,{
-      "name": "Ratcousel",
-      "source": "STICKER"
-    }    ,{
-      "name": "Shining Kuneko",
-      "source": "STICKER"
-    }    ,{
-      "name": "Southpaw",
-      "source": "STICKER"
-    }    ,{
-      "name": "Spitzfyre",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Thwackalope",
-      "source": "STAR_1"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Zoomies"
+  "cost" : 1,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 1,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Blossomaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Cat-5",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Dandylion",
+    "source" : "STICKER"
+  }, {
+    "name" : "Kittelly",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Muskrateer",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Pombomb",
+    "source" : "STAR_2"
+  }, {
+    "name" : "Puppercut",
+    "source" : "STICKER"
+  }, {
+    "name" : "Ratcousel",
+    "source" : "STICKER"
+  }, {
+    "name" : "Shining Kuneko",
+    "source" : "STICKER"
+  }, {
+    "name" : "Southpaw",
+    "source" : "STICKER"
+  }, {
+    "name" : "Spitzfyre",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Thwackalope",
+    "source" : "STAR_1"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Zoomies"
 }

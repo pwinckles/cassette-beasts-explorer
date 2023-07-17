@@ -1,32 +1,43 @@
 {
-  "name": "Aeroboros",
-  "number": 10,
-  "type": "AIR",
-  "remasterFrom": "Masquerattle",
-  "remasterTo":   [
-"None"    ]
-
-  "stats":   {
-    "hp": 190,
-    "meleeAttack": 30,
-    "meleeDefense": 100,
-    "rangedAttack": 160,
-    "rangedDefense": 160,
-    "speed": 160,
-    "attributeSum": 800,
-    "ap": 10,
-    "moveSlots": 8
+  "name" : "Aeroboros",
+  "number" : 10,
+  "type" : "AIR",
+  "remasterFrom" : "Masquerattle",
+  "remasterTo" : [ "None" ],
+  "stats" : {
+    "hp" : 190,
+    "meleeAttack" : 30,
+    "meleeDefense" : 100,
+    "rangedAttack" : 160,
+    "rangedDefense" : 160,
+    "speed" : 160,
+    "attributeSum" : 800,
+    "ap" : 10,
+    "moveSlots" : 8
   },
-  "moves":   {
-    "initial":     [
-"Spit","Raise Arms","Revenge Strike","Zephyr","Déjà Vu","Multi Smack","Hypnotise","Pre-emptive Strike"      ]
-
-    "learned":     [
-"Hurricane","Ritual","Air Wall","Thunder Blast","Blizzard"      ]
-
-    "compatible":     [
-"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Avalanche","Berserker","Bish Bash Bosh","Bite","Blizzard","Blood Donation","Bloodlust","Breathing Technique","Broadcast","Call For Help","Change the Record","Clobber","Compliment","Critical AP","Criticise","Crossfade","Crumble","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Doc Leaf","Dodge","Double Slice","Double Smack","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Grounded","Haunt","Headshot","Hurricane","Hypnotise","Ice Resistance","Icicle Dart","Inflame","Insomnia","Last Rites","Life Absorb","Lightning Bolt","Lightning Camouflage","Lightning Coating","Lightning Wall","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Neutralise","New Leaf","Nod","Nurse","Parry Stance","Peekaboo","Pity AP","Poison Camouflage","Poison Coating","Poison Resistance","Poison Wall","Pre-emptive Strike","Prismatic","Provoke","Pustule Bomb","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Ritual","Roll Again","Sharpen","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Sticky Spray","Taunt","The Old 1-2","Throw","Thunder Blast","Toxic Stab","Trap Jaw","Trick","Trip","Unicast","Vengeful Curse","Wallop","Wink","Zephyr"      ]
-
+  "moves" : {
+    "initial" : [ "Spit", "Raise Arms", "Revenge Strike", "Zephyr", "Déjà Vu", "Multi Smack", "Hypnotise", "Pre-emptive Strike" ],
+    "learned" : [ "Hurricane", "Ritual", "Air Wall", "Thunder Blast", "Blizzard" ],
+    "compatible" : [ "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Avalanche", "Berserker", "Bish Bash Bosh", "Bite", "Blizzard", "Blood Donation", "Bloodlust", "Breathing Technique", "Broadcast", "Call For Help", "Change the Record", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Crumble", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Doc Leaf", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Fog", "Frozen Ground", "Gambit", "Glitter Bomb", "Glitter Resistance", "Grounded", "Haunt", "Headshot", "Hurricane", "Hypnotise", "Ice Resistance", "Icicle Dart", "Inflame", "Insomnia", "Last Rites", "Life Absorb", "Lightning Bolt", "Lightning Camouflage", "Lightning Coating", "Lightning Wall", "Magic Tome", "Meditate", "Mind-Meld", "Multi Shot", "Multi Smack", "Neutralise", "New Leaf", "Nod", "Nurse", "Parry Stance", "Peekaboo", "Pity AP", "Poison Camouflage", "Poison Coating", "Poison Resistance", "Poison Wall", "Pre-emptive Strike", "Prismatic", "Provoke", "Pustule Bomb", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Ritual", "Roll Again", "Sharpen", "Slice", "Smack", "Snow Rush", "Sonic Boom", "Spit", "Spray", "Sprint", "Sticky Spray", "Taunt", "The Old 1-2", "Throw", "Thunder Blast", "Toxic Stab", "Trap Jaw", "Trick", "Trip", "Unicast", "Vengeful Curse", "Wallop", "Wink", "Zephyr" ],
+    "bootleg" : {
+      "common" : [ "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Avalanche", "Berserker", "Bish Bash Bosh", "Bite", "Blizzard", "Blood Donation", "Bloodlust", "Breathing Technique", "Call For Help", "Change the Record", "Clobber", "Compliment", "Critical AP", "Criticise", "Crossfade", "Crumble", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Doc Leaf", "Dodge", "Double Slice", "Double Smack", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Fog", "Frozen Ground", "Gambit", "Glitter Bomb", "Glitter Resistance", "Grounded", "Haunt", "Headshot", "Hurricane", "Hypnotise", "Ice Resistance", "Icicle Dart", "Inflame", "Insomnia", "Last Rites", "Life Absorb", "Lightning Bolt", "Lightning Camouflage", "Lightning Coating", "Lightning Wall", "Magic Tome", "Meditate", "Mind-Meld", "Multi Shot", "Multi Smack", "Neutralise", "New Leaf", "Nod", "Nurse", "Parry Stance", "Peekaboo", "Pity AP", "Poison Camouflage", "Poison Coating", "Poison Resistance", "Poison Wall", "Pre-emptive Strike", "Prismatic", "Provoke", "Pustule Bomb", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Ritual", "Roll Again", "Sharpen", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Sticky Spray", "Taunt", "The Old 1-2", "Thunder Blast", "Toxic Stab", "Trap Jaw", "Trick", "Trip", "Vengeful Curse", "Wallop", "Wink", "Zephyr" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Aeroboros"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Aeroboros"
 }

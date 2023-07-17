@@ -1,32 +1,43 @@
 {
-  "name": "Springheel",
-  "number": 1,
-  "type": "BEAST",
-  "remasterFrom": "None",
-  "remasterTo":   [
-"Hopskin","Snoopin"    ]
-
-  "stats":   {
-    "hp": 90,
-    "meleeAttack": 130,
-    "meleeDefense": 80,
-    "rangedAttack": 80,
-    "rangedDefense": 90,
-    "speed": 130,
-    "attributeSum": 600,
-    "ap": 5,
-    "moveSlots": 3
+  "name" : "Springheel",
+  "number" : 1,
+  "type" : "BEAST",
+  "remasterFrom" : "None",
+  "remasterTo" : [ "Hopskin", "Snoopin" ],
+  "stats" : {
+    "hp" : 90,
+    "meleeAttack" : 130,
+    "meleeDefense" : 80,
+    "rangedAttack" : 80,
+    "rangedDefense" : 90,
+    "speed" : 130,
+    "attributeSum" : 600,
+    "ap" : 5,
+    "moveSlots" : 3
   },
-  "moves":   {
-    "initial":     [
-"Smack","Peekaboo"      ]
-
-    "learned":     [
-"Jump Scare","Bite","Trick","Clobber","Taunt"      ]
-
-    "compatible":     [
-"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bloodlust","Bone Cannon","Call For Help","Change the Record","Clobber","Compliment","Copper Chop","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Frozen Ground","Gambit","Grounded","Headshot","Hypnotise","Icicle Dart","Jump Scare","Last Rites","Multi Shot","Multi Smack","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Roll Again","Sharpen","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Superheated Fist","Taunt","The Old 1-2","Throw","Toy Hammer","Trick","Trip","Wallop","Wink","Zephyr"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Peekaboo" ],
+    "learned" : [ "Jump Scare", "Bite", "Trick", "Clobber", "Taunt" ],
+    "compatible" : [ "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Battery", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bloodlust", "Bone Cannon", "Call For Help", "Change the Record", "Clobber", "Compliment", "Copper Chop", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Grounded", "Headshot", "Hypnotise", "Icicle Dart", "Jump Scare", "Last Rites", "Multi Shot", "Multi Smack", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Roll Again", "Sharpen", "Slice", "Smack", "Snow Rush", "Sonic Boom", "Spit", "Spray", "Sprint", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toy Hammer", "Trick", "Trip", "Wallop", "Wink", "Zephyr" ],
+    "bootleg" : {
+      "common" : [ "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Battery", "Berserker", "Bish Bash Bosh", "Bloodlust", "Call For Help", "Change the Record", "Clobber", "Compliment", "Copper Chop", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Grounded", "Headshot", "Hypnotise", "Icicle Dart", "Jump Scare", "Last Rites", "Multi Shot", "Multi Smack", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Roll Again", "Sharpen", "Slice", "Smack", "Snow Rush", "Sonic Boom", "Spit", "Spray", "Sprint", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toy Hammer", "Trick", "Trip", "Wallop", "Wink", "Zephyr" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Springheel"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Springheel"
 }

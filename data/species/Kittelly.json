@@ -1,32 +1,43 @@
 {
-  "name": "Kittelly",
-  "number": 37,
-  "type": "LIGHTNING",
-  "remasterFrom": "None",
-  "remasterTo":   [
-"Cat-5"    ]
-
-  "stats":   {
-    "hp": 100,
-    "meleeAttack": 110,
-    "meleeDefense": 90,
-    "rangedAttack": 110,
-    "rangedDefense": 90,
-    "speed": 100,
-    "attributeSum": 600,
-    "ap": 5,
-    "moveSlots": 4
+  "name" : "Kittelly",
+  "number" : 37,
+  "type" : "LIGHTNING",
+  "remasterFrom" : "None",
+  "remasterTo" : [ "Cat-5" ],
+  "stats" : {
+    "hp" : 100,
+    "meleeAttack" : 110,
+    "meleeDefense" : 90,
+    "rangedAttack" : 110,
+    "rangedDefense" : 90,
+    "speed" : 100,
+    "attributeSum" : 600,
+    "ap" : 5,
+    "moveSlots" : 4
   },
-  "moves":   {
-    "initial":     [
-"Smack","Criticise","Charge"      ]
-
-    "learned":     [
-"Zoomies","Double Smack","Energy Shot","Copycat","Broadcast"      ]
-
-    "compatible":     [
-"Air Resistance","AP Boost","AP Drain","AP Factory","AP Refund","AP Starter","Automation","Battery","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Blood Donation","Bone Cannon","Broadcast","Call For Help","Change the Record","Charge","Clobber","Compliment","Copper Chop","Copy That","Copycat","Critical AP","Criticise","Crossfade","Custom Starter","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Echolocation","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Fire Wall","Flirt","Focus","Gambit","Gear Shear","Grounded","Headshot","Last Rites","Lightning Bolt","Lightning Camouflage","Lightning Coating","Lightning Wall","Magnet","Metal Camouflage","Metal Coating","Metal Resistance","Metal Riff","Metal Wall","Multi Shot","Multi Smack","Nod","Pity AP","Raise Arms","Raise Shields","Random Starter","Self-Destruct","Sharpen","Shrapnel","Silicon Slash","Slice","Smack","Sonic Boom","Spit","Spray","Sprint","Superheated Fist","The Old 1-2","Throw","Thunder Blast","Torrent","Toy Hammer","Trip","Unicast","Wallop","Wink","Zoomies"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Criticise", "Charge" ],
+    "learned" : [ "Zoomies", "Double Smack", "Energy Shot", "Copycat", "Broadcast" ],
+    "compatible" : [ "Air Resistance", "AP Boost", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "Automation", "Battery", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bone Cannon", "Broadcast", "Call For Help", "Change the Record", "Charge", "Clobber", "Compliment", "Copper Chop", "Copy That", "Copycat", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fire Wall", "Flirt", "Focus", "Gambit", "Gear Shear", "Grounded", "Headshot", "Last Rites", "Lightning Bolt", "Lightning Camouflage", "Lightning Coating", "Lightning Wall", "Magnet", "Metal Camouflage", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Multi Shot", "Multi Smack", "Nod", "Pity AP", "Raise Arms", "Raise Shields", "Random Starter", "Self-Destruct", "Sharpen", "Shrapnel", "Silicon Slash", "Slice", "Smack", "Sonic Boom", "Spit", "Spray", "Sprint", "Superheated Fist", "The Old 1-2", "Throw", "Thunder Blast", "Torrent", "Toy Hammer", "Trip", "Unicast", "Wallop", "Wink", "Zoomies" ],
+    "bootleg" : {
+      "common" : [ "Air Resistance", "AP Boost", "AP Drain", "AP Factory", "AP Refund", "AP Starter", "Automation", "Battery", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Blood Donation", "Bone Cannon", "Broadcast", "Call For Help", "Change the Record", "Charge", "Clobber", "Compliment", "Copper Chop", "Copy That", "Copycat", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Echolocation", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Fire Wall", "Flirt", "Focus", "Gambit", "Gear Shear", "Grounded", "Headshot", "Last Rites", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Camouflage", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Multi Shot", "Multi Smack", "Nod", "Pity AP", "Raise Arms", "Raise Shields", "Random Starter", "Self-Destruct", "Sharpen", "Shrapnel", "Silicon Slash", "Slice", "Smack", "Sonic Boom", "Spit", "Spray", "Sprint", "Superheated Fist", "The Old 1-2", "Throw", "Torrent", "Toy Hammer", "Trip", "Unicast", "Wallop", "Wink", "Zoomies" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Kittelly"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Kittelly"
 }

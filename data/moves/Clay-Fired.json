@@ -1,34 +1,30 @@
 {
-  "name": "Clay-Fired",
-  "description": "Activates when the user takes Fire-type damage from an attack. Raises the user’s defence stats.",
-  "categories":   [
-"PASSIVE","STATUS"    ]
-
-  "type": "EARTH",
-  "accuracy":   {
-    "@type": "UNAVOIDABLE"
+  "name" : "Clay-Fired",
+  "description" : "Activates when the user takes Fire-type damage from an attack. Raises the user’s defence stats.",
+  "categories" : [ "PASSIVE", "STATUS" ],
+  "type" : "EARTH",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "UNAVOIDABLE"
   },
-  "cost": 0,
-  "target": "SELF",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Melee Defence Up",
-      "kind": "BUFF"
-    }    ,{
-      "name": "Ranged Defence Up",
-      "kind": "BUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Coaldron",
-      "source": "INITIAL"
-    }    ,{
-      "name": "Terracooka",
-      "source": "INITIAL"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Clay-Fired"
+  "cost" : 0,
+  "target" : "SELF",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Melee Defence Up",
+    "kind" : "BUFF"
+  }, {
+    "name" : "Ranged Defence Up",
+    "kind" : "BUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Coaldron",
+    "source" : "INITIAL"
+  }, {
+    "name" : "Terracooka",
+    "source" : "INITIAL"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Clay-Fired"
 }

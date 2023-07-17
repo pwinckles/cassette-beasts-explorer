@@ -1,32 +1,43 @@
 {
-  "name": "Kuneko",
-  "number": 110,
-  "type": "AIR",
-  "remasterFrom": "None",
-  "remasterTo":   [
-"Shining Kuneko"    ]
-
-  "stats":   {
-    "hp": 115,
-    "meleeAttack": 115,
-    "meleeDefense": 115,
-    "rangedAttack": 115,
-    "rangedDefense": 115,
-    "speed": 115,
-    "attributeSum": 690,
-    "ap": 10,
-    "moveSlots": 5
+  "name" : "Kuneko",
+  "number" : 110,
+  "type" : "AIR",
+  "remasterFrom" : "None",
+  "remasterTo" : [ "Shining Kuneko" ],
+  "stats" : {
+    "hp" : 115,
+    "meleeAttack" : 115,
+    "meleeDefense" : 115,
+    "rangedAttack" : 115,
+    "rangedDefense" : 115,
+    "speed" : 115,
+    "attributeSum" : 690,
+    "ap" : 10,
+    "moveSlots" : 5
   },
-  "moves":   {
-    "initial":     [
-"Smack","Wink"      ]
-
-    "learned":     [
-"Double Slice","Sharp Edges","Bad Joke","Elemental Wall","bE rAnDoM!!"      ]
-
-    "compatible":     [
-"Air Camouflage","Air Coating","Air Resistance","Air Wall","AP Boost","AP Drain","AP Refund","AP Starter","AP Steal","Astral Camouflage","Astral Coating","Astral Resistance","Astral Wall","Bad Joke","Battery","bE rAnDoM!!","Beast Camouflage","Beast Coating","Beast Resistance","Beast Wall","Berserker","Bish Bash Bosh","Bite","Bloodlust","Breathing Technique","Broadcast","Call For Help","Change the Record","Charge","Clobber","Compliment","Copper Chop","Copy That","Copycat","Cosmic Kunai","Critical AP","Criticise","Crossfade","Custom Starter","Damage Roll","Defend","Delegate","Desperation","Dodge","Double Slice","Double Smack","Dual Wield","Déjà Vu","Elemental Coating","Elemental Wall","Energy Shot","Energy Wave","Focus","Fog","Frozen Ground","Gambit","Glitter Bomb","Glitter Resistance","Headshot","Heroic Blade","Hurricane","Hypnotise","Icicle Dart","Inflame","Insomnia","Jagged Edge","Last Rites","Magic Tome","Meditate","Mind-Meld","Multi Shot","Multi Smack","Multicopy","Neutralise","Nod","Parry Stance","Peekaboo","Pity AP","Plastic Knife","Pre-emptive Strike","Provoke","Quick Smack","Raise Arms","Raise Shields","Random Starter","Rapid Fire","Revenge Strike","Ritual","Roll Again","Sharp Edges","Sharpen","Silicon Slash","Slice","Smack","Snow Rush","Sonic Boom","Spit","Spray","Sprint","Stab In The Dark","Superheated Fist","Taunt","The Old 1-2","Throw","Toxic Stab","Toy Hammer","Trap Jaw","Treat","Trick","Trip","Unicast","Vengeful Curse","Wallop","Wink","Zephyr","Zoomies"      ]
-
+  "moves" : {
+    "initial" : [ "Smack", "Wink" ],
+    "learned" : [ "Double Slice", "Sharp Edges", "Bad Joke", "Elemental Wall", "bE rAnDoM!!" ],
+    "compatible" : [ "Air Camouflage", "Air Coating", "Air Resistance", "Air Wall", "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Bad Joke", "Battery", "bE rAnDoM!!", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Bloodlust", "Breathing Technique", "Broadcast", "Call For Help", "Change the Record", "Charge", "Clobber", "Compliment", "Copper Chop", "Copy That", "Copycat", "Cosmic Kunai", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Fog", "Frozen Ground", "Gambit", "Glitter Bomb", "Glitter Resistance", "Headshot", "Heroic Blade", "Hurricane", "Hypnotise", "Icicle Dart", "Inflame", "Insomnia", "Jagged Edge", "Last Rites", "Magic Tome", "Meditate", "Mind-Meld", "Multi Shot", "Multi Smack", "Multicopy", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Plastic Knife", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Ritual", "Roll Again", "Sharp Edges", "Sharpen", "Silicon Slash", "Slice", "Smack", "Snow Rush", "Sonic Boom", "Spit", "Spray", "Sprint", "Stab In The Dark", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toxic Stab", "Toy Hammer", "Trap Jaw", "Treat", "Trick", "Trip", "Unicast", "Vengeful Curse", "Wallop", "Wink", "Zephyr", "Zoomies" ],
+    "bootleg" : {
+      "common" : [ "AP Boost", "AP Drain", "AP Refund", "AP Starter", "AP Steal", "Astral Camouflage", "Astral Coating", "Astral Resistance", "Astral Wall", "Bad Joke", "Battery", "bE rAnDoM!!", "Beast Camouflage", "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bish Bash Bosh", "Bite", "Bloodlust", "Breathing Technique", "Call For Help", "Change the Record", "Charge", "Clobber", "Compliment", "Copper Chop", "Copy That", "Copycat", "Cosmic Kunai", "Critical AP", "Criticise", "Crossfade", "Custom Starter", "Damage Roll", "Defend", "Delegate", "Desperation", "Dodge", "Double Slice", "Double Smack", "Dual Wield", "Déjà Vu", "Elemental Coating", "Elemental Wall", "Energy Shot", "Energy Wave", "Focus", "Frozen Ground", "Gambit", "Glitter Bomb", "Glitter Resistance", "Headshot", "Heroic Blade", "Hypnotise", "Icicle Dart", "Inflame", "Insomnia", "Jagged Edge", "Last Rites", "Magic Tome", "Meditate", "Mind-Meld", "Multi Shot", "Multi Smack", "Multicopy", "Neutralise", "Nod", "Parry Stance", "Peekaboo", "Pity AP", "Plastic Knife", "Pre-emptive Strike", "Provoke", "Quick Smack", "Raise Arms", "Raise Shields", "Random Starter", "Rapid Fire", "Revenge Strike", "Ritual", "Roll Again", "Sharp Edges", "Sharpen", "Silicon Slash", "Slice", "Smack", "Snow Rush", "Spit", "Spray", "Sprint", "Stab In The Dark", "Superheated Fist", "Taunt", "The Old 1-2", "Throw", "Toxic Stab", "Toy Hammer", "Trap Jaw", "Treat", "Trick", "Trip", "Vengeful Curse", "Wallop", "Wink", "Zoomies" ],
+      "typeSpecific" : {
+        "PLASTIC" : [ "Brick Blast", "Plastic Coating", "Plastic Knife", "Plastic Resistance", "Plastic Wall", "Recycle", "Toy Hammer", "Waterproof" ],
+        "BEAST" : [ "Beast Coating", "Beast Resistance", "Beast Wall", "Berserker", "Bite", "Blood Donation", "Bone Cannon" ],
+        "GLASS" : [ "Bottle Volley", "Crystal Lens", "Glass Bonds", "Glass Cannon", "Glass Coating", "Glass Resistance", "Glass Wall", "Jagged Edge", "Prismatic", "Revolving Door", "Sharp Edges", "Silicon Slash", "Window" ],
+        "METAL" : [ "Copper Chop", "Gear Shear", "Grounded", "Iron Filings", "Jagged Edge", "Lightning Camouflage", "Lightning Coating", "Magnet", "Metal Coating", "Metal Resistance", "Metal Riff", "Metal Wall", "Sharp Edges", "Shield Bash", "Shrapnel", "Sturdy Armour" ],
+        "POISON" : [ "Poison Coating", "Poison Resistance", "Poison Wall", "Pustule Bomb", "Sticky Spray", "Toxic Stab" ],
+        "FIRE" : [ "Boil", "Burning Passion", "Coal Story", "Fire Coating", "Fire Wall", "Fireproof", "Guzzle Fuel", "Incinerate", "Inflame", "Rapid Fire", "Scorch", "Self-Destruct", "Sure-Fire" ],
+        "AIR" : [ "Air Coating", "Air Resistance", "Air Wall", "Broadcast", "Fog", "Hurricane", "Sonic Boom", "Throw", "Unicast", "Zephyr" ],
+        "ASTRAL" : [ "Astral Coating", "Astral Resistance", "Astral Wall", "Déjà Vu", "Galactic Beatdown", "Haunt", "Insomnia", "Magic Tome", "Mind-Meld", "Phase Shift", "Ritual", "Shooting Star", "Vengeful Curse" ],
+        "GLITTER" : [ "Glitter Bomb", "Glitter Resistance", "Prismatic" ],
+        "EARTH" : [ "Coal Story", "Crumble", "Earth Coating", "Earth Resistance", "Earth Wall", "Fossil", "Grounded", "Mountain Smash", "Sandstorm" ],
+        "WATER" : [ "Boil", "Final Breath", "Fog", "Torrent", "Undertow", "Water Coating", "Water Wall", "Waterproof" ],
+        "PLANT" : [ "Acorn Mortar", "Doc Leaf", "Leech", "Life Absorb", "New Leaf", "Plant Coating", "Plant Resistance", "Plant Wall", "Poison Pollen", "Snooze Spore", "Splinter", "Woodcutter" ],
+        "LIGHTNING" : [ "Battery", "Broadcast", "Charge", "Grounded", "Lightning Bolt", "Lightning Coating", "Lightning Wall", "Magnet", "Thunder Blast", "Unicast" ],
+        "ICE" : [ "Avalanche", "Blizzard", "Cold Fusion", "Crystal Lens", "Deep Freeze", "Frozen Ground", "Ice Breaker", "Ice Coating", "Ice Resistance", "Ice Wall", "Icicle Dart", "Jagged Edge", "Snow Rush" ]
+      }
+    }
   },
-  "url": "https://wiki.cassettebeasts.com/wiki/Kuneko"
+  "url" : "https://wiki.cassettebeasts.com/wiki/Kuneko"
 }

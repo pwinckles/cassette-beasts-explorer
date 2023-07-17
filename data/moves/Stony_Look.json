@@ -1,32 +1,28 @@
 {
-  "name": "Stony Look",
-  "description": "Gives the target Petrified status for 3 turn(s).",
-  "categories":   [
-"STATUS","ACTIVE"    ]
-
-  "type": "EARTH",
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 50
+  "name" : "Stony Look",
+  "description" : "Gives the target Petrified status for 3 turn(s).",
+  "categories" : [ "STATUS", "ACTIVE" ],
+  "type" : "EARTH",
+  "power" : null,
+  "numHits" : null,
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 50
   },
-  "cost": 2,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    {
-      "name": "Petrified",
-      "kind": "DEBUFF"
-    }    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Mardiusa",
-      "source": "STAR_1"
-    }    ,{
-      "name": "Rockertrice",
-      "source": "STAR_1"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Stony_Look"
+  "cost" : 2,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ {
+    "name" : "Petrified",
+    "kind" : "DEBUFF"
+  } ],
+  "compatibleSpecies" : [ {
+    "name" : "Mardiusa",
+    "source" : "STAR_1"
+  }, {
+    "name" : "Rockertrice",
+    "source" : "STAR_1"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Stony_Look"
 }

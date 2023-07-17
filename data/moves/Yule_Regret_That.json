@@ -1,37 +1,31 @@
 {
-  "name": "Yule Regret That",
-  "description": "Hits one target. Lands a critical hit if the target has already taken damage this turn.",
-  "categories":   [
-"RANGED","ACTIVE"    ]
-
-  "type": "ICE",
-  "power": 60,
-  "numHits":   {
-    "min": 1,
-    "max": 1
+  "name" : "Yule Regret That",
+  "description" : "Hits one target. Lands a critical hit if the target has already taken damage this turn.",
+  "categories" : [ "RANGED", "ACTIVE" ],
+  "type" : "ICE",
+  "power" : 60,
+  "numHits" : {
+    "min" : 1,
+    "max" : 1
   },
-  "accuracy":   {
-    "@type": "AVOIDABLE",
-    "percentToHit": 100
+  "accuracy" : {
+    "type" : "AVOIDABLE",
+    "percentToHit" : 100
   },
-  "cost": 4,
-  "target": "SINGLE",
-  "copyable": true,
-  "priority": 0,
-  "statusEffects":   [
-    ]
-
-  "compatibleSpecies":   [
-    {
-      "name": "Elfless",
-      "source": "STICKER"
-    }    ,{
-      "name": "Faerious",
-      "source": "STICKER"
-    }    ,{
-      "name": "Grampus",
-      "source": "STAR_1"
-    }    ]
-
-  "url": "https://wiki.cassettebeasts.com/wiki/Yule_Regret_That"
+  "cost" : 4,
+  "target" : "SINGLE",
+  "copyable" : true,
+  "priority" : 0,
+  "statusEffects" : [ ],
+  "compatibleSpecies" : [ {
+    "name" : "Elfless",
+    "source" : "STICKER"
+  }, {
+    "name" : "Faerious",
+    "source" : "STICKER"
+  }, {
+    "name" : "Grampus",
+    "source" : "STAR_1"
+  } ],
+  "url" : "https://wiki.cassettebeasts.com/wiki/Yule_Regret_That"
 }
