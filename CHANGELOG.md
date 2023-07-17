@@ -2,6 +2,8 @@
 
 ## [Unreleased] - ReleaseDate
 
+## [1.0.2] - 2023-07-16
+
 ### Added
 
 - Index bootleg species. Each bootleg is indexed as its own record with `bootleg` set to `true`.
@@ -24,6 +26,7 @@
 
 Initial release
 
-[Unreleased]: https://github.com/pwinckles/cassette-beasts-explorer/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/pwinckles/cassette-beasts-explorer/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/pwinckles/cassette-beasts-explorer/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/pwinckles/cassette-beasts-explorer/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/pwinckles/cassette-beasts-explorer/releases/tag/v1.0.0
