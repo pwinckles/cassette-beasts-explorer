@@ -7,12 +7,12 @@
     <parent>
         <groupId>com.pwinckles.cassette</groupId>
         <artifactId>cbe-parent</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>cbe-index</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
 
     <name>index</name>
 
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>com.pwinckles.cassette</groupId>
             <artifactId>cbe-common</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3-SNAPSHOT</version>
         </dependency>
 
         <!-- Lucene -->
