@@ -37,6 +37,8 @@ public final class Main {
                 try {
                     System.out.print("Query: ");
                     var input = readInput(scanner);
+                    // TODO docs
+                    // TODO changelog
 
                     System.out.println();
 
@@ -44,13 +46,15 @@ public final class Main {
                         exit = true;
                     } else if (input instanceof Input.Help) {
                         printHelp();
+                        System.out.println();
                     } else if (input instanceof Input.Query query) {
                         executeQuery(query.query(), searcher, speciesMap, movesMap);
+                        System.out.println();
                     }
                 } catch (Exception e) {
                     System.out.println("Error: " + e.getMessage());
+                    System.out.println();
                 }
-                System.out.println();
             }
         }
     }
