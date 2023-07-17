@@ -47,9 +47,9 @@ The data is indexed using Lucene, and queries must be written using Lucene's que
 #### Filter species by attributes
 
 ```
-Query: matk:[161 TO *] AND spd:[161 TO *]
+Query: matk:[161 TO *] AND spd:[161 TO *] AND bootleg:false
 
-Found 5 results
+Matches: 5
 
 ================================================================================
  #003 Ripterra [Beast]
@@ -82,9 +82,9 @@ Found 5 results
 #### Filter species by compatible moves
 
 ```
-Query: compatible_move:(+bite +"trap jaw" +"stab in the dark" +("deja vu" "two heads") +(broadcast echolocation)) AND remaster_to:none
+Query: compatible_move:(+bite +"trap jaw" +"stab in the dark" +("deja vu" "two heads") +(broadcast echolocation)) AND remaster_to:none AND bootleg:false
 
-Found 1 results
+Matches: 1
 
 ================================================================================
  #111 Shining Kuneko [Astral]
@@ -101,8 +101,48 @@ Found 1 results
 ```
 Query: compatible_species:beanstalker AND move_cat:melee AND cost:2
 
-Found 4 results
+Matches: 4
 
+================================================================================
+ Silicon Slash [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Silicon_Slash
+ Hits one target.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+     Glass |    2 |    60 |     1 |         100 |        0 | Single
+================================================================================
+ Toy Hammer [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Toy_Hammer
+ Hits one target.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+   Plastic |    2 |    60 |     1 |         100 |        0 | Single
+================================================================================
+ Double Smack [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Double_Smack
+ Hits one target multiple times.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+  Typeless |    2 |    30 |     2 |         100 |        0 | Single
+================================================================================
+ Wallop [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Wallop
+ Hits one target.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+  Typeless |    2 |    60 |     1 |         100 |        0 | Single
+================================================================================
+```
+
+#### Filter moves by bootleg species
+
+```
+Query: compatible_bootleg:"beanstalker lightning" AND move_cat:melee AND cost:2
+
+Matches: 5
+
+================================================================================
+ Charge [Melee Attack]
+ https://wiki.cassettebeasts.com/wiki/Charge
+ Hits one target.
+      Type | Cost | Power |  Hits |    Accuracy | Priority | Target
+ Lightning |    2 |    60 |     1 |         100 |        0 | Single
 ================================================================================
  Silicon Slash [Melee Attack]
  https://wiki.cassettebeasts.com/wiki/Silicon_Slash
@@ -139,6 +179,7 @@ Found 4 results
 | species_num     | The species' number, formatted as an int                                |
 | species_name    | The name of the species                                                 |
 | species_type    | The type of the species                                                 |
+| bootleg         | Indicates if the species is a bootleg: `true` or `false`                |
 | hp              | The base HP attribute value                                             |
 | matk            | The base melee attack attribute value                                   |
 | mdef            | The base melee defense attribute value                                  |
@@ -154,21 +195,22 @@ Found 4 results
 
 ### Moves
 
-| Index name         | Description                                                                                                          |
-|--------------------|----------------------------------------------------------------------------------------------------------------------|
-| move_name          | The name of the move                                                                                                 |
-| move_desc          | The description of the move                                                                                          |
-| move_type          | The elemental type of the move                                                                                       |
-| move_cat           | The category of the move: `melee attack`, `ranged attack`, `status effect`, `misc`, `active`, `passive`, `automated` |
-| power              | The moves base damage                                                                                                |
-| min_hits           | The minimum number of hits the move can make                                                                         |
-| max_hits           | The maximum number of hits the move can make                                                                         |
-| avoidable          | Whether the move is avoidable: `true` or `false`                                                                     |
-| accuracy           | The percentage chance to hit, only if the move is avoidable                                                          |
-| cost               | The number of AP the move costs                                                                                      |
-| target             | Who the move affects: `single`, `team`, `self`, `single ally`, `all`, `all except self`                              |
-| copyable           | Whether the move is copyable: `true` or `false`                                                                      |
-| priority           | The numeric move priority value. 0 is normal. Greater than 0 is higher priority, and less is lower.                  |
-| status_effect      | The name of the status effect the move causes. See https://wiki.cassettebeasts.com/wiki/Status_Effects               |
-| status_effect_kind | The kind of the status effect: `buff`, `debuff`, `transmutation`, `misc`                                             |
-| compatible_species | The name of a species that is compatible with the move                                                               |
+| Index name         | Description                                                                                                                                                 |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| move_name          | The name of the move                                                                                                                                        |
+| move_desc          | The description of the move                                                                                                                                 |
+| move_type          | The elemental type of the move                                                                                                                              |
+| move_cat           | The category of the move: `melee attack`, `ranged attack`, `status effect`, `misc`, `active`, `passive`, `automated`                                        |
+| power              | The moves base damage                                                                                                                                       |
+| min_hits           | The minimum number of hits the move can make                                                                                                                |
+| max_hits           | The maximum number of hits the move can make                                                                                                                |
+| avoidable          | Whether the move is avoidable: `true` or `false`                                                                                                            |
+| accuracy           | The percentage chance to hit, only if the move is avoidable                                                                                                 |
+| cost               | The number of AP the move costs                                                                                                                             |
+| target             | Who the move affects: `single`, `team`, `self`, `single ally`, `all`, `all except self`                                                                     |
+| copyable           | Whether the move is copyable: `true` or `false`                                                                                                             |
+| priority           | The numeric move priority value. 0 is normal. Greater than 0 is higher priority, and less is lower.                                                         |
+| status_effect      | The name of the status effect the move causes. See https://wiki.cassettebeasts.com/wiki/Status_Effects                                                      |
+| status_effect_kind | The kind of the status effect: `buff`, `debuff`, `transmutation`, `misc`                                                                                    |
+| compatible_species | The name of a species that is compatible with the move                                                                                                      |
+| compatible_bootleg | The name of a bootleg species that is compatible with the move. Values are the species name followed by the bootleg type. For example: `Thwackalope Astral` |

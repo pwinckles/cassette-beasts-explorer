@@ -37,8 +37,6 @@ public final class Main {
                 try {
                     System.out.print("Query: ");
                     var input = readInput(scanner);
-                    // TODO docs
-                    // TODO changelog
 
                     System.out.println();
 
@@ -100,6 +98,7 @@ public final class Main {
                 | species_num     | The species' number, formatted as an int                        |
                 | species_name    | The name of the species                                         |
                 | species_type    | The type of the species                                         |
+                | bootleg         | Indicates if the species is a bootleg: `true` or `false`        |
                 | hp              | The base HP attribute value                                     |
                 | matk            | The base melee attack attribute value                           |
                 | mdef            | The base melee defense attribute value                          |
@@ -138,6 +137,9 @@ public final class Main {
                 | status_effect_kind | The kind of the status effect: `buff`, `debuff`,             |
                 |                    | `transmutation`, `misc`                                      |
                 | compatible_species | The name of a species that is compatible with the move       |
+                | compatible_bootleg | The name of a bootleg species that is compatible with the    |
+                |                    | move. Values are the species name followed by the bootleg    |
+                |                    | type. For example: `Thwackalope Astral`                      |
 
                 Query syntax: https://lucene.apache.org/core/9_7_0/queryparser/org/apache/lucene/queryparser/flexible/standard/StandardQueryParser.html""");
     }

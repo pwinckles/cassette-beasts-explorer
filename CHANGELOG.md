@@ -2,9 +2,16 @@
 
 ## [Unreleased] - ReleaseDate
 
+### Added
+
+- Index bootleg species. Each bootleg is indexed as its own record with `bootleg` set to `true`.
+- Index bootleg moves. Moves are associated to species bootlegs by the `compatible_bootleg` field. The values of
+  this field are the species name followed by the bootleg type. For example, `Thwackalope Astral`.
+
 ### Fixed
 
 - Corrected tenses in result count display
+- Don't attempt to parse empty queries
 
 ## [1.0.1] - 2023-07-11
 
